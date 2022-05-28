@@ -1,0 +1,260 @@
+Loci,Annotation,No. of peptides,Proteome (Me/Ac)
+MA0010,formyl-methanofuran:tetrahydromethanopterin  N-formyltransferase                       ,10,23 ± 4
+MA0023,"zinc ABC transporter, solute-binding lipoprotein",5,40 ± 10
+MA0033,"pyruvate synthase, subunit delta",2,3.0 ± 0.1
+MA0038,predicted protein,5,0.11 ± 0.04
+MA0039,conserved hypothetical protein,5,0.13 ± 0.03
+MA0046,predicted protein,4,3.8 ± 0.6
+MA0054,conserved hypothetical protein,9,7.4 ± 0.6
+MA0056,conserved hypothetical protein,3,7±4
+MA0057,conserved hypothetical protein,3,5.6 ± 0.1
+MA0072,anaerobic ribonucleoside-triphosphate reductase,17,5.1 ± 0.8
+MA0086,Hsp60,18,5±1
+MA0090,"phenylalanyl-tR synthetase, subunit alpha",11,6±2
+MA0097,glycyl-tR synthetase,10,6±1
+MA0118,histidinol-phosphate aminotransferase,8,4.1 ± 0.8
+MA0130,phosphoribosylformylglycinamidine cyclo-ligase,7,8±4
+MA0134,predicted protein,3,0.16 ± 0.01
+MA0137,dCMP deaminase,2,6±3
+MA0144,monomethylamine methyltransferase,4,4.7 ± 0.9
+MA0146,methylcobalamin:CoM methyltransferase isozyme A,3,7±1
+MA0183,ribosomal protein L10e,8,7±3
+MA0187,molybdenum cofactor biosynthesis protein B (MoaB),8,5.8 ± 0.7
+MA0202,3-isopropylmalate dehydratase,7,3.6 ± 0.2
+MA0215,predicted protein,3,0.12 ± 0.01
+MA0217,ATP phosphoribosyltransferase,7,9±3
+MA0218,N-(5-phospho-D-ribosylformimino)-5-amino-1-(5-phosphoribosyl)-4-imidazole carboxamide isomerase,3,4.9 ± 0.7
+MA0246,4-hydroxybenzoate decarboxylase,7,4.1 ± 0.7
+MA0269,"Methyl-THMPT:CoM methyltransferase (MtrH), subunit H",10,0.31 ± 0.1
+MA0270,"Methyl-THMPT:CoM methyltransferase (MtrG), subunit G",2,0.3 ± 0.1
+MA0272,"Methyl-THMPT:CoM methyltransferase (MtrA), subunit A",5,0.3 ± 0.1
+MA0273,"Methyl-THMPT:CoM methyltransferase (MtrB), subunit B",3,0.20 ± 0.03
+MA0274,"Methyl-THMPT:CoM methyltransferase (MtrC), subunit C",2,0.3 ± 0.1
+MA0275,"Methyl-THMPT:CoM methyltransferase (MtrD), subunit D",2,0.2 ± 0.05
+MA0302,"oligopeptide ABC transporter, solute-binding protein",3,7±1
+MA0304,"Molybdenum formylmethanofuran dehydrogenase (FmdE), subunit E",4,10 ± 2
+MA0305,"Molybdenum formylmethanofuran dehydrogenase (FmdF), subunit F",4,13 ± 5
+MA0306,"Molybdenum formylmethanofuran dehydrogenase (FmdA), subunit A",8,30 ± 10
+MA0307,"Molybdenum formylmethanofuran dehydrogenase (FmdC), subunit C",2,30 ± 10
+MA0308,"Molybdenum formylmethanofuran dehydrogenase (FmdD), subunit D",3,40 ± 20
+MA0309,"Molybdenum formylmethanofuran dehydrogenase (FmdB), subunit B",6,25 ± 9
+MA0339,conserved hypothetical protein,3,3.1 ± 0
+MA0368,"transcriptional regulator, TetR family MA0406 iron-sulfur flavoprotein",4,5.8 ± 0.4
+MA0439,fructose-bisphosphate aldolase,4,3.8 ± 0.4
+MA0440,dCTP deaminase,2,4 ± 0.2
+MA0455,"methanol-5-hydroxybenzimidazolylcobamide co-methyltransferase (MtaC1), isozyme 1",5,500 ± 200
+MA0456,"methanol-5-hydroxybenzimidazolylcobamide co-methyltransferase (MtaB1), isozyme 1",4,500 ± 200
+MA0464,predicted protein,2,0.02 ± 0.01
+MA0477,predicted protein,4,0.2 ± 0.1
+MA0539,predicted protein,2,0.3 ± 0.1
+MA0587,glutamyl-tR synthetase,8,5±2
+MA0595,ribosomal protein L18e,5,5±1
+MA0596,ribosomal protein L13p,3,6±2
+MA0597,ribosomal protein S9p,7,4.8 ± 0.5
+MA0600,ribosomal protein S2p,8,5±1
+MA0646,ribosomal protein L44e,3,4.4 ± 0.5
+MA0651,conserved hypothetical protein,7,9±3
+MA0653,predicted protein,11,3.8 ± 0.7
+MA0659,"Na+-transporting NADH:ubiquinone oxidoreductase, subunit 1 (Ma-RnfC)",6,0.09 ± 0.04
+MA0661,"Na+-transporting NADH:ubiquinone oxidoreductase, subunit 3 (Ma-RnfG)",3,0.08 ± 0.03
+MA0664,"Na+-transporting NADH:ubiquinone oxidoreductase, subunit 6 (Ma-RnfB)",3,0.1 ± 0.03
+MA0669,"replication factor C, small subunit",8,6±2
+MA0671,"Tungsten formylmethanofuran dehydrogenase (FwdG), subunit G",2,14 ± 2
+MA0814,predicted protein,7,0.18 ± 0.04
+MA0827,predicted protein,5,5±1
+MA0872,cobN/magnesium chelatase family protein,6,0.14 ± 0.05
+MA0873,PQQ enzyme repeat domain protein,10,0.12 ± 0.03
+MA0882,magnesium chelatase subunit,9,20 ± 10
+MA0887,"phosphate ABC transporter, solute-binding protein",3,0.01 ± 0.01
+MA0904,predicted protein,4,5.1 ± 0.4
+MA0913,"imidazoleglycerol-phosphate synthase, subunit H",3,8±3
+MA0923,ribosomal protein S8e,3,8±4
+MA0940,conserved hypothetical protein,2,4±1
+MA0949,ribosomal protein S15p,4,5±1
+MA0950,ferric enterobactin transport ATP-binding protein,4,14 ± 4
+MA0958,conserved hypothetical protein,5,5±1
+MA1014,"carbon-monoxide dehydrogenase, (CdhC) gamma subunit",5,0.04 ± 0.02
+MA1015,"carbon-monoxide dehydrogenase, (CdhB) beta subunit",7,0.1 ± 0.03
+MA1016,"carbon-monoxide dehydrogenase, (CdhA) alpha subunit",6,0.04 ± 0.02
+MA1030,NAD synthase (glutamine-hydrolyzing),5,0.1 ± 0.05
+MA1032,serine O-acetyltransferase,4,0.27 ± 0.05
+MA1072,ribosomal protein L3p,8,10 ± 6
+MA1073,ribosomal protein L4,6,6±2
+MA1074,ribosomal protein L23p,2,6±1
+MA1075,ribosomal protein L2p,3,6.1 ± 0.7
+MA1076,ribosomal protein S19p,5,7±3
+MA1077,ribosomal protein L22p,3,6±2
+MA1078,ribosomal protein S3p,6,5±2
+MA1079,ribosomal protein L29p,3,4.8 ± 0.2
+MA1081,ribosomal protein S17p,2,4.4 ± 0.5
+MA1082,ribosomal protein L14p,2,6±1
+MA1083,ribosomal protein L24p,5,5±2
+MA1084,ribosomal protein S4e,6,7±3
+MA1085,ribosomal protein L5p,4,5±1
+MA1087,ribosomal protein S8,3,4.1 ± 0.4
+MA1088,ribosomal protein L6p,4,6±1
+MA1089,ribosomal protein L32e,4,4.9 ± 0.8
+MA1090,ribosomal protein L19e,2,5±2
+MA1091,ribosomal protein L18p,5,7±3
+MA1092,ribosomal protein S5,3,4±1
+MA1094,ribosomal protein L15p,3,5±1
+MA1108,ribosomal protein S13p,3,7±1
+MA1109,ribosomal protein S4p,9,5±1
+MA1110,ribosomal protein S11p,6,6±2
+MA1111,"NAD-directed R polymerase, subunit D",2,3.9 ± 0.5
+MA1112,"NAD-directed R polymerase, subunit D",2,4.5 ± 0.7
+MA1130,"iron ABC transporter, solute-binding protein",5,28 ± 6
+MA1255,ribosomal protein S10p,4,4.3 ± 0.4
+MA1257,translation elongation factor 2,12,5±2
+MA1258,ribosomal protein S7p,9,6±2
+MA1260,transcription termination factor NusA,4,4.8 ± 0.8
+MA1261,ribosomal protein L30e,2,5±2
+MA1341,FMN-binding protein,5,12 ± 2
+MA1342,P-type copper-transporting ATPase,7,5±1
+MA1395,"transcriptional regulator, CopG family",4,6±2
+MA1423,conserved hypothetical protein,3,12 ± 3
+MA1446,ribosomal protein L21e,2,5±1
+MA1448,conserved hypothetical protein,2,16 ± 2
+MA1454,cell surface lipoprotein,2,0.17 ± 0.01
+MA1456,predicted protein,5,4.1 ± 0.4
+MA1462,universal stress protein,5,4.4 ± 0.7
+MA1477,heat shock protein,6,13 ± 6
+MA1479,heat shock protein 40,ND,7 ± 2
+MA1484,geranylgeranyl reductase,6,5.4 ± 0.9
+MA1489,conserved hypothetical protein,3,20 ± 10
+MA1498,"F420H2 dehydrogenase, subunit FpoD",4,15 ± 4
+MA1499,"F420H2 dehydrogenase, subunit FpoH",3,26 ± 1
+MA1521,ribosomal protein L7ae,4,5.2 ± 0.7
+MA1524,nucleoside-diphosphate kinase,3,6±2
+MA1525,translation initiation factor If2,4,5±2
+MA1526,ribosomal protein S6e,4,5 ± 0.7
+MA1569,Pap2 superfamily protein,2,12 ± 2
+MA1616,"methanol-5-hydroxybenzimidazolylcobamide co-methyltransferase (MtaC3), isozyme 3",4,0.2 ± 0.1
+MA1617,"methanol-5-hydroxybenzimidazolylcobamide co-methyltransferase (MtaB3), isozyme 3",4,0.2 ± 0.1
+MA1654,intracellular protease,3,0.19 ± 0.05
+MA1676,predicted protein,2,4±1
+MA1684,aspartyl-tR synthetase,10,4±1
+MA1744,conserved hypothetical protein,2,9±3
+MA1763,"transcriptional regulator, CopG family",3,15 ± 4
+MA1775,ribosomal protein L37ae,2,4.4 ± 0.5
+MA1784,ribosomal protein L15e,3,6.6 ± 0.8
+MA1821,conserved hypothetical protein,4,4.8 ± 0.7
+MA1848,UbiE/COQ5 methyltransferase,3,0.08 ± 0.05
+MA1909,hypothetical protein,3,20 ± 10
+MA1940,predicted protein,2,0.15 ± 0.03
+MA1998,predicted protein,4,0.26 ± 0.07
+MA2004,FtsJ-like methyltransferase,3,6.6 ± 0.4
+MA2143,"carbamoyl-phosphate synthase (glutamine-hydrolyzing), large subunit",11,5±2
+MA2144,"carbamoyl-phosphate synthase (glutamine-hydrolyzing), small subunit",7,5±2
+MA2145,"glycine betaine/L-proline ABC transporter, ATP-binding protein",ND,5±1
+MA2456,predicted protein,2,0.06 ± 0.02
+MA2510,"DNA topoisomerase, type I",4,3.9 ± 0.6
+MA2536,carbonic anhydrase (Cam),2,0.11 ± 0.03c
+MA2615,conserved hypothetical protein,4,15 ± 4
+MA2636,conserved hypothetical protein,2,0.1 ± 0.06
+MA2711,conserved hypothetical protein,5,0.2 ± 0.1
+MA2717,NifU protein,2,7±1
+MA2819,conserved hypothetical protein,2,0.18 ± 0.03
+MA2867,polyferredoxin,2,0.08 ± 0.04
+MA2868,"heterodisulfide reductase (HdrA), subunit A",4,0.2 ± 0.1
+MA2896,threonyl-tR synthetase,3,4.1 ± 0.8
+MA2912,AMP-binding protein,4,8±4
+MA2914,"transcriptional regulator, Hth-3 family",2,5 ± 1
+MA2923,conserved hypothetical protein,6,0.09 ± 0.01
+MA2982,predicted protein,5,0.12 ± 0.04
+MA3034,uroporphyrinogen-III synthase,3,3.6 ± 0.6
+MA3035,coenzyme PQQ synthesis protein E,4,6±2
+MA3092,conserved hypothetical protein,3,0.09 ± 0.01
+MA3165,hypothetical protein,4,0.2 ± 0.1
+MA3250,cobyric acid synthase,5,9±3
+MA3260,"O-Glc c transferase, p110 subunit",9,12 ± 9
+MA3289,endopeptidase La,10,11 ± 5
+MA3302,conserved hypothetical protein,5,0.004 ± 0.002
+MA3307,orotate phosphoribosyltransferase,5,6±2
+MA3317,arylsulfatase regulator,4,0.12 ± 0.01
+MA3322,conserved hypothetical protein,3,20 ± 10
+MA3334,conserved hypothetical protein,2,0.07 ± 0.01
+MA3342,2-isopropylmalate synthase,3,5±1
+MA3378,predicted protein,2,3.3 ± 0.2
+MA3382,glutamate-ammonia ligase,7,4±1
+MA3416,ribosomal protein S3Ae,3,5±1
+MA3418,conserved hypothetical protein,3,6±3
+MA3439,"sulfite reductase, beta subunit",4,12 ± 4
+MA3449,conserved hypothetical protein,2,40 ± 30
+MA3455,"nickel ABC transporter, solute-binding protein",3,20 ± 10
+MA3475,predicted protein,2,8±3
+MA3477,ferrous iron transport protein B,8,30 ± 10
+MA3522,phosphoribosylglycinamide formyltransferase,2,3.8 ± 0.7
+MA3576,predicted protein,2,4±0
+MA3606,acetate kinase,8,0.02 ± 0.01c
+MA3607,phosphotransacetylase,9,0.06 ± 0.03
+MA3631,cobalamin biosynthesis protein,3,20 ± 7
+MA3661,predicted protein,2,240 ± 90
+MA3667,conserved hypothetical,4,0.02 ± 0.01
+MA3689,conserved hypothetical protein,5,4 ± 0.8
+MA3695,ribosomal protein S24e,4,6±1
+MA3732,"F420H2 dehydrogenase, subunit FpoF",5,4.2 ± 0.8
+MA3733,"F420-dependent N5, N10-methylene-tetrahydromethanopterin reductase",11,9±4
+MA3860,"carbon-monoxide dehydrogenase, (CdhA) alpha subunit",8,0.004 ± 0.002
+MA3861,"carbon-monoxide dehydrogenase, (CdhB) beta subunit",4,0.004 ± 0.002
+MA3862,"carbon-monoxide dehydrogenase, (CdhC) gamma subunit",5,0.006 ± 0.003
+MA3915,UbiE/COQ5 methyltransferase,3,7±2
+MA3956,ATP-dependent R helicase,5,20 ± 10
+MA3961,predicted protein,2,0.05 ± 0.01
+MA3972,conserved hypothetical protein,8,0.1 ± 0.06
+MA4040,conserved hypothetical protein,5,7±2
+MA4041,acyl carrier protein synthase,4,17 ± 4
+MA4042,acetyl-CoA C-acyltransferase,6,12 ± 5
+MA4044,adenylate cyclase,4,6±1
+MA4047,proteinase IV,2,4±1
+MA4048,seryl-tR synthetase,4,5±2
+MA4111,ribosomal protein LX,2,5±2
+MA4112,translation initiation factor 6,3,5.3 ± 0.9
+MA4113,ribosomal protein L31e,2,6±2
+MA4117,ribosomal protein S19e,5,6±2
+MA4118,adenylosuccinate synthase,6,5±1
+MA4142,predicted protein,2,0.14 ± 0.05
+MA4152,"H+-transporting ATP synthase, (AtpH) subunit H",2,0.32 ± 0.1
+MA4153,"H+-transporting ATP synthase, (AtpI) subunit I",8,0.10 ± 0.05
+MA4154,"H+-transporting ATP synthase, (AtpC) subunit C",2,0.08 ± 0.03
+MA4155,"H+-transporting ATP synthase, (AtpE) subunit E",7,0.13 ± 0.04
+MA4156,"H+-transporting ATP synthase, (AtpC) subunit C",8,0.10 ± 0.04
+MA4157,"H+-transporting ATP synthase, (AtpF) subunit F",4,0.13 ± 0.04
+MA4158,"H+-transporting ATP synthase, (AtpA) subunit A",15,0.12 ± 0.05
+MA4159,"H+-transporting ATP synthase, (AtpB) subunit B",8,0.14 ± 0.06
+MA4160,"H+-transporting ATP synthase, (AtpD) subunit D",5,0.10 ± 0.03
+MA4175,"formylmethanofuran dehydrogenase, subunit A",2,0.14 ± 0.05
+MA4176,"formylmethanofuran dehydrogenase, subunit C",2,0.14 ± 0.05
+MA4198,conserved hypothetical protein,3,4.1 ± 0.1
+MA4200,conserved hypothetical protein,3,0.2 ± 0.1
+MA4216,glutamate-ammonia ligase,6,4±1
+MA4219,conserved hypothetical protein,4,4±1
+MA4244,conserved hypothetical protein,4,50 ± 20
+MA4245,conserved hypothetical protein,2,7.4 ± 0
+MA4246,nucleotide binding protein,3,5±1
+MA4258,precorrin-8X methylmutase,5,6±1
+MA4259,precorrin-3B C17-methyltransferase,3,8±4
+MA4268,proteasome-activating nucleotidase,3,4±1
+MA4274,ribosomal protein L11p,5,5.6 ± 0.9
+MA4275,ribosomal protein L1p,4,5±2
+MA4276,acidic ribosomal protein P0 homolog,6,6±2
+MA4277,ribosomal protein L12p,2,5±1
+MA4379,methylcobamide:CoM methyltransferase isozyme M,3,80 ± 30
+MA4391,"methanol-5-hydroxybenzimidazolylcobamide co-methyltransferase (MtaC2), isozyme 2",2,90 ± 40
+MA4392,"methanol-5-hydroxybenzimidazolylcobamide co-methyltransferase (MtaB2), isozyme 2",2,70 ± 40
+MA4413,Hsp60,5,9 ± 4
+MA4428,conserved hypothetical protein,5,4.2 ± 0.7
+MA4430,methylene-tetrahydromethanopterin dehydrogenase,3,33 ± 7
+MA4436,conserved hypothetical protein,4,5±1
+MA4459,UTP-glucose-1-phosphate uridylyltransferase,5,4.3 ± 0.8
+MA4472,ribosomal protein S17e,2,7±3
+MA4547,"Methyl coenzyme M reductase (McrG), gamma subunit",5,0.31 ± 0.1
+MA4550,"Methyl coenzyme M reductase (McrB), beta subunit",7,0.29 ± 0.09
+MA4567,multiple resistance/pH regulation related protein F (Na+/H+),2,0.025 ± 0.012
+MA4568,multiple resistance/pH regulation related protein E (Na+/H+),3,0.03 ± 0.016
+MA4591,deoxyribose-phosphate aldolase,3,5±2
+MA4592,conserved hypothetical protein,4,5±1
+,,,
+,,,
+Reference:,,,
+"Li L, Li Q, Rohlin L, Kim U, Salmon K, Rejtar T, Gunsalus RP, Karger BL, Ferry JG (2007) Quantitative proteomic and microarray analysis of the archaeon Methanosarcina acetivorans grown with acetate versus methanol. Journal of proteome research 6: 759-771",,,

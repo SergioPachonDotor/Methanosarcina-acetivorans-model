@@ -1,0 +1,869 @@
+Loci,Annotation,EC #,Protein abbreviation
+MA0006,L-tyrosine decarboxylase,4.1.1.25,Unassigned
+MA0010,formylmethanofuran-- tetrahydromethanopterin formyltransferase (ftr) (EC 2.3.1.101),2.3.1.101,ftr
+MA0021,,,
+MA0023,zinc ABC transporter substrate-binding protein,Unassigned,znuA
+MA0024,zinc ABC transporter ATP-binding protein,3.6.3.-,znuC
+MA0025,zinc ABC transporter permease,Unassigned,znuB
+MA0031,Pyruvate synthase beta subunit (pyruvate:ferredoxin oxidoreductase subunitsbeta) (EC 1.2.7.1),1.2.7.1,porB
+MA0032,Pyruvate synthase subunit porA (Pyruvate oxidoreductase alpha chain) (EC 1.2.7.1) (porA) | pyruvate synthase subunit alpha,1.2.7.1,porA
+MA0033,Pyruvate synthase delta subunit (pyruvate:ferredoxin oxidoreductase subunitsdelta) (EC 1.2.7.1),1.2.7.1,porD
+MA0034,Pyruvate synthase gamma subunit (pyruvate:ferredoxin oxidoreductase subunitsgamma) (EC 1.2.7.1),1.2.7.1,porG
+MA0043,arginyl-tRNA synthetase,6.1.1.19,argS
+MA0051,hypothetical protein,6.3.5.4,asnB
+MA0053,5-methyltetrahydropteroyltriglutamate/homocysteine S-methyltransferase,2.1.1.14,metE
+MA0054,5-methyltetrahydropteroyltriglutamate/homocysteine S-methyltransferase,2.1.1.14,metE
+MA0063,ABC transporter ATPase subunit (ssuB),,
+MA0069,hydrogenase expression/formation protein,2.7.4.16,hypE
+MA0072,anaerobic ribonucleoside-triphosphate reductase,1.17.4.2,nrdD
+MA0075,myo-inositol-1-phosphate synthase,5.5.1.4,Unassigned
+MA0076,"Ribose-1,5-bisphosphate isomerase | translation initiation factor IF-2",5.3.1.23,eif2B1
+MA0081,polyphosphate kinase,2.7.4.1,ppk
+MA0083,exopolyphosphatase,3.6.1.11 | 3.6.1.40,ppx
+MA0090,O-phosphoseryl-tRNA(Cys) synthetase (EC 6.1.1.-),6.1.1.27,pheRS
+MA0097,Glycyl-tRNA synthetase (EC6.1.1.14),6.1.1.14,glyS
+MA0104,Stationary-phase survival protein SurE (5'/3'-nucleotidase (EC 3.1.3.5) (EC 3.1.3.6); Exopolyphosphatase (EC 3.6.1.11)) (surE),3.1.3.5,surE
+MA0106,"cobyrinic acid a,c-diamide synthase",6.3.5.9 | 6.3.5.11,cbiA1
+MA0113,ADP-ribose pyrophosphatase (Nudix hydrolase),,
+MA0115,phosphatidylserine decarboxylase,4.1.1.65,psd
+MA0116,CDP-diacylglycerol--serine O-phosphatidyltransferase,2.7.8.8,pss
+MA0118,histidinol-phosphate aminotransferase,2.6.1.9,hisC
+MA0119,Acetylornithine/acetyl-lysine aminotransferase (EC 2.6.1.11) (EC 2.6.1.-),2.6.1.11 | 2.6.1.17,argD
+MA0130,Phosphoribosylformylglycinamidine cyclo-ligase (AIRS) (purM) (EC 6.3.3.1),6.3.3.1,purM
+MA0131,aspartate kinase,2.7.2.4,lysC
+MA0132,cofactor-independent phosphoglycerate mutase,5.4.2.12,apgM
+MA0135,F420-0--gamma-glutamyl ligase,6.3.2.31 | 6.3.2.34,cofE
+MA0136,dCMP deaminase (EC 3.5.4.12),3.5.4.12,comEB
+MA0137,dCMP deaminase (EC 3.5.4.12),3.5.4.12,comEB
+MA0143,amine permease,,
+MA0144,monomethylamine methyltransferase,2.1.1.248,mtmB1
+MA0145,monomethylamine corrinoid protein (mtmC1),Unassigned,mtmC1
+MA0146,methylcobalamin:coenzyme M methyltransferase,Unassigned,mtbA
+MA0150,methylamine methyltransferase corrinoid activation protein,,
+MA0152,pyrrolysine synthesis protein,Unassigned,pylD
+MA0153,pyrrolysine synthesis protein,Unassigned,pylC
+MA0154,pyrrolysine synthesis protein | biotin synthase,5.4.99.58,bioB
+MA0155,Pyrrolysyl-tRNA synthetase (pylS) (EC 6.1.1.-),6.1.1.26,pylS
+MA0166,,,
+MA0171,Phenylalanyl-tRNA synthetase subunit alpha (EC 6.1.1.20),6.1.1.20,pheS
+MA0172,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),6.1.1.2,trpS
+MA0194,Alanyl-tRNA synthetase (alaS) (EC 6.1.1.7),6.1.1.7,alaS
+MA0201,Tartrate dehydrogenase/decarboxylase (EC 1.1.1.93) (EC 4.1.1.73) (EC 1.1.1.83) | 3-isopropylmalate dehydrogenase,1.1.1.85,leuB
+MA0202,3-Isopropylmalate dehydratase small subunit (3-isopropylmalate isomerase small subunit) and homoaconitase small subunit dual specificity,4.2.1.33 | 4.2.1.35,leuD
+MA0206,5-formaminoimidazole-4-carboxamide-1-(beta)-D-ribofuranosyl 5'- monophosphate synthetase (purP) (EC 6.3.4.-),6.3.4.23,purP
+MA0208,,,
+MA0216,Archaeal S-adenosylmethionine synthetase (EC 2.5.1.6) (Methionine adenosyltransferase) (AdoMet synthetase),2.5.1.6,mat
+MA0217,ATP phosphoribosyltransferase (hisG) (EC 2.4.2.17),2.4.2.17,hisG
+MA0218,1-(5-phosphoribosyl)-5-((5- phosphoribosylamino)methylideneami no) imidazole-4-carboxamide isomerase (hisA) (EC 5.3.1.16),5.3.1.16,hisA
+MA0219,Imidazoleglycerol-phosphate dehydratase (hisB) (EC 4.2.1.19),4.2.1.19,hisB
+MA0236,,,
+MA0239,acetyltransferase (GNAT) family protein,2.3.1.1,argA
+MA0241,Phosphoglucomutase/Phosphomanno mutase,5.4.2.8 | 5.4.2.2,pmm-pgm
+MA0249,citrate (si)-synthase,2.3.3.1,CS
+MA0250,aconitate hydratase,4.2.1.3,ACO
+MA0255,4-methyl-5-(beta-hydroxyethyl)thiazole monophosphate synthesis protein ThiF,Unassigned,MOCS3
+MA0261,Thiamine biosynthesis protein thiC (thiC),4.1.99.17,thiC
+MA0263,L-fuculose phosphate aldolase,4.1.2.17,fucA
+MA0264,CDP-alcohol phosphatidyltransferase,2.7.8.5,Unassigned
+MA0269,Tetrahydromethanopterin S- methyltransferase subunit H (mtrH) (EC 2.1.1.86),2.1.1.86,mtrH
+MA0270,Tetrahydromethanopterin S- methyltransferase subunit G (EC 2.1.1.86),2.1.1.86,mtrG
+MA0271,Tetrahydromethanopterin S- methyltransferase subunit F (EC 2.1.1.86),2.1.1.86,mtrF
+MA0272,Tetrahydromethanopterin S- methyltransferase subunit A (mtrA) (EC 2.1.1.86),2.1.1.86,mtrA
+MA0273,tetrahydromethanopterin S-methyltransferase subunit B,2.1.1.86,mtrB
+MA0274,Tetrahydromethanopterin S- methyltransferase subunit C (mtrC) (EC 2.1.1.86),2.1.1.86,mtrC
+MA0275,Tetrahydromethanopterin S- methyltransferase subunit D (mtrD) (EC 2.1.1.86),2.1.1.86,mtrD
+MA0276,Tetrahydromethanopterin S- methyltransferase subunit E (mtrE) (EC 2.1.1.86),2.1.1.86,mtrE
+MA0279,sodium/solute symporter,,
+MA0280,molybdate ABC transporter periplasmic substrate-binding protein,Unassigned,wtpA
+MA0281,sulfate/molybdate ABC transporter permease,Unassigned,wtpB
+MA0282,sulfate/molybdate ABC transporter ATP-binding protein,3.6.3.- | 3.6.3.55,wtpC
+MA0298,,,
+MA0299,,,
+MA0300,,,
+MA0301,,,
+MA0302,,,
+MA0304,formylmethanofuran dehydrogenase subunit E,1.2.99.5,fmdE
+MA0305,formylmethanofuran dehydrogenase subunit F,Unassigned,fmdF
+MA0306,Molybdenum formylmethanofuran dehydrogenase subunit A (fmdA) (EC 1.2.99.5),1.2.99.5,fmdA
+MA0307,formylmethanofuran dehydrogenase subunit C,1.2.99.5,fmdC
+MA0308,Molybdenum formylmethanofuran dehydrogenase subunit D (fmdD) (EC 1.2.99.5),1.2.99.5,fmdD
+MA0309,Molybdenum formylmethanofuran dehydrogenase subunit B (fmdB) (EC 1.2.99.5),1.2.99.5,fmdB
+MA0316,phosphoribosylglycinamide formyltransferase,2.1.2.2,purN
+MA0322,nicotinate-nucleotide pyrophosphorylase,2.4.2.19,nadC
+MA0323,molybdenum ABC transporter ATP-binding protein,3.6.3.29,modC
+MA0324,molybdenum ABC transporter permease,Unassigned,modB
+MA0325,molybdenum ABC transporter substrate-binding protein,Unassigned,modA
+MA0339,,,
+MA0346,protoporphyrin IX magnesium chelatase,6.6.1.2,cobN
+MA0348,,,
+MA0372,uridylate kinase,2.7.4.22,pyrH
+MA0381,formylmethanofuran dehydrogenase subunit E,1.2.99.5,fwdE
+MA0383,,,
+MA0384,cobaltochelatase subunit CobN,6.6.1.2,cobN
+MA0385,magnesium/cobalt chelatase-domain containing protein,6.6.1.2,cobN
+MA0386,,,
+MA0393,cobalt ABC transporter permease,Unassigned,cbiQ
+MA0394,cobalt ABC transporter ATP-binding protein,Unassigned,cbiO
+MA0403,zinc-binding alcohol dehydrogenase,1.1.1.2,AKR1A1
+MA0409,4-carboxymuconolactone decarboxylase,4.1.1.44,pcaC
+MA0417,formaldehyde dehydrogenase,1.2.1.46,fdh
+MA0422,,,
+MA0428,,,
+MA0430,aspartate-semialdehyde dehydrogenase,1.2.1.11,asd
+MA0439,"2-amino-3,7-dideoxy-D-threo-hept-6- ulosonate synthase CL2 | fructose-bisphosphate aldolase",4.1.2.13 | 2.2.1.10,Unassigned
+MA0440,Deoxyuridine 5'-triphosphate nucleotidohydrolase (dUTPase) (EC 3.6.1.23),3.6.1.23,dcd
+MA0451,beta-phosphoglucomutase,5.4.2.6,pgmB
+MA0455,methanol corrinoid protein (mtaB) | methanol-5-hydroxybenzimidazolylcobamide co-methyltransferase,2.1.1.90,mtaB1
+MA0456,methanol corrinoid protein (mtaC) | methanol-5-hydroxybenzimidazolylcobamide co-methyltransferase,Unassigned,mtaC1
+MA0520,cobalt-precorrin-6Y C(5)-methyltransferase,2.1.1.289,cbiE
+MA0521,cobalt-precorrin-6A synthase,2.1.1.195,cbiD
+MA0525,,,
+MA0526,,,
+MA0527,dimethylamine corrinoid protein (mtbC),Unassigned,mtbC
+MA0528,Trimethylamine methyltransferase (mttB) (EC 2.1.1.-),2.1.1.250,mttB
+MA0529,trimethylamine corrinoid protein,Unassigned,mttC
+MA0530,DUF6-domain membrane protein,,
+MA0532,dimethylamine methyltransferase,2.1.1.249,mtbB
+MA0534,Lysyl-tRNA synthetase (EC 6.1.1.6),6.1.1.6,lysK
+MA0541,Imidazoleglycerol-phosphate synthase subunit hisF (cyclase subunit) (EC 4.1.3.-),4.1.3.-,hisF
+MA0547,winged helix-turn-helix domain-containing protein/riboflavin kinase,2.7.1.161,rfk
+MA0548,"3,4-dihydroxy-2-butanone 4-phosphate synthase",4.1.99.12,ribB
+MA0549,,,
+MA0550,Chorismate synthase (aroC) (EC 4.2.3.5),4.2.3.5,aroC
+MA0576,uroporphyrin-III C-methyltransferase,1.3.1.76 | 4.99.1.4,cysG
+MA0577,glutamyl-tRNA reductase,1.2.1.70,hemA
+MA0578,Delta-aminolevulinic acid dehydratase (Porphobilinogen synthase) (ALAD) (ALADH) (hemB) (EC 4.2.1.24),4.2.1.24,hemB
+MA0581,"Glutamate-1-semialdehyde 2,1- aminomutase (hemL) (EC 5.4.3.8)",5.4.3.8,hemL
+MA0582,porphobilinogen deaminase,2.5.1.61,hemC
+MA0583,"Dihydroorotate dehydrogenase, catalytic subunit (Dihydroorotate oxidase) (pyrD) (EC 1.3.3.1)",1.3.1.14,pyrD
+MA0584,dihydroorotate dehydrogenase electron transfer subunit,Unassigned,pyrDII
+MA0587,Glutamyl-tRNA synthetase (EC 6.1.1.17),6.1.1.17,gltX
+MA0591,,,
+MA0592,D-3-phosphoglycerate dehydrogenase (serA) (PGDH) (EC 1.1.1.95),1.1.1.95,serA
+MA0594,indolepyruvate decarboxylase,4.1.1.74,ipdC
+MA0601,,,
+MA0602,mevalonate kinase,2.7.1.36,mvk
+MA0603,amino acid kinase,2.7.4.26,ipk
+MA0604,Isopentenyl-diphosphate delta- isomerase (EC 5.3.3.2),5.3.3.2,idi
+MA0606,Bifunctional short chain isoprenyl diphosphate synthase (Includes: Farnesyl pyrophosphate synthetase (EC 2.5.1.1) (FPP synthetase) (Dimethylallyltranstransferase); Geranyltranstransferase (EC 2.5.1.10)) (idsA),2.5.1.1 | 2.5.1.10 | 2.5.1.29,idsA
+MA0608,Pyruvate phosphate dikinase EC 2.7.9.1,2.7.9.1,ppdK
+MA0614,3-hydroxyisobutyrate dehydrogenase,1.1.1.31,Unassigned
+MA0636,aspartate aminotransferase,2.6.1.1,aspC
+MA0642,,,
+MA0658,,,
+MA0659,,,
+MA0660,,,
+MA0661,,,
+MA0662,,,
+MA0663,Electron transport complex protein rnfA (Nitrogen fixation protein rnfA ),,
+MA0664,electron transport complex rnfB-like protein (Nitrogen fixation protein rnfB),,
+MA0665,,,
+MA0671,formylmethanofuran dehydrogenase subunit G,Unassigned,fwdG
+MA0674,pyruvate carboxylase subunit B (EC 6.4.1.1) (pycB),6.4.1.1,pycB
+MA0675,pyruvate carboxylase subunit A (EC 6.4.1.1) (pycA),6.4.1.1,pycA
+MA0676,biotin operon repressor/biotin-pyruvate carboxylase ligase,6.3.4.15,bpl
+MA0687,heterodisulfide reductase subunit E,1.8.98.1,hdrE
+MA0688,CoB-CoM heterodisulfide reductase subunit D (EC 1.8.98.1) (hdrD),1.8.98.1,hdrD
+MA0697,,,
+MA0698,,,
+MA0705,aldehyde dehydrogenase,1.2.1.16 | 1.2.1.79 | 1.2.1.20,gabD
+MA0713,,,
+MA0714,LPPG:FO 2-phospho-L-lactate transferase,2.7.8.28,cofD
+MA0717,adenine phosphoribosyltransferase,2.4.2.7,hpt
+MA0726,Orn/DAP/Arg decarboxylase family / TabA-like | diaminopimelate decarboxylase,4.1.1.20,lysA
+MA0749,cysteinyl-tRNA synthetase,6.1.1.16,cysS
+MA0760,lysyl-tRNA synthetase,6.1.1.6,lysS
+MA0779,methylcobalamin:coenzyme M methyltransferase,Unassigned,cmtM
+MA0792,arginine deiminase,3.5.3.6,arcA
+MA0798,,,
+MA0815,Tyrosyl-tRNA synthetase (EC 6.1.1.1),6.1.1.1,tyrS
+MA0819,malate dehydrogenase,1.1.1.37,mdh
+MA0821,hypothetical protein,5.3.1.9,pgi1
+MA0832,formylmethanofuran dehydrogenase subunit C,1.2.99.5,fwdC
+MA0833,formylmethanofuran dehydrogenase subunit A,1.2.99.5,fwdA
+MA0834,formylmethanofuran dehydrogenase subunit B,1.2.99.5,fwdB
+MA0835,formylmethanofuran dehydrogenase subunit D,1.2.99.5,fwuD
+MA0844,,,
+MA0847,methyltransferase,4.1.1.37,mtbA
+MA0849,putative methylamine methyltransferase corrinoid activation protein,,
+MA0859,,,
+MA0869,ABC transporter permease,Unassigned,cbiQ
+MA0872,cobaltochelatase subunit CobN,6.6.1.2,cobN
+MA0878,,,
+MA0879,,,
+MA0880,,,
+MA0881,,,
+MA0882,cobaltochelatase subunit CobN,6.6.1.2,cobN
+MA0883,,,
+MA0887,"Phosphate import ABC transporter, phosphate binding protein (pstS)",Unassigned,pstS
+MA0888,Phosphate import ABC transporter permease protein (pstC),Unassigned,pstC
+MA0889,Phosphate import ABC transporter permease protein (pstA),Unassigned,pstA
+MA0890,CBS (Cystathionine-beta-synthase) and DUF293 domains-containing protein | phosphate ABC transporter ATP-binding protein,3.6.3.27,pstB
+MA0892,dihydroorotase,3.5.2.3,pyrC
+MA0905,,,
+MA0908,Phosphoribosyl-AMP cyclohydrolase (hisI) (EC 3.5.4.19),3.5.4.19,hisI
+MA0913,(EC 2.4.2.-) | imidazole glycerol phosphate synthase subunit HisH,2.4.2.-,hisH
+MA0919,orotate phosphoribosyltransferase-like protein,2.4.2.10,pyrE
+MA0925,,,
+MA0929,DUF6-domain membrane protein,,
+MA0931,trimethylamine corrinoid protein,Unassigned,mttC
+MA0932,Trimethylamine methyltransferase (mttB) (EC 2.1.1.-),2.1.1.250,mttB
+MA0933,dimethylamine methyltransferase,2.1.1.249,mtbB
+MA0934,dimethylamine corrinoid protein (mtbC),Unassigned,mtbC
+MA0938,,,
+MA0939,cobalamin (5-phosphate) synthase,2.7.8.26,cobS
+MA0940,alpha-ribazole-phosphate phosphatase (cobZ) (EC 3.1.3.73),,
+MA0941,cobalamin biosynthesis protein,6.3.1.10,cobD
+MA0942,histidinol-phosphate aminotransferase,2.6.1.9,hisC
+MA0943,histidyl-tRNA synthetase,6.1.1.21,hisS
+MA0950,ferric enterobactin transport ATP-binding protein,3.6.3.34,ABC.FEV.A
+MA0951,Iron complex/Vitamin B12 ABC transporter permease protein | hemin permease,Unassigned,hemU
+MA0952,iron transport periplasmic binding protein,Unassigned,ABC.FEV.S
+MA0955,nicotinate-nucleotide pyrophosphorylase,2.4.2.19,nadC
+MA0956,6-pyruvoyl tetrahydrobiopterin synthase,4.2.3.12 | 4.1.2.50,ptpS
+MA0958,L-aspartate dehydrogenase,1.4.1.21,nadX
+MA0959,quinolinate synthetase,2.5.1.72,nadA
+MA0961,prenyltransferase,2.5.1.42,ubiA
+MA0962,S-adenosylmethionine synthetase,2.5.1.6,mat
+MA0969,Orotidine 5'-phosphate decarboxylase (OMP decarboxylase) (PyrF) (EC 4.1.1.23),4.1.1.23,pyrF
+MA0972,catalase/peroxidase,1.11.1.21,katG
+MA0990,,,
+MA1001,fumarate hydratase,4.2.1.2,fumC
+MA1011,Acetyl-CoA decarbonylase/synthase complex subunit gamma (EC 2.1.1.-),2.1.1.245,cdhE
+MA1012,Acetyl-CoA decarbonylase/synthase complex subunit delta,2.1.1.245,cdhD
+MA1013,"carbon monoxide dehydrogenase/acetyl-CoA synthase complex, nickel-inserting subunit",,
+MA1014,Acetyl-CoA decarbonylase/synthase complex subunit beta (EC 2.3.1.-),2.3.1.-,cdhC
+MA1015,acetyl-CoA decarbonylase/synthase complex subunit epsilon,Unassigned,cdhB
+MA1016,Acetyl-CoA decarbonylase/synthase complex subunit alpha 2 (EC 1.2.99.2),1.2.7.4,cdhA
+MA1018,glyceraldehyde-3-phosphate dehydrogenase,1.2.1.59,gap
+MA1019,glutathione reductase (NADPH),1.8.1.7,GSR
+MA1022,"Protein containing N-terminal Pyruvate flavodoxin/ferredoxin oxidoreductase region, C-terminal TPP-binding region and ferredoxin domain",,
+MA1023,,,
+MA1030,NAD synthetase,6.3.1.5,nadE
+MA1096,adenylate kinase,2.7.4.3,adk
+MA1104,cytidylate kinase,2.7.4.14,cmk
+MA1105,,,
+MA1117,,,
+MA1120,"ABC transporter, ATPase subunit",,
+MA1128,ABC transporter substrate-binding protein,Unassigned,ABC.FEV.S
+MA1131,iron ABC transporter permease,Unassigned,ABC.FEV.P
+MA1132,iron ABC transporter ATP-binding protein,3.6.3.34,ABC.FEV.A
+MA1151,,,
+MA1152,"Fructose 1-6-bisphosphatase | fructose 1,6-bisphosphatase II",3.1.3.11,glpX
+MA1167,Ribose-phosphate pyrophosphokinase (RPPK) (Phosphoribosyl pyrophosphate synthetase) (PRPP synthetase) (EC 2.7.6.1),2.7.6.1,prs
+MA1173,"GDP-mannose 4,6-dehydratase",4.2.1.47,gmd
+MA1174,"GDP-mannose 4,6-dehydratase",4.2.1.47,gmd
+MA1185,UDP-galactose-4-epimerase | UDP-glucose 4-epimerase,5.1.3.2,galE
+MA1190,,,
+MA1198,iron ABC transporter ATP-binding protein,3.6.3.34,ABC.FEV.A
+MA1199,iron ABC transporter permease,Unassigned,ABC.FEV.P
+MA1205,nitrogenase reductase,1.18.6.1,nifH
+MA1208,nitrogenase subunit K,1.18.6.1,anfK
+MA1209,nitrogenase subunit delta,1.18.6.1,anfG
+MA1210,nitrogenase subunit D,1.18.6.1,anfD
+MA1211,,,
+MA1212,,,
+MA1213,nitrogenase reductase,1.18.6.1,nifH
+MA1214,,,
+MA1215,,,
+MA1216,nitrogenase subunit alpha,1.18.6.1,vnfD
+MA1217,nitrogenase subunit delta,1.18.6.1,vnfG
+MA1218,nitrogenase subunit beta,1.18.6.1,vnfK
+MA1219,,,
+MA1220,,,
+MA1223,3-Isopropylmalate dehydratase small subunit (3-isopropylmalate isomerase small subunit) and homoaconitase small subunit - dual specificity,4.2.1.114,leuC
+MA1225,homocitrate synthase,2.3.3.14,nifV
+MA1226,homocitrate synthase,2.3.3.14,nifV
+MA1230,iron(III) ABC transporter substrate-binding protein,Unassigned,ABC.FEV.S
+MA1231,iron(III) ABC transporter substrate-binding protein,Unassigned,ABC.FEV.S
+MA1232,iron(III) ABC transporter substrate-binding protein,Unassigned,ABC.FEV.S
+MA1233,iron(III) ABC transporter ATP-binding protein,3.6.3.34,ABC.FEV.A
+MA1234,iron(III) ABC transporter permease,Unassigned,ABC.FEV.P
+MA1235,molybdate ABC transporter ATP-binding protein,3.6.3.29,modC
+MA1236,molybdate ABC transporter permease,Unassigned,modB
+MA1237,"molybdenum ABC transporter, molybdate-binding protein (modA)",Unassigned,modA
+MA1241,Molybdenum formylmethanofuran dehydrogenase subunit B (fmdB) (EC 1.2.99.5),1.2.99.5,fmdB
+MA1244,,,
+MA1245,,,
+MA1246,,,
+MA1247,,,
+MA1249,,,
+MA1250,,,
+MA1275,Adenosylhomocysteinase (ahcY) (EC 3.3.1.1) | S-adenosyl-L-homocysteine hydrolase,3.3.1.1,ahcY2
+MA1278,hypothetical protein,6.3.2.36,Unassigned
+MA1280,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate synthase,4.1.1.36 | 6.3.2.5,dfp
+MA1309,"carbon-monoxide dehydrogenase, catalytic subunit",1.2.99.2 | 1.2.7.4,cooS
+MA1316,,,
+MA1317,glutamyl-tRNA(Gln) amidotransferase subunit D,6.3.5.7,ansA
+MA1318,Argininosuccinate lyase (EC 4.3.2.1) (Arginosuccinase),4.3.2.1,argH
+MA1334,,,
+MA1342,,,
+MA1354,acetolactate synthase,2.2.1.6,Unassigned
+MA1355,aldehyde dehydrogenase,1.2.1.16 | 1.2.1.79 | 1.2.1.20,gabD
+MA1363,HAD-superfamily hydrolase,,
+MA1368,thioredoxin reductase,1.8.1.9,trxB
+MA1370,diphthine synthase (EC 2.1.1.98),,
+MA1373,PfkB family carbohydrate kinase,2.7.1.15,rbsK
+MA1376,Phosphoribosylaminoimidazole carboxylase catalytic subunit (AIR carboxylase) (purE) (EC 4.1.1.21),5.4.99.18,purE
+MA1377,chorismate mutase,5.4.99.5,pheA1
+MA1378,shikimate kinase,2.7.1.71,aroL
+MA1384,6-phospho-3-hexuloisomerase,5.3.1.27,hxlB
+MA1385,Aspartate aminotransferase (EC 2.6.1.1),2.6.1.1,aspB
+MA1392,phosphoribosyl-ATP pyrophosphatase,3.6.1.31,hisE
+MA1393,Homoaconitase large subunit (EC 4.2.1.36) (homoaconitate hydratase) (hacA) | 3-isopropylmalate dehydratase large subunit,4.2.1.33 | 4.2.1.35,leuC
+MA1409,5'-methylthioadenosine phosphorylase,2.4.2.28,Unassigned
+MA1417,,,
+MA1418,hypothetical protein,3.6.3.-,ecfA1
+MA1419,cobalt transport protein,Unassigned,ecfT
+MA1431,,,
+MA1436,,,
+MA1437,,,
+MA1439,NAD+ pyrophosphatase,3.6.1.22,Unassigned
+MA1466,thiazole biosynthesis protein,Unassigned,thiI
+MA1481,,,
+MA1483,,,
+MA1484,Oxidoreductase with FAD binding domain | geranylgeranyl reductase,1.3.1.101 | 1.3.99.34,GGR
+MA1488,hypothetical protein,2.7.7.68,cofC
+MA1489,FO synthase subunit 2,2.5.1.77,cofG
+MA1490,FO synthase subunit 2,2.5.1.77,cofG
+MA1491,FO synthase subunit 1,2.5.1.77,cofG
+MA1494,,,
+MA1495,F(420)H(2) dehydrogenase subunit FpoA,1.6.5.3,fpoA
+MA1496,F(420)H(2) dehydrogenase subunit FpoB,1.6.5.3,fpoB
+MA1497,F(420)H(2) dehydrogenase subunit C,1.6.5.3,fpoC
+MA1498,F(420)H(2) dehydrogenase subunit FpoD,1.6.5.3,fpoD
+MA1499,F(420)H(2) dehydrogenase subunit FpoH,1.6.5.3,fpoH
+MA1500,F(420)H(2) dehydrogenase subunit FpoI,1.6.5.3,fpoI
+MA1501,NADH dehydrogenase subunit J,1.6.5.3,fpoJ
+MA1502,F(420)H(2) dehydrogenase subunit FpoJ,1.6.5.3,fpoJ
+MA1503,F(420)H(2) dehydrogenase subunit FpoK,1.6.5.3,fpoK
+MA1504,F(420)H(2) dehydrogenase subunit FpoL,1.6.5.3,fpoL
+MA1505,F(420)H(2) dehydrogenase subunit FpoM,1.6.5.3,fpoM
+MA1506,F(420)H(2) dehydrogenase subunit FpoN,1.6.5.3,fpoN
+MA1507,,,
+MA1509,,,
+MA1524,Nucleoside diphosphate kinase (EC 2.7.4.6),2.7.4.6,ndk
+MA1566,glutamine amidotransferase subunit PdxT,4.3.3.6,pyrOB
+MA1567,"Pyridoxal 5'-phosphate (Vitamin B6) synthase, lyase subunit pdxS",4.3.3.6,pyrOA
+MA1569,,,
+MA1574,,,
+MA1605,membrane alanine aminopeptidase,3.4.11.2,pepN
+MA1610,threonine synthase,4.2.3.1,thrC
+MA1611,Leucyl-tRNA synthetase (EC 6.1.1.4),6.1.1.4,leuS
+MA1615,methanol-specific methylcobalamin:CoM methyltransferase (mtaA),Unassigned,cmtM
+MA1616,methanol-5- hydroxybenzimidazolylcobamide co- methyltransferase (mtaB3) (EC 2.1.1.90),2.1.1.90,mtaB3
+MA1617,"corrinoid-containing methyl-accepting protein (mtaC3) | methanol-5-hydroxybenzimidazolylcobamide co-methyltransferase, isozyme 3",Unassigned,mtaC3
+MA1623,hypothetical protein,3.5.1.90,cbiZ
+MA1631,,,
+MA1632,,,
+MA1633,nitrogenase (iron protein),1.18.6.1,nifH
+MA1636,,,
+MA1652,dihydrolipoamide dehydrogenase,1.8.1.4,DLD
+MA1665,ribonucleotide reductase,1.17.4.1,nrd
+MA1672,Enolase (2-phosphoglycerate dehydratase) (EC 4.2.1.11) | phosphopyruvate hydratase,4.2.1.11,eno
+MA1678,Plasma-membrane proton-efflux P- type ATPase (EC 3.6.3.6),3.6.3.6,Unassigned
+MA1683,ribose-5-phosphate isomerase A,5.3.1.6,rpiA
+MA1684,Aspartyl-tRNA synthetase (EC 6.1.1.12),6.1.1.12,aspC
+MA1687,,,
+MA1710,"methenyltetrahydromethanopterin cyclohydrolase (mch) (EC 3.5.4.27) | N(5),N(10)-methenyltetrahydromethanopterin cyclohydrolase",3.5.4.27,mch
+MA1712,Aminotransferase class I/II (EC 2.6.1.-) | LL-diaminopimelate aminotransferase,2.6.1.83,Unassigned
+MA1714,aldehyde ferredoxin oxidoreductase,1.2.7.5,aor
+MA1721,,,
+MA1725,Phenylacetate-coenzyme A ligase (EC 6.2.1.30),6.2.1.30,paaK
+MA1726,Indolepyruvate ferredoxin oxidoreductase subunit beta (iorB),,
+MA1727,"Protein containing N-terminal Pyruvate flavodoxin/ferredoxin oxidoreductase region, C-terminal TPP-binding region and ferredoxin domain",,
+MA1735,malate dehydrogenase,1.1.1.38,Unassigned
+MA1747,cobalt ABC transporter ATP-binding protein,3.6.3.-,ecfA1
+MA1748,cobalt ABC transporter permease,Unassigned,cbiQ
+MA1790,Thiamine biosynthesis protein thiC (thiC),4.1.99.17,thiC
+MA1801,,,
+MA1802,"Dihydroxyacid dehydratase, EC 4.2.1.9",4.2.1.9,ilvD
+MA1804,putative methyltransferase,2.1.1.86,mtxH
+MA1805,methyltransferase,2.1.1.86,mtxA
+MA1815,,,
+MA1817,riboflavin synthase,2.5.1.9,ribC
+MA1818,"6,7-dimethyl-8-ribityllumazine synthase (ribH) (EC 2.5.1.9)",2.5.1.78,ribH
+MA1819,Aspartate aminotransferase (EC 2.6.1.1),2.6.1.1,aspB
+MA1820,glycerol-3-phosphate cytidyltransferase,Unassigned,taqD
+MA1824,,,
+MA1831,di-trans-poly-cis-decaprenylcistransferase,2.5.1.31,uppS
+MA1840,fructokinase,2.7.1.4,Unassigned
+MA1847,iron(III) ABC transporter permease,Unassigned,hemU
+MA1850,iron(III) ABC transporter substrate-binding protein,Unassigned,ABC.FEV.S
+MA1855,,,
+MA1874,phosphorylase,2.4.1.1,malP
+MA1901,,,
+MA1909,hypothetical protein,5.1.3.13,rfbC
+MA1919,adenylosuccinate synthetase,6.3.4.4,purA
+MA1946,,,
+MA1949,glutamate decarboxylase,4.1.1.15,Unassigned
+MA1956,Phenylalanyl-tRNA synthetase subunitsbeta (EC 6.1.1.20),6.1.1.20,pheT
+MA1958,acetolactate synthase,2.2.1.6,Unassigned
+MA1962,,,
+MA1963,phosphoribosylformylglycinamidine synthase I (FGAM synthase I) (purQ) (EC 6.3.5.3),6.3.5.3,purL
+MA1964,phosphoribosylformylglycinamidine synthetase PurS,6.3.5.3,purL
+MA1966,asparagine synthase,6.3.5.4,asn
+MA1982,,,
+MA1999,,,
+MA2000,glycogen debranching protein,3.2.1.-,treX
+MA2008,potassium-dependent sodium- calcium exchanger,,
+MA2010,,,
+MA2014,,,
+MA2032,,,
+MA2034,,,
+MA2076,,,
+MA2084,cob(I)alamin adenosyltransferase,2.5.1.17,Unassigned
+MA2108,,,
+MA2110,"ABC transporter, ATPase subunit",,
+MA2142,6.3.4.5) (Citrulline-aspartate ligase) | argininosuccinate synthase,6.3.4.5,argG
+MA2143,Carbamoyl phosphate synthase large subunit (carB) (EC 6.3.5.5),6.3.5.5,carB
+MA2144,Carbamoyl phosphate synthase small subunit (carA) (EC 6.3.5.5),6.3.5.5,carA
+MA2145,ATP-binding protein opuAA (EC 3.6.3.32) | glycine betaine/L-proline ABC transporter ATP-binding protein,3.6.3.32,proV
+MA2146,Glycine betaine ABC transporter permease protein opuAB | glycine betaine/L-proline ABC transporter permease,Unassigned,proW
+MA2147,Glycine betaine ABC transporter substrate binding protein opuAC | glycine betaine/L-proline ABC transporter substrate-binding protein,Unassigned,proX
+MA2148,Fe(III) dicitrate ABC transporter permease,Unassigned,fecC
+MA2149,Fe(III) dicitrate ABC transporter permease,Unassigned,fecD
+MA2150,Fe(III) dicitrate ABC transporter ATP-binding protein,3.6.3.34,fecE
+MA2153,periplasmic binding protein,Unassigned,ABC.FEV.S
+MA2156,,,
+MA2163,methylcobalamin:coenzyme M methyltransferase,Unassigned,cmtM
+MA2183,Glucose-1-phosphate thymidylyltransferase (dTDP- glucose synthase) (EC:2.7.7.24),2.7.7.24,rbfA
+MA2186,"dTDP-glucose 4,6-dehydratase",4.2.1.46,Unassigned
+MA2209,,,
+MA2244,coenzyme A ligase,6.2.1.30,paaK
+MA2253,Myo-inositol-1-phosphate synthase (EC 5.5.1.4),5.5.1.4,Unassigned
+MA2275,"ABC transporter, ATPase subunit",,
+MA2280,molybdate-binding protein (modA) | molybdenum ABC transporter substrate-binding protein,Unassigned,modA
+MA2281,molybdenum ABC transporter permease,Unassigned,modB
+MA2282,molydbenum ABC transporter ATP-binding protein,3.6.3.29,modC
+MA2291,,,
+MA2292,,,
+MA2300,5-oxoprolinase,3.5.2.9,oplAH
+MA2304,phosphoserine aminotransferase,2.6.1.52,serC
+MA2310,adenine deaminase,3.5.4.2,adeC
+MA2341,,,
+MA2351,exopolyphosphatase,3.6.1.11 | 3.6.1.40,ppx
+MA2381,,,
+MA2400,phosphoglycerate mutase,5.4.2.11,gpmA
+MA2407,pyruvate:ferredoxin oxidoreductase subunit beta (EC 1.2.7.1),1.2.7.1,porB
+MA2422,,,
+MA2424,dimethylamine corrinoid protein (mtbC),Unassigned,mtbC
+MA2425,dimethylamine methyltransferase,2.1.1.249,mtbB
+MA2431,Isoleucyl-tRNA synthetase (EC 6.1.1.5),6.1.1.5,ileS
+MA2433,H(+)-transporting ATP synthase,Unassigned,ATPF1G
+MA2434,ATP synthase F0F1 subunit alpha,3.6.3.14,ATPF1A
+MA2435,H(+)-transporting ATP synthase subunit B,Unassigned,ATPF0B
+MA2436,ATP synthase F0F1 subunit C,Unassigned,ATPF0C
+MA2437,ATP synthase F0F1 subunit A,Unassigned,ATPF0A
+MA2438,,,
+MA2439,,,
+MA2440,ATP synthase F0F1 subunit epsilon,Unassigned,ATPF1E
+MA2441,ATP synthase F0F1 subunit beta,3.6.3.14,ATPF1B
+MA2448,,,
+MA2458,phosphoenolpyruvate synthase,2.7.9.2,ppsA
+MA2469,,,
+MA2474,,,
+MA2478,,,
+MA2479,,,
+MA2497,fumarate hydratase,4.2.1.2,fumA
+MA2498,Tartrate dehydratase / Fumarate hydratase subunitsbeta,4.2.1.2,fumB
+MA2501,,,
+MA2520,orotate phosphoribosyltransferase-like protein,2.4.2.10,pyrE
+MA2532,methionine gamma-lyase,4.4.1.11,mgl
+MA2533,Nicotinate phosphoribosyltransferase (pncB) (EC 2.4.2.11),6.3.4.21,pncB
+MA2536,,,
+MA2559,hypothetical protein,3.5.4.1,codA
+MA2572,homoserine dehydrogenase,1.1.1.3,Unassigned
+MA2628,Hypothetical protein,,
+MA2630,alcohol dehydrogenase,1.1.1.1,adh
+MA2649,,,
+MA2653,aminoacyl-histidine dipeptidase,3.4.13.-,pepD
+MA2665,Phosphoglucomutase/Phosphom annomutase,5.4.2.8 | 5.4.2.2,pmm
+MA2666,aldolase,4.1.2.13 | 2.2.1.11,Unassigned
+MA2667,"Phosphoenolpyruvate synthase, PEP synthase",2.7.9.2,ppsA
+MA2669,phosphoglycerate kinase,2.7.2.3,pgk
+MA2671,phosphoglyceromutase,5.4.2.12,yibO
+MA2676,inorganic pyrophosphatase,3.6.1.1,ppa
+MA2690,phosphoenolpyruvate carboxylase,4.1.1.31,ppc
+MA2696,,,
+MA2714,homoserine O-acetyltransferase,2.3.1.31,metA
+MA2715,O-acetylhomoserine aminocarboxypropyltransferase (cysD) (EC 2.5.1.49),2.5.1.49,metY
+MA2716,quinolinate synthetase,2.5.1.72,nadA
+MA2717,,,
+MA2718,cysteine desulfurase,2.8.1.7,iscS
+MA2720,cysteine synthase,2.5.1.47,cysK
+MA2721,hypothetical protein,2.3.1.30,cysE
+MA2722,thiamine-phosphate pyrophosphorylase,2.5.1.3,thiE
+MA2723,hydroxyethylthiazole kinase,2.7.1.50,thiM
+MA2728,ornithine decarboxylase,4.1.1.17,Unassigned
+MA2756,,,
+MA2772,iron(III) ABC transporter substrate-binding protein,Unassigned,ABC.FEV.S
+MA2776,iron(III) ABC transporter ATP-binding protein,3.6.3.34,ABC.FEV.A
+MA2817,,,
+MA2833,H(+)-transporting ATPase,3.6.3.6,Unassigned
+MA2837,Sodium/alanine symporter,,
+MA2851,synthetase,,
+MA2859,acetylornithine aminotransferase,2.6.1.19,argD
+MA2860,aldehyde dehydrogenase,1.2.1.3,aldH
+MA2862,glutamyl-tRNA (Gln) amidotransferase subunit E (EC 6.3.5.7),6.3.5.7,gatE
+MA2867,"4Fe-4S ferredoxin, iron-sulfur binding domain protein",Unassigned,fwdF
+MA2868,heterodisulfide reductase subunit A/methylviologen reducing hydrogenase subunit delta,1.8.98.1,hdrA
+MA2877,tungsten formylmethanofuran dehydrogenase subunit G,Unassigned,fwdG
+MA2878,formylmethanofuran dehydrogenase subunit B,1.2.99.5,fwdB
+MA2879,formylmethanofuran dehydrogenase,1.2.99.5,fwdD
+MA2894,hypothetical protein,1.8.4.8,cysH
+MA2896,Threonyl-tRNA synthetase (EC 6.1.1.3),6.1.1.3,thrS
+MA2909,subunit gamma-like N-terminal region and pyruvate synthase subunit gamma-like C-terminal region | 2-oxoisovalerate ferredoxin oxidoreductase subunit alpha,1.2.7.7,vorA
+MA2910,Pyruvate flavodoxin/ferredoxin oxidoreductase-like protein | 2-ketoisovalerate ferredoxin reductase,1.2.7.7,vorB
+MA2911,2-oxoisovalerate ferredoxin oxidoreductase subunit gamma,1.2.7.7,vorC
+MA2912,(Acetate--CoA ligase) (EC 6.2.1.1) | AMP-binding protein,6.2.1.1,ACSS
+MA2935,Inorganic phosphate transporter,,
+MA2961,,,
+MA2962,aldehyde ferredoxin oxidoreductase,1.2.7.5,aor
+MA2966,,,
+MA2967,haloacid dehalogenase,3.1.3.18,Unassigned
+MA2971,Monomethylamine corrinoid protein (mtmC),Unassigned,mtmC
+MA2972,monomethylamine methyltransferase,2.1.1.248,mtmB2
+MA2986,anthranilate synthase component II,4.1.3.27,trpG
+MA2987,Anthranilate synthase component 1 (trpE) (EC 4.1.3.27),4.1.3.27,trpE
+MA2988,phosphoribosylanthranilate isomerase,5.3.1.24,trpF
+MA2989,anthranilate phosphoribosyltransferase,2.4.2.18,trpD
+MA2990,tryptophan synthase subunit alpha,4.2.1.20,trpA
+MA2991,Tryptophan synthase subunit beta 1 (trpB1) (EC 4.2.1.20),4.2.1.20,trpB
+MA2992,indole-3-glycerol phosphate synthase,4.1.1.48,trpC
+MA3006,"enzyme, tetrahydromethanopterin- | formaldehyde-activating protein",4.2.1.147,fae
+MA3012,pyruvoyl-dependent arginine decarboxylase,4.1.1.19,pdaD
+MA3014,,,
+MA3021,,,
+MA3022,glucose-1-phosphate thymidylyltransferase,2.7.7.24,rfbA
+MA3023,glucosamine--fructose-6-phosphate aminotransferase,2.6.1.16,glmS
+MA3024,Phosphoglucomutase/Phosphom annomutase,5.4.2.10,pmmB
+MA3025,glucose-1-phosphate thymidylyltransferase,2.7.7.23 | 2.3.1.157,rfbA
+MA3033,Uroporphyrinogen-III C- methyltransferase (SUMT) (cysGA) (EC 2.1.1.107),2.1.1.107,cobA
+MA3034,uroporphyrinogen-III synthase,4.2.1.75,hemD
+MA3046,,,
+MA3047,,,
+MA3048,,,
+MA3049,,,
+MA3050,,,
+MA3052,6.1.1.9) | valyl-tRNA synthetase,6.1.1.9,valS
+MA3073,3-hydroxy-3-methylglutaryl-CoA reductase (EC 1.1.1.34) (NADPH),1.1.1.34,hmgA
+MA3075,2-oxoacid ferredoxin oxidoreductase,1.2.7.3,korA
+MA3076,2-oxoglutarate ferredoxin oxidoreductase subunit beta,1.2.7.3,korB
+MA3085,Homoaconitase large subunit (EC 4.2.1.36) (homoaconitate hydratase) (hacA) | 3-isopropylmalate dehydratase large subunit,4.2.1.114,leuC
+MA3093,phosphate ABC transporter substrate-binding protein,Unassigned,pstS
+MA3094,phosphate ABC transporter permease,Unassigned,pstC
+MA3095,phosphate ABC transporter permease,Unassigned,pstA
+MA3108,,,
+MA3126,heterodisulfide reductase subunit B,1.8.98.1,hdrB
+MA3127,heterodisulfide reductase subunit C,1.8.98.1,hdrC
+MA3128,heterodisulfide reductase subunit A,1.8.98.1,hdrA
+MA3140,Mannose-1-phosphate guanyltransferase (EC 2.7.7.13),2.7.7.13,rfbM
+MA3150,chorismate mutase/prephenate dehydratase,4.2.1.51,pheA
+MA3165,Nitrite/sulphite reductase-related protein,,
+MA3168,,,
+MA3169,glutamate dehydrogenase,1.4.1.3,gdhA
+MA3171,"ABC transporter, ATPase subunit",,
+MA3193,Amidophosphoribosyltransferase precursor (Glutamine phosphoribosylpyrophosphate amidotransferase) (purF) (EC 2.4.2.14),2.4.2.14,purF
+MA3197,phosphomethylpyrimidine kinase,2.7.1.49 | 2.7.4.7,thiD
+MA3198,Tryptophan synthase subunit beta 2 (trpB2) (EC 4.2.1.20),4.2.1.20,trpB
+MA3201,histidinol dehydrogenase,1.1.1.23,hisD
+MA3212,,,
+MA3237,shikimate kinase,2.7.1.71,aroK
+MA3242,"AMP to Ribose-1,5- bisphosphate) | thymidine phosphorylase",2.4.2.4,deoA
+MA3250,Cobyric acid synthase (cbiP) (EC 6.3.5.10),6.3.5.10,Unassigned
+MA3252,alanine dehydrogenase,4.3.1.12,ocd
+MA3264,cysteine desulfurase,2.8.1.7,iscS
+MA3265,,,
+MA3268,ribosomal protein S6 modification protein,6.3.2.33,rimK
+MA3279,CTP synthase (UTP--ammonia ligase) (pyrG) (EC 6.3.4.2),6.3.4.2,pyrG
+MA3282,"carbon-monoxide dehydrogenase, catalytic subunit",1.2.99.2 | 1.2.7.4,cooS
+MA3283,"carbon-monoxide dehydrogenase, Fe-S subunit",Unassigned,cooF
+MA3297,,,
+MA3298,sulfopyruvate decarboxylase,4.1.1.79,comDE
+MA3307,orotate phosphoribosyltransferase,2.4.2.10,pyrE
+MA3309,ligase (GARS) (purD) (EC 6.3.4.13) | phosphoribosylamine--glycine ligase,6.3.4.13,purD
+MA3310,Ornithine carbamoyltransferase (EC 2.1.3.3),2.1.3.3,argF
+MA3342,(R)-citramalate synthase (cimA) (EC 2.3.3.-) | trans-homoaconitate synthase,2.3.3.14 | 2.3.3.-,aksA
+MA3343,hypothetical protein,2.7.1.23,ppnK
+MA3344,bifunctional inositol-1 monophosphatase/fructose-1,3.1.3.25,Unassigned
+MA3345,glyceraldehyde-3-phosphate dehydrogenase,1.2.1.59,gap
+MA3357,iron(III) ABC transporter ATP-binding protein,Unassigned,fecE
+MA3358,iron(III) ABC transporter ATP-binding protein,3.6.3.34,ABC.FEV.A
+MA3359,iron(III) ABC transporter permease,Unassigned,ABC.FEV.P
+MA3365,,,
+MA3366,,,
+MA3367,acylphosphatase,3.6.1.7,acyP
+MA3373,"Dihydroxyacid dehydratase, EC 4.2.1.9",4.2.1.9,ilvD
+MA3381,,,
+MA3382,glutamate--ammonia ligase,6.3.1.2,glnA
+MA3407,cytidine/deoxycytidylate deaminase family protein,3.5.4.3,Unassigned
+MA3408,"Phosphoenolpyruvate synthase, PEP synthase",2.7.9.2,ppsA
+MA3419,,,
+MA3437,,,
+MA3438,,,
+MA3439,,,
+MA3442,serine O-acetyltransferase,2.3.1.30,cysE
+MA3452,Iron complex/Vitamin B12 ABC transporter permease protein,Unassigned,ABC.FEV.P
+MA3453,iron ABC transporter ATP-binding protein,3.6.3.34,ABC.FEV.A
+MA3455,,,
+MA3456,,,
+MA3457,,,
+MA3458,,,
+MA3461,,,
+MA3462,,,
+MA3463,,,
+MA3464,,,
+MA3477,,,
+MA3478,,,
+MA3479,,,
+MA3496,Pyruvoyl-dependent arginine decarboxylase (EC 4.1.1.19),4.1.1.19,pdaD
+MA3512,,,
+MA3514,,,
+MA3516,dihydropteroate synthase (DHPS) (folPp) (EC 2.5.1.15),2.5.1.15,dhpS
+MA3519,"(Includes: Methylenetetrahydrofolate dehydrogenase (EC 1.5.1.5); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)) | bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/5,10-methylene-tetrahydrofolate cyclohydrolase",1.5.1.5 | 3.5.4.9,folD
+MA3520,Serine hydroxymethyltransferase (EC 2.1.2.1),2.1.2.1,glyA
+MA3522,Phosphoribosylglycinamide formyltransferase (purN) (EC 2.1.2.2),2.1.2.2,purN
+MA3526,NAD synthetase,6.3.1.5,nadE
+MA3544,,,
+MA3546,phosphopantetheine adenylyltransferase,2.7.7.3,Unassigned
+MA3549,5-methyltetrahydropteroyltriglutamate/homocysteine S-methyltransferase,2.1.1.14,metE
+MA3551,Cobalt ABC transporter ATP- binding protein cbiO,Unassigned,cbiO
+MA3552,cobalt ABC transporter permease,Unassigned,cbiQ
+MA3553,cobalt transport protein CbiN,Unassigned,cbiN
+MA3554,cobalt transport protein CbiM,Unassigned,cbiM
+MA3557,,,
+MA3562,ADP-dependent glucokinase,2.7.1.146 | 2.7.1.147,glkA
+MA3563,ADP-specific phosphofructokinase,2.7.1.146 | 2.7.1.147,pfk
+MA3564,(EC 2.3.1.35) | bifunctional ornithine acetyltransferase/N-acetylglutamate synthase,2.3.1.35 | 2.3.1.1,argJ
+MA3566,N-acetyl-gamma-glutamyl- phosphate reductase (EC 1.2.1.38) (N-acetyl-glutamate semialdehyde dehydrogenase),1.2.1.38,argC
+MA3582,"ABC transporter, ATPase subunit",,
+MA3592,2.7.2.3 | phosphoglycerate kinase,2.7.2.3,pgk
+MA3602,,,
+MA3606,acetate kinase,2.7.2.1,ack
+MA3607,phosphate acetyltransferase,2.3.1.8,pta
+MA3609,,,
+MA3613,methylcobalamin:coenzyme M methyltransferase,Unassigned,cmtM
+MA3621,,,
+MA3626,"cobyrinic acid a,c-diamide synthase",6.3.5.9 | 6.3.5.11,cbiA2
+MA3627,Nitrogenase iron protein (EC:1.18.6.1),1.18.6.1,nifH
+MA3631,cobaltochelatase (CbiXS) (EC 4.99.1.3),4.99.1.3,cbiX
+MA3632,,,
+MA3640,iron ABC transporter substrate-binding protein,Unassigned,ABC.FEV.S
+MA3641,iron ABC transporter permease,Unassigned,ABC.FEV.P
+MA3642,iron ABC transporter ATP-binding protein,3.6.3.34,ABC.FEV.A
+MA3665,Hypothetical protein,,
+MA3679,,,
+MA3680,UDP-galactose/glucose pyrophosphorylase (EC 2.7.7.-) | sulfate adenylyltransferase,2.7.7.12,galT
+MA3686,glycerol-1-phosphate dehydrogenase (EC 1.1.1.261),1.1.1.261,egsA
+MA3689,5-formaminoimidazole-4- carboxamide-1-(beta)-D- ribofuranosyl 5'-monophosphate synthetase (EC 6.3.4.-) (5- aminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl 5'- monophosphate--formate ligase) (purP),6.3.4.23,purP
+MA3706,Nucleotide-triphosphatase (EC 3.6.1.-) | putative deoxyribonucleotide triphosphate pyrophosphatase,3.6.1.66,rdgB
+MA3715,NAD synthetase,6.3.1.5,nadE
+MA3723,di-trans-poly-cis-decaprenylcistransferase,2.5.1.89,uppS
+MA3731,nicotinamide-nucleotide adenylyltransferase,2.7.7.1,nadM
+MA3732,F420H2 dehydrogenase subunit F (fpoF),,
+MA3733,"Coenzyme F420-dependent N(5),N(10)- methylenetetrahydromethanopter in reductase (mer) (EC 1.5.99.11)",1.5.98.2,mer
+MA3743,,,
+MA3744,acetolactate decarboxylase,4.1.1.5,aldC
+MA3748,3-isopropylmalate dehydrogenase,1.1.1.87 | 1.1.1.-,leuB
+MA3751,3-Isopropylmalate dehydratase small subunit (3-isopropylmalate isomerase small subunit) and homoaconitase small subunit - dual specificity,4.2.1.114,leuD
+MA3766,acylneuraminate cytidylyltransferase,2.7.7.43,neuA
+MA3767,,,
+MA3777,Glucose-1-phosphate thymidylyltransferase (dTDP- glucose synthase) (EC:2.7.7.24),2.7.7.24,rfbA
+MA3778,dTDP-4-dehydrorhamnose reductase (EC:1.1.1.133),1.1.1.133,rfbD
+MA3779,"dTDP-glucose 4,6-dehydratase",4.2.1.46,rfbB
+MA3780,"dTDP-4-dehydrorhamnose 3,5- epimerase related protein",5.1.3.13,rfbC
+MA3781,Xanthan-like biosynthesis protein (Includes: Mannose-6-phosphate isomerase (Phosphomannose isomerase) (PMI) (Phosphohexomutase); Mannose-1-phosphate guanylyl transferase (GDP) (GDP-mannose pyrophosphorylase) (GMP)),2.7.7.13 | 5.3.1.8,rfbM
+MA3790,Ketol-acid reductoisomerase (EC 1.1.1.86) (Acetohydroxy-acid isomeroreductase),1.1.1.86,ilvC
+MA3791,"acetolactate synthase, small subunit (EC 2.2.1.6)",2.2.1.6,ilvH
+MA3792,"acetolactate synthase, large subunit (acetohydroxyacid synthase) (EC 2.2.1.6)",2.2.1.6,Unassigned
+MA3793,(R)-citramalate synthase (cimA) (EC 2.3.3.-),2.3.1.182,leuA
+MA3853,Phenylacetate-coenzyme A ligase (EC 6.2.1.30) | coenzyme F390 synthetase,6.2.1.30,ftsA
+MA3854,protein,,
+MA3860,Acetyl-CoA decarbonylase/synthase complex subunit alpha 2 (EC 1.2.99.2),1.2.7.4,cdhA
+MA3861,carbon-monoxide dehydrogenase accessory protein | acetyl-CoA decarbonylase/synthase complex subunit epsilon,Unassigned,cdhB
+MA3862,decarbonylase/synthase complex subunit beta (EC 2.3.1.-),2.3.1.-,cdhC
+MA3863,"carbon monoxide dehydrogenase/acetyl-CoA synthase complex, nickel- inserting subunit (cooC)",,
+MA3864,decarbonylase/synthase complex subunit delta,2.1.1.245,cdhD
+MA3865,decarbonylase/synthase complex subuni gamma (EC 2.1.1.-),2.1.1.245,cdhE
+MA3879,membrane-bound proton-translocating pyrophosphatase,3.6.1.1,hppA
+MA3880,Pyrophosphate-energized proton pump / Pyrophosphate-energized inorganic pyrophosphatase (H(+)- PPase) (EC 3.6.1.1) (hppA),3.6.1.1,hppA
+MA3886,6.1.1.15) | prolyl-tRNA synthetase,6.1.1.15,proS
+MA3887,,,
+MA3889,aldolase,4.1.2.13 | 2.2.1.11,Unassigned
+MA3890,pyruvate kinase,2.7.1.40,pyk
+MA3895,nitrogenase reductase,1.18.6.1,nifH
+MA3896,,,
+MA3897,,,
+MA3898,nitrogenase subunit alpha,1.18.6.1,nifD
+MA3899,nitrogenase subunit beta,1.18.6.1,nifK
+MA3900,,,
+MA3901,,,
+MA3902,molybdenum ABC transporter permease,Unassigned,modB
+MA3903,sugar ABC transporter ATP-binding protein,3.6.3.29,modC
+MA3905,,,
+MA3906,,,
+MA3907,,,
+MA3908,,,
+MA3909,,,
+MA3917,,,
+MA3918,,,
+MA3919,iron ABC transporter ATP-binding protein,3.6.3.34,ABC.FEV.A
+MA3921,hemin ABC transporter permease,Unassigned,hemU
+MA3957,"ABC transporter, ATPase subunit",,
+MA3960,"ABC transporter, ATPase subunit",,
+MA3969,geranylgeranylglyceryl phosphate synthase (EC 2.5.1.42),2.5.1.41,Unassigned
+MA3971,adenylosuccinate lyase (purB) (EC 4.3.2.2),4.3.2.2,purB
+MA3978,,,
+MA3979,lysine 2,5.4.3.2,kamA
+MA3981,,,
+MA3986,agmatinase,3.5.3.11,Unassigned
+MA3989,aldehyde ferredoxin oxidoreductase,1.2.7.5,aor
+MA3991,,,
+MA3999,,,
+MA4006,,,
+MA4007,Cofactor-independent Phosphoglycerate mutase,5.4.2.12,yibO
+MA4008,protein,,
+MA4012,Bifunctional purine biosynthesis protein purH (Includes: Phosphoribosylaminoimidazoleca rboxamide formyltransferase (EC 2.1.2.3) (AICAR transformylase); IMP cyclohydrolase (EC 3.5.4.10) (Inosinicase) (IMP synthetase) (ATIC)),2.1.2.3 | 3.5.4.10,purH
+MA4013,glutathione reductase (NADPH),1.8.1.7,gor
+MA4019,cobalt transport protein,Unassigned,cbiQ
+MA4020,ABC transporter ATP-binding protein,Unassigned,cbiO
+MA4021,ABC transporter ATP-binding protein,Unassigned,cbiO
+MA4022,cobalt transport protein,Unassigned,cbiQ
+MA4023,cobalt transport protein CbiM,Unassigned,cbiM
+MA4041,3-hydroxy-3-methylglutaryl-CoA synthase (EC 4.1.3.5),2.3.3.10,Unassigned
+MA4042,Acetoacetyl-CoA thiolase (EC 2.3.1.9),2.3.1.9,Unassigned
+MA4044,adenylate cyclase,4.6.1.1,cyaB
+MA4046,Methionyl-tRNA synthetase (6.1.1.10),6.1.1.10,metG
+MA4048,seryl-tRNA synthetase,6.1.1.11,serS
+MA4050,,,
+MA4055,Phosphoribosylformylglycinamidi ne synthase II (FGAM synthase II) (purL) (EC 6.3.5.3),6.3.5.3,purL
+MA4063,Phosphoribosylaminoimidazole- succinocarboxamide synthase (SAICAR synthetase) (purC) (EC 6.3.2.6),6.3.2.6,purC
+MA4074,,,
+MA4079,,,
+MA4082,,,
+MA4086,molybdopterin converting factor subunit 1,Unassigned,moaD
+MA4092,5-amino-6-(5-phosphoribosylamino)uracil reductase,1.1.1.302,ribD
+MA4100,dehydrogenase (proA) (EC 1.2.1.41) | gamma-glutamyl phosphate reductase,1.2.1.41,proA
+MA4101,Glutamate 5-kinase (proB) (EC 2.7.2.11),2.7.2.11,proB
+MA4102,Pyrroline-5-carboxylate reductase (proC) (EC 1.5.1.2),1.5.1.2,proC
+MA4118,Adenylosuccinate synthetase (purA) (EC 6.3.4.4),6.3.4.4,purA
+MA4150,polyprenyl synthetase,2.5.1.90,ispB
+MA4152,H(+)-transporting ATP synthase subunit H,Unassigned,atpH
+MA4153,V-type ATP synthase subunit I,Unassigned,atpI
+MA4154,H(+)-transporting ATP synthase subunit K (EC 3.6.3.14) | H(+)-transporting ATP synthase subunit C,Unassigned,atpC
+MA4155,V-type ATP synthase subunit E,Unassigned,atpE
+MA4156,V-type ATP synthase subunit C,Unassigned,atpC
+MA4157,V-type ATP synthase subunit F (atpF) (EC 3.6.3.14),Unassigned,atpF
+MA4158,V-type ATP synthase subunit alpha (atpA) (EC 3.6.3.14),3.6.3.14,atpA
+MA4159,V-type ATP synthase subunit beta (atpB) (EC 3.6.3.14),Unassigned,atpB
+MA4160,V-type ATP synthase subunit D (atpD) (EC 3.6.3.14),Unassigned,atpD
+MA4174,reductase iron-sulfur subunit A (hdrA) with C-terminal mvhD-like electron transfer domain (EC 1.8.98.1),Unassigned,fmdF
+MA4175,Molybdenum formylmethanofuran dehydrogenase subunit A (fmdA) (EC 1.2.99.5),1.2.99.5,fmdA
+MA4176,formylmethanofuran dehydrogenase subunit C,1.2.99.5,fmdC
+MA4177,Molybdenum formylmethanofuran dehydrogenase subunit D (fmdD) (EC 1.2.99.5),1.2.99.5,fmdD
+MA4178,Molybdenum formylmethanofuran dehydrogenase subunit B (fmdB) (EC 1.2.99.5),1.2.99.5,fmdB
+MA4193,,,
+MA4195,FeMo cofactor biosynthesis protein nifB,,
+MA4196,6-pyruvoyl tetrahydrobiopterin synthase (PTPS) (EC 4.2.3.12),4.2.3.12 | 4.1.2.50,queD
+MA4207,,,
+MA4216,glutamate--ammonia ligase,6.3.1.2,glnA
+MA4235,F420-dependent NADP reductase,,
+MA4236,heterodisulfide reductase subunit C,1.8.98.1,hdrC
+MA4237,heterodisulfide reductase subunit B,1.8.98.1,hdrB
+MA4246,,,
+MA4247,,,
+MA4250,,,
+MA4251,,,
+MA4252,,,
+MA4253,,,
+MA4258,Cobalt-precorrin-8X methylmutase cbiC (EC 5.4.1.-),5.4.99.61 | 5.4.99.60,cbiC
+MA4259,methyltransferase cbiH (EC 2.1.1.-) | precorrin-3B C(17)-methyltransferase,2.1.1.131,cbiH
+MA4261,methyltransferase cbiF (EC 2.1.1.-) | precorrin-4 C(11)-methyltransferase,2.1.1.133 | 2.1.1.271,cbiF
+MA4262,cobalt-precorrin-2 C(20)- methyltransferase (cbiL)(EC 2.1.1.151),2.1.1.130 | 2.1.1.151,cbiL
+MA4263,precorrin-8W decarboxylase,2.1.1.196,cbiT
+MA4264,Re-Citrate Synthase,,
+MA4265,isocitrate/isopropylmalate dehydrogenase family protein,1.1.1.42,IDH1
+MA4295,,,
+MA4321,,,
+MA4329,Thiamine biosynthesis protein thiC (thiC),4.1.99.17,thiC
+MA4337,,,
+MA4339,acetyltransferase,2.3.1.1,argA
+MA4340,biotin synthase,Unassigned,bioY
+MA4341,cobalt transporter ATP-binding subunit,3.6.3.-,cbiO
+MA4342,membrane associated ATPase,3.6.3.-,ecfA2
+MA4343,cobalt transport family protein,Unassigned,ecfT
+MA4349,Branched-chain amino acid aminotransferase (ilvE) (Transaminase B) (EC 2.6.1.42),2.6.1.42,ilvE
+MA4354,alkaline phosphatase,3.1.3.1,phoA
+MA4360,,,
+MA4378,"Cation-transporter, P-type ATPase (EC 3.6.3.-)",,
+MA4379,methanol-specific methylcobalamin:CoM methyltransferase (mtaA),Unassigned,mtaA
+MA4384,,,
+MA4391,corrinoid-containing methyl- accepting protein (mtaC2),Unassigned,mtaC2
+MA4392,methanol-5- hydroxybenzimidazolylcobamide co-methyltransferase MtaB2 (EC 2.1.1.90) subunitsalpha 2 (EC 1.2.99.2),2.1.1.90,mtaB2
+MA4399,acetyl-CoA decarbonylase/synthase complex subunit alpha,1.2.7.4,cdhA
+MA4402,UDP diphosphate synthase,2.5.1.31,uppS
+MA4405,,,
+MA4410,,,
+MA4415,DUF75-domain conserved archaeal protein,,
+MA4424,hypothetical protein,6.6.1.2,cobN
+MA4428,Hypothetical protein,,
+MA4429,phosphoserine phosphatase,3.1.3.3,serB
+MA4430,F420-dependent methylenetetrahydromethanopter in dehydrogenase (EC 1.5.99.9),1.5.98.1,mtd
+MA4433,thymidylate kinase,2.7.4.9,tmk
+MA4435,phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase,5.3.1.16,hisA
+MA4448,Oxidoreductase (NAD- or NADP- binding)-like protein,,
+MA4457,UDP-glucose/GDP-mannose dehydrogenase family protein,1.1.1.22,UGDH
+MA4459,UDP-glucose pyrophosphorylase | UTP-glucose-1-phosphate uridylyltransferase,2.7.7.9,UGP2
+MA4460,UDP-galactose -4-epimerase | dTDP-glucose 4,5.1.3.2,galE
+MA4464,dTDP-glucose 4,5.1.3.2,galE
+MA4473,dihydrodipicolinate synthase,4.3.3.7,dapA
+MA4474,Dihydrodipicolinate reductase (EC 1.3.1.26),1.17.1.8,dapB
+MA4501,aspartate carbamoyltransferase,Unassigned,pyrI
+MA4502,aspartate carbamoyltransferase,2.1.3.2,pyrB
+MA4506,,,
+MA4511,hydrolyzing) subunit B (EC 6.3.5.2) | GMP synthase subunit B,6.3.5.2,guaA
+MA4515,2.7.2.8) | acetylglutamate kinase,2.7.2.8,argB
+MA4517,GTP cyclohydrolase MptA (EC 3.5.4.-),,
+MA4520,coenzyme F420-dependent oxidoreductase,1.12.98.1,frhB
+MA4522,Aspartyl/Glutamyl-tRNA (Asn/Gln) amidotransferase subunit C (EC 6.3.5.-),6.3.5.6 | 6.3.5.7,gatC
+MA4523,glutamyl-tRNA (Gln) amidotransferase subunit A (EC 6.3.5.-),6.3.5.6 | 6.3.5.7,gatA
+MA4524,Aspartyl/Glutamyl-tRNA (Asn/Gln) amidotransferase subunit B (EC 6.3.5.-),6.3.5.6 | 6.3.5.7,gatB
+MA4532,iron compounds ABC transporter ATP-binding protein,3.6.3.34,ABC.FEV.A
+MA4533,iron ABC transporter permease,Unassigned,ABC.FEV.P
+MA4543,2.1.1.45) | thymidylate synthase,2.1.1.45,thyA
+MA4544,3-phosphoshikimate 1-carboxyvinyltransferase,2.5.1.19,aroA
+MA4546,methyl coenzyme M reductase subunit alpha (mcrA) (EC 2.8.4.1),2.8.4.1,mcrA
+MA4547,methyl coenzyme M reductase subunit gamma (mcrG) (EC 2.8.4.1),2.8.4.1,mcrG
+MA4548,coenzyme M reductase operon protein C (mcrC) with unknown function,Unassigned,mcrC
+MA4549,methyl coenzyme M reductase,Unassigned,mcrD
+MA4550,methyl-coenzyme M reductase subunit beta (mcrB) (EC 2.8.4.1),2.8.4.1,mcrB
+MA4555,ribulose bisophosphate carboxylase,4.1.1.39,rbcL
+MA4558,,,
+MA4559,methylcobalamin:coenzyme M methyltransferase,Unassigned,cmtM
+MA4566,,,
+MA4567,,,
+MA4568,,,
+MA4569,Na+/H+ antiporter subunit,,
+MA4570,,,
+MA4572,Na+/H+ antiporter subunit,,
+MA4581,,,
+MA4590,hydrolyzing) subunit A (EC 6.3.5.2) | GMP synthase subunit A,6.3.5.2,guaA
+MA4591,"2-amino-3,7-dideoxy-D-threo- hept-6-ulosonate synthase CL2 | fructose-bisphosphate aldolase",4.1.2.13 | 2.2.1.10,deoC
+MA4592,3-dehydroquinate synthase (EC 4.6.1.3),1.4.1.24,Unassigned
+MA4593,3-dehydroquinate dehydratase,4.2.1.10,aroD
+MA4594,Shikimate dehydrogenase (aroE) (EC 1.1.1.25),1.1.1.25,aroE
+MA4595,prephenate dehydrogenase,1.3.1.12,tyrA2
+MA4597,,,
+MA4598,,,
+MA4602,formylmethanofuran dehydrogenase subunit E,1.2.99.5,fwdE
+MA4604,,,
+MA4605,iron(III) ABC transporter permease,Unassigned,ABC.FEV.P
+MA4606,,,
+MA4607,Triosephosphate isomerase EC 5.3.1.1,5.3.1.1,tpi
+MA4608,(Includes: Formaldehyde- activating enzyme (Fae) (EC 4.3.-.-) & 3-hexulose-6-phosphate synthase (HPS) (EC 4.1.2.-)) (fae-hps) | bifunctional formaldehyde-activating enzyme/3-hexulose-6-phosphate synthase,4.2.1.147 | 4.1.2.43,fae-hps
+MA4615,2-isopropylmalate synthase (EC 2.3.3.13),2.3.3.13,leuA
+MA4630,,,
+MA4643,,,
+MA4647,,,
+MA4660,,,

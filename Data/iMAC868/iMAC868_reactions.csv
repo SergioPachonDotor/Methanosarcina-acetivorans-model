@@ -1,0 +1,846 @@
+Abbreviation,Name,Reaction,GPR,Subsystem,Reversible,Lower bound,Upper bound,Objective
+ADSL1,adenylosuccinate lyase,dcamp[c] <==> amp[c] + fum[c],MA3971,Alanine and Aspartate Metabolism,0,0.0,1000,0
+ADSS,adenylosuccinate synthase,asp-L[c] + gtp[c] + imp[c] <==> dcamp[c] + gdp[c] + (2) h[c] + pi[c],(MA1919 or MA4118),Alanine and Aspartate Metabolism,0,0.0,1000,0
+ALATA_L,L-alanine transaminase,akg[c] + ala-L[c] <==> glu-L[c] + pyr[c],(MA0636 or MA0925 or MA1385 or MA1712 or MA1819),Alanine and Aspartate Metabolism,1,-1000.0,1000,0
+ALATRS,Alanyl-tRNA synthetase,ala-L[c] + atp[c] + trnaala[c] <==> amp[c] + ppi[c] + alatrna[c],(MA0194 or MA2014),Alanine and Aspartate Metabolism,0,0.0,1000,0
+APAT2,beta-alanine:2-oxoglutarate aminotransferase,akg[c] + ala-B[c] <==> glu-L[c] + msa[c],MA2859,Alanine and Aspartate Metabolism,0,0.0,1000,0
+ARGSL,argininosuccinate lyase,argsuc[c] <==> arg-L[c] + fum[c],MA1318,Alanine and Aspartate Metabolism,1,-1000.0,1000,0
+ARGSS,argininosuccinate synthase,asp-L[c] + atp[c] + citr-L[c] <==> amp[c] + argsuc[c] + h[c] + ppi[c],MA2142,Alanine and Aspartate Metabolism,0,0.0,1000,0
+ASADi,"aspartate-semialdehyde dehydrogenase, irreversible",4pasp[c] + h[c] + nadph[c] <==> aspsa[c] + nadp[c] + pi[c],MA0430,Alanine and Aspartate Metabolism,0,0.0,1000,0
+ASNN,L-asparaginase,asn-L[c] + h2o[c] <==> asp-L[c] + nh4[c],MA1317,Alanine and Aspartate Metabolism,0,0.0,1000,0
+ASNS1,asparagine synthase (glutamine-hydrolysing),asp-L[c] + atp[c] + gln-L[c] + h2o[c] <==> amp[c] + asn-L[c] + glu-L[c] + h[c] + ppi[c],(MA0051 or MA1966),Alanine and Aspartate Metabolism,0,0.0,1000,0
+ASP1DC,aspartate 1-decarboxylase,asp-L[c] + h[c] <==> ala-B[c] + co2[c],(MA0006 or MA1949),Alanine and Aspartate Metabolism,0,0.0,1000,0
+ASPCT,aspartate carbamoyltransferase,asp-L[c] + cbp[c] <==> cbasp[c] + h[c] + pi[c],(MA4501 and MA4502),Alanine and Aspartate Metabolism,0,0.0,1000,0
+ASPKi,"aspartate kinase, irreversible",asp-L[c] + atp[c] <==> 4pasp[c] + adp[c],MA0131,Alanine and Aspartate Metabolism,0,0.0,1000,0
+ASPTA,aspartate transaminase,akg[c] + asp-L[c] <==> glu-L[c] + oaa[c],(MA0636 or MA1385 or MA1819),Alanine and Aspartate Metabolism,1,-1000.0,1000,0
+ASPTRS,Aspartyl-tRNA synthetase,asp-L[c] + atp[c] + trnaasp[c] <==> amp[c] + ppi[c] + asptrna[c],MA1684,Alanine and Aspartate Metabolism,0,0.0,1000,0
+BAMPPALDOX,beta-Aminopropion aldehyde:NAD+ oxidoreductase,bamppald[c] + h2o[c] + nad[c] <==> ala-B[c] + (2) h[c] + nadh[c],MA2860,Alanine and Aspartate Metabolism,0,0.0,1000,0
+HSDy,homoserine dehydrogenase (NADPH),hom-L[c] + nadp[c] <==> aspsa[c] + h[c] + nadph[c],MA2572,Alanine and Aspartate Metabolism,1,-1000.0,1000,0
+PC,pyruvate carboxylase,atp[c] + hco3[c] + pyr[c] <==> adp[c] + h[c] + oaa[c] + pi[c],(MA0674 and MA0675),Alanine and Aspartate Metabolism,0,0.0,1000,0
+2MBCOAS,2-methylbutyrate CoA synthesis,2mbr[c] + atp[c] + coa[c] <==> 2mbcoa[c] + amp[c] + ppi[c],MA2912,Amino Acid Metabolism,0,0.0,1000,0
+ACGK,acetylglutamate kinase,acglu[c] + atp[c] <==> acg5p[c] + adp[c],MA4515,Amino Acid Metabolism,0,0.0,1000,0
+ACGS,N-acetylglutamate synthase,accoa[c] + glu-L[c] <==> acglu[c] + coa[c] + h[c],((MA4339 or MA0239) or MA3564),Amino Acid Metabolism,0,0.0,1000,0
+ACOTA,acetylornithine transaminase,acg5sa[c] + glu-L[c] <==> acorn[c] + akg[c],(MA0119 or MA0581 or MA2859),Amino Acid Metabolism,1,-1000.0,1000,0
+AGPR,N-acetyl-g-glutamyl-phosphate reductase,acg5p[c] + h[c] + nadph[c] <==> acg5sa[c] + nadp[c] + pi[c],MA3566,Amino Acid Metabolism,0,0.0,1000,0
+AMPTASECG,alanyl aminopeptidase (cys-gly),cgly[c] + h2o[c] <==> cys-L[c] + gly[c],(MA1605 or MA2653),Amino Acid Metabolism,0,0.0,1000,0
+CHORM,chorismate mutase,chor[c] <==> pphn[c],(MA3150 or MA1377),Amino Acid Metabolism,0,0.0,1000,0
+DIPS,diphthine synthase,amet[c] + caphis[c] <==> ahcys[c] + cmaphis[c] + h[c],MA1370,Amino Acid Metabolism,0,0.0,1000,0
+GLU5K,glutamate 5-kinase,atp[c] + glu-L[c] <==> adp[c] + glu5p[c],MA4101,Amino Acid Metabolism,0,0.0,1000,0
+HSDx,homoserine dehydrogenase (NADH),hom-L[c] + nad[c] <==> aspsa[c] + h[c] + nadh[c],MA2572,Amino Acid Metabolism,1,-1000.0,1000,0
+METSOXR2,methionine oxidation 3 (thioredoxin),metsox-R-L[c] + trdrd[c] <==> trdox[c] + h2o[c] + met-L[c],MA1431,Amino Acid Metabolism,0,0.0,1000,0
+OPAH,5-Oxoproline amidohydrolase (ATP-hydrolysing),5oxpro[c] + atp[c] + (2) h2o[c] <==> adp[c] + glu-L[c] + h[c] + pi[c],MA2300,Amino Acid Metabolism,0,0.0,1000,0
+ORNTAC,ornithine transacetylase,acorn[c] + glu-L[c] <==> acglu[c] + orn[c],MA3564,Amino Acid Metabolism,1,-1000.0,1000,0
+PPND,prephenate dehydrogenase,nad[c] + pphn[c] <==> 34hpp[c] + co2[c] + nadh[c],MA4595,Amino Acid Metabolism,0,0.0,1000,0
+AGMT,agmatinase,agm[c] + h2o[c] <==> ptrc[c] + urea[c],MA3986,Arginine and Proline Metabolism,0,0.0,1000,0
+ARGDr,arginine deiminase,arg-L[c] + h2o[c] <==> citr-L[c] + nh4[c],MA0792,Arginine and Proline Metabolism,1,-1000.0,1000,0
+ARGTRS,Arginyl-tRNA synthetase,arg-L[c] + atp[c] + trnaarg[c] <==> amp[c] + ppi[c] + argtrna[c],MA0043,Arginine and Proline Metabolism,0,0.0,1000,0
+OCBT,ornithine carbamoyltransferase,cbp[c] + orn[c] <==> citr-L[c] + h[c] + pi[c],MA3310,Arginine and Proline Metabolism,0,0.0,1000,0
+ORNCD,ornithine cyclodeaminase,orn[c] <==> nh4[c] + pro-L[c],MA3252,Arginine and Proline Metabolism,0,0.0,1000,0
+ORNDC,Ornithine Decarboxylase,h[c] + orn[c] <==> co2[c] + ptrc[c],MA2728,Arginine and Proline Metabolism,0,0.0,1000,0
+P5CRx,pyrroline-5-carboxylate reductase,nad[c] + pro-L[c] <==> 1pyr5c[c] + (2) h[c] + nadh[c],(MA0152 or MA4102),Arginine and Proline Metabolism,1,-1000.0,1000,0
+P5CRy,L-Proline:NADP+ 5-oxidoreductase,nadp[c] + pro-L[c] <==> 1pyr5c[c] + (2) h[c] + nadph[c],(MA0152 or MA4102),Arginine and Proline Metabolism,1,-1000.0,1000,0
+PROTRS,Prolyl-tRNA synthetase,atp[c] + pro-L[c] + trnapro[c] <==> amp[c] + ppi[c] + protrna[c],MA3886,Arginine and Proline Metabolism,0,0.0,1000,0
+R01986,4-Aminobutyraldehyde:NADP+ oxidoreductase,4abutn[c] + h2o[c] + nadp[c] <==> 4abut[c] + (2) h[c] + nadph[c],MA2860,Arginine and Proline Metabolism,0,0.0,1000,0
+R02549,4-Aminobutyraldehyde:NAD+ oxidoreductase,4abutn[c] + h2o[c] + nad[c] <==> 4abut[c] + (2) h[c] + nadh[c],MA2860,Arginine and Proline Metabolism,0,0.0,1000,0
+G5SADr,"L-glutamate 5-semialdehyde dehydratase, reversible",glu5sa[c] <==> 1pyr5c[c] + h[c] + h2o[c],Unassigned,Proline Biosynthesis,0,0.0,1000,0
+G5SD2,glutamate-5-semialdehyde dehydrogenase,glu5p[c] + h[c] + nadh[c] <==> glu5sa[c] + nad[c] + pi[c],MA4100,Proline Biosynthesis,0,0.0,1000,0
+AKSCAL,alpha-ketosubmerate:CoA ligase,2ood[c] + accoa[c] + h2o[c] <==> glyc-R[c] + pmcoa[c],Unassigned,Biotin synthesis,0,0.0,1000,0
+ACONMT,Trans-aconitate methyltransferase,amet[c] + acon-T[c] <==> ahcys[c] + aconm[c],MA1801,Central Metabolism,0,0.0,1000,0
+ACYP_2,acylphosphatase (2),actp[c] + h2o[c] <==> ac[c] + h[c] + pi[c],MA3367,Central Metabolism,0,0.0,1000,0
+ADPRDP,ADPribose diphosphatase,adprib[c] + h2o[c] <==> amp[c] + (2) h[c] + r5p[c],MA0113,Central Metabolism,0,0.0,1000,0
+AH6PI,D-arabino-hex-3-ulose-6-phosphate isomerase,ah6p-D[c] <==> f6p[c],MA1384,Central Metabolism,1,-1000.0,1000,0
+AIRCr,phosphoribosylaminoimidazole carboxylase,air[c] + co2[c] <==> 5aizc[c] + h[c],MA1376,Central Metabolism,1,-1000.0,1000,0
+ALCD19x,"alcohol dehydrogenase (glycerol, NAD)",glyald[c] + h[c] + nadh[c] <==> glyc[c] + nad[c],MA2630,Central Metabolism,0,0.0,1000,0
+ALCD19y,"alcohol dehydrogenase (glycerol, NADP)",glyald[c] + h[c] + nadph[c] <==> glyc[c] + nadp[c],(MA0403 or MA1901),Central Metabolism,0,0.0,1000,0
+ALCD20x,alcohol dehydrogenase (2-propanol) (NAD),nad[c] + 2ppoh[c] <==> h[c] + nadh[c] + acetone[c],MA2630,Central Metabolism,1,-1000.0,1000,0
+ALCD20y,alcohol dehydrogenase (2-propanol) (NADP),nadp[c] + 2ppoh[c] <==> h[c] + nadph[c] + acetone[c],((MA1901 or MA0403) or MA2630),Central Metabolism,1,-1000.0,1000,0
+ALCD22_L_f420_,alcohol dehydrogenase (L-lactaldehyde),lald-L[c] + f420-2[c] + h[c] <==> mthgxl[c] + f420-2h2[c],Unassigned,Central Metabolism,1,-1000.0,1000,0
+ALCD2x,alcohol dehydrogenase (ethanol),etoh[c] + nad[c] <==> acald[c] + h[c] + nadh[c],MA2630,Central Metabolism,1,-1000.0,1000,0
+ALCD2y,"alcohol dehydrogenase (ethanol, NADP)",etoh[c] + nadp[c] <==> acald[c] + h[c] + nadph[c],((MA1901 or MA0403) or MA2630),Central Metabolism,1,-1000.0,1000,0
+ALDD1,"aldehyde dehydrogenase (formaldehyde, NAD)",fald[c] + h2o[c] + nad[c] <==> for[c] + (2) h[c] + nadh[c],MA0417,Central Metabolism,0,0.0,1000,0
+ALDD2x,"aldehyde dehydrogenase (acetaldehyde, NAD)",acald[c] + h2o[c] + nad[c] <==> ac[c] + (2) h[c] + nadh[c],(MA0705 or MA1355 or MA2860 or MA4079),Central Metabolism,0,0.0,1000,0
+ALR2_f420_,methylgloxal dehydrogenase (F420),mthgxl[c] + f420-2h2[c] <==> f420-2[c] + acetol[c] + h[c],(MA0422 or MA2291 or MA2292 or MA2756),Central Metabolism,0,0.0,1000,0
+CTPRIBFLVTX,CTP:riboflavin 5'-phosphotransferase,ctp[c] + ribflv[c] <==> cdp[c] + fmn[c] + h[c],MA0547,Central Metabolism,0,0.0,1000,0
+DGLY3POX,D-glyceraldehyde-3-phosphate:ferredoxin oxidoreductase,(2) fdox[c] + g3p[c] + h2o[c] <==> 3pg[c] + (2) fdred[c] + (3) h[c],MA1714,Central Metabolism,0,0.0,1000,0
+DKFPS2,DKFP synthase (from fructose diphosphate),mthgxl[c] + fdp[c] <==> dkfp[c] + g3p[c],(MA2666 or MA3889),Central Metabolism,1,-1000.0,1000,0
+DKFPS3,DKFP synthase (from fructose-1-phosphate),f1p[c] + mthgxl[c] <==> dkfp[c] + gald[c],(MA2666 or MA3889),Central Metabolism,0,0.0,1000,0
+DRBK,Deoxyribokinase,atp[c] + drib[c] <==> 2dr5p[c] + adp[c] + h[c],MA1373,Central Metabolism,0,0.0,1000,0
+FBA2,D-Fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase,f1p[c] <==> dhap[c] + glyald[c],((MA2666 or MA3889) or (MA0439 or MA4591)),Central Metabolism,1,-1000.0,1000,0
+FBP2,fructose-bisphosphatase (f1p-forming),fdp[c] + h2o[c] <==> pi[c] + f1p[c],Unassigned,Central Metabolism,0,0.0,1000,0
+FCLPA,L-fuculose 1-phosphate aldolase,fc1p[c] <==> dhap[c] + lald-L[c],MA0263,Central Metabolism,0,0.0,1000,0
+GALT,galactose-1-phosphate uridylyltransferase,gal1p[c] + h[c] + utp[c] <==> ppi[c] + udpgal[c],MA3680,Central Metabolism,0,0.0,1000,0
+GALUi,UTP-glucose-1-phosphate uridylyltransferase (irreversible),g1p[c] + h[c] + utp[c] <==> ppi[c] + udpg[c],MA4459,Central Metabolism,1,-1000.0,1000,0
+GCALDDr,Glycolaldehyde dehydrogenase,gcald[c] + h2o[c] + nad[c] <==> glyclt[c] + (2) h[c] + nadh[c],MA2860,Central Metabolism,0,0.0,1000,0
+GLCGSD,"glucan 1,4-alpha-glucosidase",h2o[c] + glycogen[c] <==> glc-D[c],((MA1190 or MA4050) or MA2000),Central Metabolism,0,0.0,1000,0
+GLCP,glycogen phosphorylase,pi[c] + glycogen[c] <==> g1p[c],(MA0905 or MA2628) or MA1874 or MA1874),Central Metabolism,0,0.0,1000,0
+GLCS2,glycogen synthase (UDPGlc),udpg[c] <==> h[c] + udp[c] + glycogen[c],MA3679,Central Metabolism,0,0.0,1000,0
+GLXO1,glyoxylate oxidase,h2o[c] + nad[c] + glx[c] <==> nadh[c] + (2) h[c] + oxa[c],MA2860,Central Metabolism,0,0.0,1000,0
+GLYALDOX,glyceraldehyde ferredoxin oxidoreductase,(2) fdox[c] + glyald[c] + h2o[c] <==> (2) fdred[c] + glyc-R[c] + (3) h[c],(MA2962 or MA3989),Central Metabolism,0,0.0,1000,0
+GMAND,GDP-D-mannose dehydratase,gdpmann[c] <==> gdpddman[c] + h2o[c],(MA1173 or MA1174),Central Metabolism,0,0.0,1000,0
+HEX7,hexokinase (D-fructose:ATP),atp[c] + fru[c] <==> adp[c] + f6p[c] + h[c],MA1840,Central Metabolism,0,0.0,1000,0
+HSPMS,homospermidine synthase,(2) ptrc[c] <==> hspmd[c] + nh4[c],MA1636,Central Metabolism,0,0.0,1000,0
+INS2D,inositol 2-dehydrogenase,inost[c] + nad[c] <==> h[c] + nadh[c] + 2ins[c],MA4448,Central Metabolism,0,0.0,1000,0
+MAN1PT,mannose-1-phosphate guanylyltransferase,gtp[c] + h[c] + man1p[c] <==> gdpmann[c] + ppi[c],MA3140,Central Metabolism,0,0.0,1000,0
+MAN1PT2r,mannose-1-phosphate guanylyltransferase (GDP) reversible,gdp[c] + h[c] + man1p[c] <==> gdpmann[c] + pi[c],((MA3022 or MA3025 or MA3140) or MA3781),Central Metabolism,0,0.0,1000,0
+MAN6PI,mannose-6-phosphate isomerase,man6p[c] <==> f6p[c],(MA2381 or MA3781),Central Metabolism,1,-1000.0,1000,0
+ME1_rev,malic enzyme,mal-L[c] + nad[c] <==> co2[c] + nadh[c] + pyr[c],MA1735,Central Metabolism,1,-1000.0,1000,0
+ME2,malic enzyme (NADP),mal-L[c] + nadp[c] <==> co2[c] + nadph[c] + pyr[c],MA1735,Central Metabolism,0,0.0,1000,0
+MGSA2,methyglyoxylate synthase 2 (from g3p),g3p[c] <==> mthgxl[c] + pi[c],MA4607,Central Metabolism,0,0.0,1000,0
+MI3PP,myo-inositol 3-phosphatase,h2o[c] + mi3p-D[c] <==> inost[c] + pi[c],MA3344,Central Metabolism,0,0.0,1000,0
+PGLYCP,Phosphoglycolate phosphatase,2pglyc[c] + h2o[c] <==> glyclt[c] + pi[c],(MA1363 or MA2967 or MA3544),Central Metabolism,0,0.0,1000,0
+PGMT,phosphoglucomutase,g1p[c] <==> g6p[c],(MA0451 or MA2665),Central Metabolism,1,-1000.0,1000,0
+PMANM,phosphomannomutase,man6p[c] <==> man1p[c],((MA0241 or MA2665 or MA3024) or (MA0241 or MA2665 or MA3024)),Central Metabolism,1,-1000.0,1000,0
+POR2,pyruvate synthase,accoa[c] + co2[c] + (2) fdred[c] + h[c] <==> coa[c] + (2) fdox[c] + pyr[c],(MA0032 and (MA0031 or MA2407) and MA0033 and MA0034),Central Metabolism,1,-1000.0,1000,0
+POR3,pyruvate synthase,co2[c] + (2) fdred[c] + h[c] + ppcoa[c] <==> 2obut[c] + coa[c] + (2) fdox[c],((MA0032 and (MA0031 or MA2407) and MA0033 and MA0034) or (MA2909 and MA2910 and MA2911)),Central Metabolism,0,0.0,1000,0
+PPA,inorganic diphosphatase,h2o[c] + ppi[c] <==> h[c] + (2) pi[c],(MA2676 or MA2676),Central Metabolism,0,0.0,1000,0
+PPA2,inorganic triphosphatase,h2o[c] + pppi[c] <==> h[c] + pi[c] + ppi[c],(MA0083 or MA2351),Central Metabolism,0,0.0,1000,0
+PPAKr,Propionate kinase,adp[c] + ppap[c] <==> atp[c] + ppa[c],MA3606,Central Metabolism,0,0.0,1000,0
+PPDK,"Pyruvate,phosphate dikinase.",atp[c] + pi[c] + pyr[c] <==> amp[c] + h[c] + pep[c] + ppi[c],MA0608,Central Metabolism,0,0.0,1000,0
+PYDXS,pyridoxal 5-phosphate synthase,gln-L[c] + g3p[c] + r5p[c] <==> (3) h2o[c] + pi[c] + pydx5p[c] + glu-L[c] + h[c],(MA1566 and MA1567),Central Metabolism,0,0.0,1000,0
+PYRFALDC,Acetol synthesis,pyr[c] + fald[c] + h[c] <==> acetol[c] + co2[c],(MA3791 and MA3792),Central Metabolism,0,0.0,1000,0
+R00430,pyruvate kinase (GTP),gdp[c] + pep[c] + h[c] <==> gtp[c] + pyr[c],MA3890,Central Metabolism,0,0.0,1000,0
+RBK,ribokinase,atp[c] + rib-D[c] <==> adp[c] + h[c] + r5p[c],MA1373,Central Metabolism,0,0.0,1000,0
+RBPC,ribulose-bisphosphate carboxylase,co2[c] + h2o[c] + rb15bp[c] <==> (2) 3pg[c] + (2) h[c],MA4555,Central Metabolism,1,-1000.0,1000,0
+RU5PS,D-arabino-hex-3-ulose-6-phosphate formaldehyde-lyase (D-ribulose-5-phosphate-forming),fald[c] + ru5p-D[c] <==> ah6p-D[c],MA4608,Central Metabolism,1,-1000.0,1000,0
+UAG4E,UDP-N-acetylglucosamine 4-epimerase,uacgam[c] <==> udpacgal[c],(MA1185 or MA4460 or MA4464),Central Metabolism,0,0.0,1000,0
+UDPG4E,UDPglucose 4-epimerase,udpg[c] <==> udpgal[c],(MA1185 or MA4460 or MA4464),Central Metabolism,1,-1000.0,1000,0
+UDPGDr,UDPglucose 6-dehydrogenase,h2o[c] + (2) nad[c] + udpg[c] <==> (3) h[c] + (2) nadh[c] + udpglcur[c],MA4457,Central Metabolism,1,-1000.0,1000,0
+VOR,2-oxoisovalerate ferredoxin reductase,3mob[c] + coa[c] + (2) fdox[c] <==> co2[c] + (2) fdred[c] + ibcoa[c] + h[c],(MA2909 and MA2910 and MA2911),Central Metabolism,0,0.0,1000,0
+ACONTa,"aconitase (half-reaction A, Citrate hydro-lyase)",cit[c] <==> icit[c],MA0250,Citric Acid Cycle,1,-1000.0,1000,0
+CS,citrate synthase,cit[c] + coa[c] + h[c] <==> accoa[c] + h2o[c] + oaa[c],MA0249,Citric Acid Cycle,1,-1000.0,1000,0
+FUM,fumarase,mal-L[c] <==> fum[c] + h2o[c],(MA1001 or (MA2497 and MA2498)),Citric Acid Cycle,1,-1000.0,1000,0
+ICITRED,isocitrate dehydrogenase,icit[c] + nadp[c] <==> co2[c] + nadph[c] + akg[c],MA4265,Citric Acid Cycle,1,-1000.0,1000,0
+MDH,malate dehydrogenase,mal-L[c] + nad[c] <==> h[c] + nadh[c] + oaa[c],(MA0819 or MA3665),Citric Acid Cycle,1,-1000.0,1000,0
+OORr,2-oxoglutarate synthase (reversible),akg[c] + coa[c] + (2) fdox[c] <==> co2[c] + (2) fdred[c] + succoa[c] + h[c],(MA3075 and MA3076),Citric Acid Cycle,0,0.0,1000,0
+PPC,phosphoenolpyruvate carboxylase,co2[c] + h2o[c] + pep[c] <==> h[c] + oaa[c] + pi[c],MA2690,Citric Acid Cycle,0,0.0,1000,0
+ACCOAL2r,acetate-CoA ligase (ADP-forming),atp[c] + coa[c] + ppa[c] <==> adp[c] + pi[c] + ppcoa[c],(MA3168 and MA3602),Coenzyme A Biosynthesis,0,0.0,1000,0
+DPCOAK,dephospho-CoA kinase,atp[c] + dpcoa[c] <==> adp[c] + coa[c] + h[c],MA4660,Coenzyme A Biosynthesis,0,0.0,1000,0
+DPR,2-dehydropantoate 2-reductase,h[c] + nadph[c] + 2dhp[c] <==> nadp[c] + pant-R[c],Unassigned,Coenzyme A Biosynthesis,0,0.0,1000,0
+MOHMT,3-methyl-2-oxobutanoate hydroxymethyltransferase,3mob[c] + h2o[c] + mlthf[c] <==> thf[c] + 2dhp[c],Unassigned,Coenzyme A Biosynthesis,0,0.0,1000,0
+POK,pantothenate synthase (adp-forming),atp[c] + pant-R[c] <==> adp[c] + ppant-R[c] + h[c],MA1278,Coenzyme A Biosynthesis,0,0.0,1000,0
+PPCDC,phosphopantothenoylcysteine decarboxylase,4ppcys[c] + h[c] <==> co2[c] + pan4p[c],MA1280,Coenzyme A Biosynthesis,0,0.0,1000,0
+PPNCL2,phosphopantothenate-cysteine ligase,4ppan[c] + ctp[c] + cys-L[c] <==> 4ppcys[c] + cmp[c] + h[c] + ppi[c],MA1280,Coenzyme A Biosynthesis,0,0.0,1000,0
+PPTS,phosphopantothenate synthetase,ppant-R[c] + ala-B[c] + atp[c] <==> amp[c] + ppi[c] + h[c] + 4ppan[c],MA1278,Coenzyme A Biosynthesis,0,0.0,1000,0
+PTPATi,pantetheine-phosphate adenylyltransferase,atp[c] + h[c] + pan4p[c] <==> dpcoa[c] + ppi[c],MA3546,Coenzyme A Biosynthesis,1,-1000.0,1000,0
+7MHS,7-mercaptoheptanoate synthase,7ohp[c] + cys-L[c] + h[c] + nadh[c] <==> 7mhp[c] + nad[c] + ser-L[c],Unassigned,Coenzyme B Biosynthesis,0,0.0,1000,0
+7MHTS,7-mercaptoheptanoylthreonine synthase,7mhp[c] + atp[c] + thr-L[c] <==> 7mht[c] + adp[c] + h[c] + pi[c],(MA0339 or MA4006),Coenzyme B Biosynthesis,0,0.0,1000,0
+AKACAL,alpha-ketoadipate:CoA ligase,accoa[c] + h2o[c] + ohexa[c] <==> Rh2cit[c] + coa[c] + h[c],(MA1225 or MA3342 or MA3793 or MA4264 or MA4615),Coenzyme B Biosynthesis,0,0.0,1000,0
+AKGCAL,alpha-ketoglutarate:CoA ligase,accoa[c] + akg[c] <==> coa[c] + h[c] + hacon-T[c],(MA1225 or MA3342 or MA3793 or MA4264 or MA4615),Coenzyme B Biosynthesis,0,0.0,1000,0
+AKPCAL,alpha-ketopimelate:CoA ligase,accoa[c] + h2o[c] + ohepa[c] <==> Rh3cit[c] + coa[c] + h[c],(MA1225 or MA3342 or MA3793 or MA4264 or MA4615),Coenzyme B Biosynthesis,0,0.0,1000,0
+AKSDC,alpha-ketosubmerate decarboxylase,2ood[c] + h[c] <==> 7ohp[c] + co2[c],Unassigned,Coenzyme B Biosynthesis,0,0.0,1000,0
+CH2ACH,cis-(homo)2aconitate hydrolase,h2acon-C[c] + h2o[c] <==> tih2cit[c],((MA1393 or MA3085) and (MA0202 or MA1223 or MA3751)),Coenzyme B Biosynthesis,1,-1000.0,1000,0
+CH3ACH,cis-(homo)3aconitate hydrolase,h2o[c] + h3acon-C[c] <==> tih3cit[c],((MA1393 or MA3085) and (MA0202 or MA1223 or MA3751)),Coenzyme B Biosynthesis,1,-1000.0,1000,0
+CHACH,cis-homoaconitate hydrolase,h2o[c] + hacon-C[c] <==> ihcit-T[c],((MA1393 or MA3085) and (MA0202 or MA1223 or MA3751)),Coenzyme B Biosynthesis,1,-1000.0,1000,0
+COBS,coenzyme b synthatse,7mht[c] + atp[c] <==> adp[c] + cob[c] + h[c],MA0339,Coenzyme B Biosynthesis,0,0.0,1000,0
+RH2CD,(R)-(homo)2citrate dehydratase,Rh2cit[c] <==> h2acon-C[c] + h2o[c],((MA1393 or MA3085) and (MA0202 or MA1223 or MA3751)),Coenzyme B Biosynthesis,1,-1000.0,1000,0
+RH3CD,(R)-(homo)3citrate dehydratase,Rh3cit[c] <==> h2o[c] + h3acon-C[c],((MA1393 or MA3085) and (MA0202 or MA1223 or MA3751)),Coenzyme B Biosynthesis,1,-1000.0,1000,0
+SHCD,(S)-homocitrate dehydratase,Shcit[c] <==> h2o[c] + hacon-C[c],(MA3085 and MA3751),Coenzyme B Biosynthesis,1,-1000.0,1000,0
+THACH,trans-homoaconitate hydrolase,h2o[c] + hacon-T[c] <==> Shcit[c],Unassigned,Coenzyme B Biosynthesis,1,-1000.0,1000,0
+TIH2CD,threo-iso(homo)2citrate dehydrogenase,nad[c] + tih2cit[c] <==> co2[c] + nadh[c] + ohepa[c],(MA0201 or MA3748 or MA4265),Coenzyme B Biosynthesis,0,0.0,1000,0
+TIH3CD,threo-iso(homo)3citrate dehydrogenase,nad[c] + tih3cit[c] <==> 2ood[c] + co2[c] + nadh[c],(MA0201 or MA3748 or MA4265),Coenzyme B Biosynthesis,0,0.0,1000,0
+TIHCD,threo-isohomocitrate dehydrogenase,ihcit-T[c] + nad[c] <==> co2[c] + nadh[c] + ohexa[c],(MA0201 or MA3748 or MA4265),Coenzyme B Biosynthesis,0,0.0,1000,0
+COMS,coenzyme M synthase,h2o[c] + sec[c] <==> com[c] + nh4[c] + pyr[c],Unassigned,Coenzyme M Biosynthesis,0,0.0,1000,0
+LCYSTAT,L-Cysteate:2-oxoglutarate aminotransferase,Lcyst[c] + akg[c] <==> 3spyr[c] + glu-L[c],(MA0636 or MA1385 or MA1819),Coenzyme M Biosynthesis,1,-1000.0,1000,0
+LCYSTS,selanocystathionine beta-synthase,pser-L[c] + so3[c] + h[c] <==> Lcyst[c] + pi[c],MA3297,Coenzyme M Biosynthesis,0,0.0,1000,0
+SECS,sulfoethylcysteine synthase,2tcc[c] + h[c] + nadh[c] <==> nad[c] + sec[c],Unassigned,Coenzyme M Biosynthesis,0,0.0,1000,0
+SMTZS,sulfomethyl thiazolidine synthase,2saa[c] + cys-L[c] <==> 2tcc[c] + h2o[c],Unassigned,Coenzyme M Biosynthesis,0,0.0,1000,0
+SPDC,sulfopyruvate decarboxylase,3spyr[c] + h[c] <==> 2saa[c] + co2[c],MA3298,Coenzyme M Biosynthesis,0,0.0,1000,0
+ACSERHS,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),acser[c] + trdrd[c] + tsul[c] <==> ac[c] + cys-L[c] + h[c] + so3[c] + trdox[c],Unassigned,Cysteine Metabolism,0,0.0,1000,0
+ADSK,adenylyl-sulfate kinase,atp[c] + aps[c] <==> adp[c] + h[c] + paps[c],MA4246,Cysteine Metabolism,0,0.0,1000,0
+CYSDS,Cysteine Desulfhydrase,cys-L[c] + h2o[c] <==> h2s[c] + nh4[c] + pyr[c],(MA2532 or MA2715),Cysteine Metabolism,0,0.0,1000,0
+CYSSr,cysteine synthase,acser[c] + h2s[c] <==> ac[c] + cys-L[c] + h[c],MA2720,Cysteine Metabolism,0,0.0,1000,0
+CYSTA,cysteine transaminase,akg[c] + cys-L[c] <==> glu-L[c] + mercppyr[c],(MA0636 or MA1385 or MA1819),Cysteine Metabolism,0,0.0,1000,0
+CYSTRS,Cysteinyl-tRNA synthetase,atp[c] + cys-L[c] + trnacys[c] <==> amp[c] + ppi[c] + cystrna[c],MA0749,Cysteine Metabolism,0,0.0,1000,0
+PAPSR,phosphoadenylyl-sulfate reductase (thioredoxin),paps[c] + trdrd[c] <==> (2) h[c] + pap[c] + so3[c] + trdox[c],(MA2894 or MA2894),Cysteine Metabolism,0,0.0,1000,0
+R01411,5-Methylcytosine aminohydrolase,5mcyt[c] + h2o[c] + h[c] <==> nh4[c] + thym[c],MA2559,Cysteine Metabolism,0,0.0,1000,0
+SADT2,Sulfate adenyltransferase,atp[c] + so4[c] <==> aps[c] + ppi[c],MA3680,Cysteine Metabolism,0,0.0,1000,0
+SERAT,serine O-acetyltransferase,accoa[c] + ser-L[c] <==> acser[c] + coa[c],(MA2721 or MA3442),Cysteine Metabolism,1,-1000.0,1000,0
+SHSL2r,O-succinylhomoserine lyase (H2S),h2s[c] + suchms[c] <==> h[c] + hcys-L[c] + succ[c],MA2715,Cysteine Metabolism,0,0.0,1000,0
+ABTA,4-aminobutyrate transaminase,4abut[c] + akg[c] <==> glu-L[c] + sucsal[c],(MA0119 or MA2859),Glutamate metabolism,1,-1000.0,1000,0
+ARGDC,arginine decarboxylase,arg-L[c] + h[c] <==> agm[c] + co2[c],(MA3012 or MA3496),Glutamate metabolism,0,0.0,1000,0
+CBPS,carbamoyl-phosphate synthase (glutamine-hydrolysing),(2) atp[c] + gln-L[c] + h2o[c] + hco3[c] <==> (2) adp[c] + cbp[c] + glu-L[c] + (2) h[c] + pi[c],(MA2143 and MA2144),Glutamate metabolism,0,0.0,1000,0
+GF6PTA,glutamine-fructose-6-phosphate transaminase,f6p[c] + gln-L[c] <==> gam6p[c] + glu-L[c],MA3023,Glutamate metabolism,0,0.0,1000,0
+GLUDC,Glutamate Decarboxylase,glu-L[c] + h[c] <==> 4abut[c] + co2[c],(MA0006 or MA1949 or MA3012 or MA3496),Glutamate metabolism,0,0.0,1000,0
+GLUDxi,glutamate dehydrogenase (NAD),akg[c] + h[c] + nadh[c] + nh4[c] <==> glu-L[c] + h2o[c] + nad[c],MA3169,Glutamate metabolism,0,0.0,1000,0
+GLUDyi,glutamate dehydrogenase (NADP),akg[c] + h[c] + nadph[c] + nh4[c] <==> glu-L[c] + h2o[c] + nadp[c],MA3169,Glutamate metabolism,0,0.0,1000,0
+GLUPRT,glutamine phosphoribosyldiphosphate amidotransferase,gln-L[c] + h2o[c] + prpp[c] <==> glu-L[c] + ppi[c] + pram[c],MA3193,Glutamate metabolism,0,0.0,1000,0
+GLUS_F420_,F420-dependent glutamate synthase,akg[c] + f420-2h2[c] + gln-L[c] <==> f420-2[c] + (2) glu-L[c] + h[c],Unassigned,Glutamate metabolism,0,0.0,1000,0
+GLUTRS,Glutamyl-tRNA synthetase,atp[c] + glu-L[c] + trnaglu[c] <==> amp[c] + glutrna[c] + ppi[c],MA0587,Glutamate metabolism,0,0.0,1000,0
+GLUTRS_Gln_,Nonspecific glutamyl-tRNA synthase (glutrna(gln) forming),atp[c] + glu-L[c] + trnagln[c] <==> amp[c] + ppi[c] + glutrna_gln[c],MA0587,Glutamate metabolism,0,0.0,1000,0
+GTHOr,glutathione oxidoreductase,gthox[c] + h[c] + nadph[c] <==> (2) gthrd[c] + nadp[c],(MA1019 or MA1652 or MA4013),Glutamate metabolism,0,0.0,1000,0
+SSALx,succinate-semialdehyde dehydrogenase (NAD),h2o[c] + nad[c] + sucsal[c] <==> (2) h[c] + nadh[c] + succ[c],(MA0705 or MA1355 or MA2860 or MA4079),Glutamate metabolism,0,0.0,1000,0
+SSALy,succinate-semialdehyde dehydrogenase (NADP),h2o[c] + nadp[c] + sucsal[c] <==> (2) h[c] + nadph[c] + succ[c],(MA0705 or MA1355 or MA2860 or MA4079),Glutamate metabolism,0,0.0,1000,0
+GLNS,glutamine synthetase,atp[c] + glu-L[c] + nh4[c] <==> adp[c] + gln-L[c] + h[c] + pi[c],(MA3382 or MA4216),Glutamine Metabolism,0,0.0,1000,0
+GLNTRAT,glutamyl-tRNA(Gln) amidotransferase,atp[c] + gln-L[c] + h2o[c] + glutrna_gln[c] <==> adp[c] + glu-L[c] + h[c] + pi[c] + glntrna[c],(MA1317 and MA2862 and MA4522 and MA4523 and MA4524),Glutamine Metabolism,0,0.0,1000,0
+GMPS2,GMP synthase,atp[c] + gln-L[c] + h2o[c] + xmp[c] <==> amp[c] + glu-L[c] + gmp[c] + (2) h[c] + ppi[c],(MA4511 or MA4590 or MA1151 or MA2696 or MA2966),Glutamine Metabolism,0,0.0,1000,0
+NADS1,NAD synthase (nh3),atp[c] + dnad[c] + nh4[c] <==> amp[c] + h[c] + nad[c] + ppi[c],(MA1030 or MA3526 or MA3715),Glutamine Metabolism,0,0.0,1000,0
+NADS2,NAD synthase (glutamine-hydrolysing),atp[c] + dnad[c] + gln-L[c] + h2o[c] <==> amp[c] + glu-L[c] + h[c] + nad[c] + ppi[c],(MA1030 or MA3526 or MA3715),Glutamine Metabolism,0,0.0,1000,0
+GHMT2,glycine hydroxymethyltransferase,gly[c] + h2o[c] + mlthf[c] <==> ser-L[c] + thf[c],MA3520,Glycine and Serine Metabolism,1,-1000.0,1000,0
+GLYTRS,Glycyl-tRNA synthetase,atp[c] + gly[c] + trnagly[c] <==> amp[c] + ppi[c] + glytrna[c],MA0097,Glycine and Serine Metabolism,0,0.0,1000,0
+PGCD,phosphoglycerate dehydrogenase,3pg[c] + nad[c] <==> 3php[c] + h[c] + nadh[c],(MA0592 or MA1334),Glycine and Serine Metabolism,1,-1000.0,1000,0
+PSERT,phosphoserine transaminase,akg[c] + pser-L[c] <==> 3php[c] + glu-L[c],MA2304,Glycine and Serine Metabolism,1,-1000.0,1000,0
+PSP_L,phosphoserine phosphatase (L-serine),h2o[c] + pser-L[c] <==> pi[c] + ser-L[c],(MA4429 or MA4428),Glycine and Serine Metabolism,0,0.0,1000,0
+R08576,O-phospho-L-serine:tRNA(Cys) ligase (AMP-forming),pser-L[c] + trnacys[c] + atp[c] <==> cystrna_pser[c] + amp[c] + ppi[c],MA0090,Glycine and Serine Metabolism,0,0.0,1000,0
+SERTRS,Seryl-tRNA synthetase,atp[c] + ser-L[c] + trnaser[c] <==> amp[c] + ppi[c] + sertrna[c],MA4048,Glycine and Serine Metabolism,0,0.0,1000,0
+ACYP,acylphosphatase,13dpg[c] + h2o[c] <==> 3pg[c] + h[c] + pi[c],MA3367,GlycolysisGluconeogenesis,0,0.0,1000,0
+ENO,enolase,2pg[c] <==> h2o[c] + pep[c],MA1672,GlycolysisGluconeogenesis,1,-1000.0,1000,0
+FBA,fructose-bisphosphate aldolase,fdp[c] <==> dhap[c] + g3p[c],((MA2666 or MA3889) or (MA0439 or MA4591)),GlycolysisGluconeogenesis,1,-1000.0,1000,0
+FBP,fructose-bisphosphatase (f6p-forming),fdp[c] + h2o[c] <==> f6p[c] + pi[c],MA1152,GlycolysisGluconeogenesis,0,0.0,1000,0
+GAPD,glyceraldehyde-3-phosphate dehydrogenase,g3p[c] + nad[c] + pi[c] <==> 13dpg[c] + h[c] + nadh[c],(MA1018 or MA3345),GlycolysisGluconeogenesis,1,-1000.0,1000,0
+GK_adp_,ADP-dependent glucokinase,adp[c] + glc-D[c] <==> amp[c] + g6p[c] + h[c],(MA3562 or MA3563),GlycolysisGluconeogenesis,0,0.0,1000,0
+PFK_adp_,ADP-specific phosphofructokinase ,adp[c] + f6p[c] <==> amp[c] + fdp[c] + h[c],(MA3562 or MA3563),GlycolysisGluconeogenesis,0,0.0,1000,0
+PGI,glucose-6-phosphate isomerase,g6p[c] <==> f6p[c],MA0821,GlycolysisGluconeogenesis,1,-1000.0,1000,0
+PGK,phosphoglycerate kinase,3pg[c] + atp[c] <==> 13dpg[c] + adp[c],(MA2669 or MA3592),GlycolysisGluconeogenesis,1,-1000.0,1000,0
+PGM,phosphoglycerate mutase,2pg[c] <==> 3pg[c],(MA2671 or MA4007 or MA0132 or MA2400 or MA3365),GlycolysisGluconeogenesis,1,-1000.0,1000,0
+PPS,phosphoenolpyruvate synthase,atp[c] + h2o[c] + pyr[c] <==> amp[c] + (2) h[c] + pep[c] + pi[c],((MA2458 or MA2667 or MA3408) or (MA2458 or MA2667 or MA3408) or (MA2458 or MA2667 or MA3408)),GlycolysisGluconeogenesis,0,0.0,1000,0
+PYK,pyruvate kinase,adp[c] + h[c] + pep[c] <==> atp[c] + pyr[c],MA3890,GlycolysisGluconeogenesis,0,0.0,1000,0
+PYRDC,pyruvate decarboxylase,h[c] + pyr[c] <==> acald[c] + co2[c],MA0594,GlycolysisGluconeogenesis,0,0.0,1000,0
+TPI,triose-phosphate isomerase,g3p[c] <==> dhap[c],MA4607,GlycolysisGluconeogenesis,1,-1000.0,1000,0
+ATPPRT,ATP phosphoribosyltransferase,ppi[c] + prbatp[c] <==> atp[c] + prpp[c],MA0217,Histidine Metabolism,1,-1000.0,1000,0
+HISTD,histidinol dehydrogenase,h2o[c] + histd[c] + (2) nad[c] <==> (3) h[c] + his-L[c] + (2) nadh[c],MA3201,Histidine Metabolism,0,0.0,1000,0
+HISTP,histidinol-phosphatase,h2o[c] + hisp[c] <==> histd[c] + pi[c],MA0219,Histidine Metabolism,0,0.0,1000,0
+HISTRS,Histidyl-tRNA synthetase,atp[c] + his-L[c] + trnahis[c] <==> amp[c] + ppi[c] + histrna[c],MA0943,Histidine Metabolism,0,0.0,1000,0
+HSTPT,histidinol-phosphate transaminase,akg[c] + hisp[c] <==> glu-L[c] + imacp[c],(MA0118 or MA0942),Histidine Metabolism,1,-1000.0,1000,0
+IG3PS,Imidazole-glycerol-3-phosphate synthase,gln-L[c] + prlp[c] <==> aicar[c] + eig3p[c] + glu-L[c] + h[c],(MA0541 and MA0913),Histidine Metabolism,0,0.0,1000,0
+IGPDH,imidazoleglycerol-phosphate dehydratase,eig3p[c] <==> h2o[c] + imacp[c],MA0219,Histidine Metabolism,0,0.0,1000,0
+NBAHH,Nalpha-(beta-alanyl)-L-histidine hydrolase,carn[c] + h2o[c] <==> ala-B[c] + his-L[c] + h[c],MA2653,Histidine Metabolism,0,0.0,1000,0
+PRAMPC,phosphoribosyl-AMP cyclohydrolase,h2o[c] + prbamp[c] <==> prfp[c],MA0908,Histidine Metabolism,0,0.0,1000,0
+PRATPP,phosphoribosyl-ATP pyrophosphatase,h2o[c] + prbatp[c] <==> h[c] + ppi[c] + prbamp[c],MA1392,Histidine Metabolism,0,0.0,1000,0
+PRMICIi,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase (irreversible),prfp[c] <==> prlp[c],(MA0218 or MA4435),Histidine Metabolism,0,0.0,1000,0
+PRPPS,phosphoribosylpyrophosphate synthetase,atp[c] + r5p[c] <==> amp[c] + h[c] + prpp[c],MA1167,Histidine Metabolism,1,-1000.0,1000,0
+RPI,ribose-5-phosphate isomerase,r5p[c] <==> ru5p-D[c],MA1683,Histidine Metabolism,1,-1000.0,1000,0
+ACACT1,acetyl-CoA C-acetyltransferase,(2) accoa[c] <==> aacoa[c] + coa[c],MA4042,Lipid Cell Wall Metabolism,1,-1000.0,1000,0
+ACNPLYS,N-acetylneuraminate synthase;,acnam[c] + pi[c] <==> h2o[c] + pep[c] + acmana[c],MA3767,Lipid Cell Wall Metabolism,1,-1000.0,1000,0
+AGAIAGT,archaeatidylinositol N-acetylglucosaminyltransferase,dpgpi[c] + uacgam[c] <==> agdpgpi[c] + h[c] + udp[c],MA0798,Lipid Cell Wall Metabolism,0,0.0,1000,0
+AGAID,N-acetylglucosaminylarchaeatidylinositol deacetylase,agdpgpi[c] + h2o[c] <==> ac[c] + gdpgpi[c],MA0990,Lipid Cell Wall Metabolism,0,0.0,1000,0
+ASD,archaetidylserine decarboxylase,dpgps[c] + h[c] <==> co2[c] + dpgpe[c],MA0115,Lipid Cell Wall Metabolism,0,0.0,1000,0
+ATGH,archaetidylglycerol hydrogenase,dggpg[c] + (8) h[c] + (8) nadph[c] <==> dpgpg[c] + (8) nadp[c],MA1484,Lipid Cell Wall Metabolism,0,0.0,1000,0
+ATIH,archaetidylinositol hydrogenase,dggpi[c] + (8) h[c] + (8) nadph[c] <==> dpgpi[c] + (8) nadp[c],MA1484,Lipid Cell Wall Metabolism,0,0.0,1000,0
+ATSH,archaetidylserine hydrogenase,dgggps[c] + (8) h[c] + (8) nadph[c] <==> dpgps[c] + (8) nadp[c],MA1484,Lipid Cell Wall Metabolism,0,0.0,1000,0
+CDGGGPP3,CDP-alcohol phosphatidyltransferase (glycerol 1-phosphate),cdgggp[c] + glyc1p[c] <==> cmp[c] + dggpgp[c] + h[c],(MA0264 or MA0525),Lipid Cell Wall Metabolism,0,0.0,1000,0
+CDGGGPP4,CDP-alcohol phosphatidyltransferase (glycerol 1-phosphate) (hydroxy),3hcdgggp[c] + glyc1p[c] <==> 3hdggpgp[c] + cmp[c] + h[c],(MA0264 or MA0525),Lipid Cell Wall Metabolism,0,0.0,1000,0
+CDGGGS,"CDP-2,3-di-O-geranylgeranyl-sn-glycerol synthase",ctp[c] + dgggp[c] + h[c] <==> cdgggp[c] + ppi[c],MA2010,Lipid Cell Wall Metabolism,0,0.0,1000,0
+CDGGGS2,CDP-2-O-(3'-hydroxy)geranyl-3-O-geranyl-sn-glycerol synthase,3hdgggp[c] + ctp[c] + h[c] <==> 3hcdgggp[c] + ppi[c],MA2010,Lipid Cell Wall Metabolism,0,0.0,1000,0
+CDGGGSAT,"CDP-2,3-di-O-geranylgeranyl-sn-glyceroserine O-archaetidyltransferase",cdgggp[c] + ser-L[c] <==> cmp[c] + dgggps[c] + h[c],MA0116,Lipid Cell Wall Metabolism,0,0.0,1000,0
+CDGGGSAT2,CDP-2-O-(3'-hydroxy)geranyl-3-O-geranyl-sn-glyceroserine O-archaetidyltransferase,3hcdgggp[c] + ser-L[c] <==> 3hdgggps[c] + cmp[c] + h[c],MA0116,Lipid Cell Wall Metabolism,0,0.0,1000,0
+CDGGIPT,CDP-digeranyl-sn-glycero-myo-inositol 3-phosphatidyltransferase,cdgggp[c] + inost[c] <==> cmp[c] + dggpi[c] + h[c],MA0525,Lipid Cell Wall Metabolism,0,0.0,1000,0
+CDGGIPT2,CDP-digeranyl-sn-glycero-myo-inositol 3-phosphatidyltransferase (3' hydroxy),3hcdgggp[c] + inost[c] <==> 3hdggpi[c] + cmp[c] + h[c],MA0525,Lipid Cell Wall Metabolism,0,0.0,1000,0
+DGGGPS,digeranylgeranylglyceryl phosphate synthase,ggdp[c] + gggp[c] <==> dgggp[c] + ppi[c],MA0961,Lipid Cell Wall Metabolism,0,0.0,1000,0
+DGGGPS2,2-O-(3┐-hydroxy)geranyl-3-O-geranyl-sn-glycerol synthase,3hggdp[c] + gggp[c] <==> 3hdgggp[c] + ppi[c],MA0961,Lipid Cell Wall Metabolism,0,0.0,1000,0
+DGGPGP,digeranyl-sn-glycerol-1-phospho-3'-sn-glycerol phosphatase,dggpgp[c] + h2o[c] <==> dggpg[c] + pi[c],MA1569,Lipid Cell Wall Metabolism,0,0.0,1000,0
+DGGPGP2,digeranyl-sn-glycerol-1-phospho-3'-sn-glycerol phosphatase (hydroxy),3hdggpgp[c] + h2o[c] <==> 3hdggpg[c] + pi[c],MA1569,Lipid Cell Wall Metabolism,0,0.0,1000,0
+DGLYOX,D-Glyceraldehyde:NAD+ oxidoreductase,glyald[c] + h2o[c] + nad[c] <==> glyc-R[c] + (2) h[c] + nadh[c],MA2860,Lipid Cell Wall Metabolism,0,0.0,1000,0
+DMATT,dimethylallyltranstransferase,dmpp[c] + ipdp[c] <==> grdp[c] + ppi[c],MA0606,Lipid Cell Wall Metabolism,0,0.0,1000,0
+DMATT2,dimethylallyltranstransferase (3-hydroxy),ipdp[c] + m3hdp[c] <==> 3hgrdp[c] + ppi[c],MA0606,Lipid Cell Wall Metabolism,0,0.0,1000,0
+FRTT,farnesyltranstransferase,frdp[c] + ipdp[c] <==> ggdp[c] + ppi[c],((MA0606 or MA4150) or MA1831 or MA3723 or MA4402),Lipid Cell Wall Metabolism,0,0.0,1000,0
+FRTT2,farnesyltranstransferase (3-hyroxy),3hfrdp[c] + ipdp[c] <==> 3hggdp[c] + ppi[c],((MA0606 or MA4150) or MA1831 or MA3723 or MA4402),Lipid Cell Wall Metabolism,0,0.0,1000,0
+G1PACT,glucosamine-1-phosphate N-acetyltransferase,accoa[c] + gam1p[c] <==> acgam1p[c] + coa[c] + h[c],(MA3022 or MA3025 or MA3140),Lipid Cell Wall Metabolism,0,0.0,1000,0
+G1PDH,glycerol-1-phosphate dehydrogenase (NAD),glyc1p[c] + nad[c] <==> dhap[c] + h[c] + nadh[c],MA3686,Lipid Cell Wall Metabolism,1,-1000.0,1000,0
+G1PTT,glucose-1-phosphate thymidylyltransferase,dttp[c] + g1p[c] + h[c] <==> dtdpglu[c] + ppi[c],(MA2183 or MA3022 or MA3777),Lipid Cell Wall Metabolism,0,0.0,1000,0
+GALTNS,Galactan synthesis (cell wall),udpgal[c] <==> galactan[c] + h[c] + udp[c],Unassigned,Lipid Cell Wall Metabolism,0,0.0,1000,0
+GGDPRED,geranylgeranyl reductase,ggdp[c] + (3) h[c] + (3) nadph[c] <==> (3) nadp[c] + phydp[c],Unassigned,Lipid Cell Wall Metabolism,0,0.0,1000,0
+GGGPS,geranylgeranylglyceryl phosphate synthase,ggdp[c] + glyc1p[c] <==> gggp[c] + ppi[c],MA3969,Lipid Cell Wall Metabolism,0,0.0,1000,0
+GLYCDx,Glycerol dehydrogenase,glyc[c] + nad[c] <==> dha[c] + h[c] + nadh[c],MA0591,Lipid Cell Wall Metabolism,0,0.0,1000,0
+GRTT,geranyltranstransferase,grdp[c] + ipdp[c] <==> frdp[c] + ppi[c],(MA0606 or MA1831 or MA3723 or MA4150 or MA4402),Lipid Cell Wall Metabolism,0,0.0,1000,0
+GRTT2,geranyltranstransferase (3-hydroxy),3hgrdp[c] + ipdp[c] <==> 3hfrdp[c] + ppi[c],(MA0606 or MA1831 or MA3723 or MA4150 or MA4402),Lipid Cell Wall Metabolism,0,0.0,1000,0
+HASD,hydroxyarchaetidylserine decarboxylase,3hdpgps[c] + h[c] <==> 3hdpgpe[c] + co2[c],MA0115,Lipid Cell Wall Metabolism,0,0.0,1000,0
+HATGH,hydroxyarchaetidylglycerol hydrogenase,3hdggpg[c] + (7) h[c] + (7) nadph[c] <==> 3hdpgpg[c] + (7) nadp[c],MA1484,Lipid Cell Wall Metabolism,0,0.0,1000,0
+HATIH,hydroxyarchaetidylinositol hydrogenase,3hdggpi[c] + (7) h[c] + (7) nadph[c] <==> 3hdpgpi[c] + (7) nadp[c],MA1484,Lipid Cell Wall Metabolism,0,0.0,1000,0
+HATSH,hydroxyarchaetidylserine hydrogenase,3hdgggps[c] + (7) h[c] + (7) nadph[c] <==> 3hdpgps[c] + (7) nadp[c],MA1484,Lipid Cell Wall Metabolism,0,0.0,1000,0
+HBZOPT,Hydroxybenzoate octaprenyltransferase,4hbz[c] + octdp[c] <==> 3ophb[c] + ppi[c],MA0961,Lipid Cell Wall Metabolism,0,0.0,1000,0
+HMGCOARi,Hydroxymethylglutaryl CoA reductase (ir),(2) h[c] + hmgcoa[c] + (2) nadph[c] <==> coa[c] + mev-R[c] + (2) nadp[c],MA3073,Lipid Cell Wall Metabolism,0,0.0,1000,0
+HMGCOASi,Hydroxymethylglutaryl CoA synthase (ir),aacoa[c] + accoa[c] + h2o[c] <==> coa[c] + h[c] + hmgcoa[c],MA4041,Lipid Cell Wall Metabolism,0,0.0,1000,0
+IPDPH,IPDP hydrolase,ipdp[c] + h2o[c] <==> m3hdp[c],Unassigned,Lipid Cell Wall Metabolism,1,-1000.0,1000,0
+IPPK,IP kinase,ipp[c] + atp[c] <==> adp[c] + ipdp[c],MA0603,Lipid Cell Wall Metabolism,0,0.0,1000,0
+MEVK1,mevalonate kinase (atp),atp[c] + mev-R[c] <==> 5pmev[c] + adp[c] + h[c],MA0602,Lipid Cell Wall Metabolism,0,0.0,1000,0
+OCTDPSYN,octoprenyl-diphopshpate synthase,hepdp[c] + ipdp[c] <==> octdp[c] + ppi[c],Unassigned,Lipid Cell Wall Metabolism,0,0.0,1000,0
+PGAMS,Poly-galactosamine synthesis (cell wall),uacgam[c] <==> polyacgal[c] + h[c] + udp[c],Unassigned,Lipid Cell Wall Metabolism,0,0.0,1000,0
+PGAMT,phosphoglucosamine mutase,gam6p[c] <==> gam1p[c],(MA0241 or MA2665 or MA3024),Lipid Cell Wall Metabolism,0,0.0,1000,0
+PGLCURS,Poly-glucuronic acid (cell wall),udpglcur[c] <==> polyglcur[c] + h[c] + udp[c],Unassigned,Lipid Cell Wall Metabolism,0,0.0,1000,0
+PMVD,Phosphomevalonate decarboxylase,5pmev[c] + h[c] <==> co2[c] + h2o[c] + ipp[c],MA0601,Lipid Cell Wall Metabolism,0,0.0,1000,0
+R04215,CTP:N-glycoloylneuraminate cytidylyltransferase,ctp[c] + glnam[c] <==> glnamcmp[c] + ppi[c],MA3766,Lipid Cell Wall Metabolism,0,0.0,1000,0
+R05680,sn-Glycerol-1-phosphate:NADP 2-oxidoreductase,glyc1p[c] + nadp[c] <==> dhap[c] + h[c] + nadph[c],MA3686,Lipid Cell Wall Metabolism,0,0.0,1000,0
+TDPDRE,"dTDP-4-dehydrorhamnose 3,5-epimerase",dtdp4d6dg[c] <==> dtdp4d6dm[c],(MA1909 or MA3780),Lipid Cell Wall Metabolism,0,0.0,1000,0
+TDPDRR,dTDP-4-dehydrorhamnose reductase,dtdp4d6dm[c] + h[c] + nadph[c] <==> dtdprmn[c] + nadp[c],MA3778,Lipid Cell Wall Metabolism,0,0.0,1000,0
+TDPGDH,"dTDPglucose 4,6-dehydratase",dtdpglu[c] <==> dtdp4d6dg[c] + h2o[c],(MA1185 or MA2186 or MA3779 or MA4464),Lipid Cell Wall Metabolism,0,0.0,1000,0
+UAG2EMA,UDP-N-acetyl-D-glucosamine 2-epimerase (Hydrolysis),h2o[c] + uacgam[c] <==> h[c] + udp[c] + acmana[c],Unassigned,Lipid Cell Wall Metabolism,0,0.0,1000,0
+UAGDP,UDP-N-acetylglucosamine diphosphorylase,acgam1p[c] + h[c] + utp[c] <==> ppi[c] + uacgam[c],(MA3022 or MA3025 or MA3140),Lipid Cell Wall Metabolism,0,0.0,1000,0
+MFRBS,MFR(b) synthesis,4gggaepmamfr[c] + glu-L[c] <==> mfr_b[c] + h2o[c],Unassigned,Methanofuran synthesis,0,0.0,1000,0
+MFRS1,Methanofuran intermediate 1 biosynthesis,dhap[c] + pep[c] + h2o[c] <==> mfrbi1[c],Unassigned,Methanofuran synthesis,0,0.0,1000,0
+MFRS10,4-[N-γ-L-glutamyl-)-p-(β-aminoethyl)phenoxy-methyl]-2-(aminomethyl)furan glutamate extention,4gaepmamfr[c] + glu-L[c] <==> 4ggaepmamfr[c] + h2o[c],Unassigned,Methanofuran synthesis,0,0.0,1000,0
+MFRS11,Third glutatamate addition to MFR(b),4ggaepmamfr[c] + glu-L[c] <==> 4gggaepmamfr[c] + h2o[c],Unassigned,Methanofuran synthesis,0,0.0,1000,0
+MFRS2,Methanofuran intermediate 1 kinase,mfrbi1[c] <==> mfrbi2[c] + pi[c],Unassigned,Methanofuran synthesis,0,0.0,1000,0
+MFRS3,Methanofuran intermediate 2 dehydration,mfrbi2[c] <==> mfrbi3[c] + h2o[c],Unassigned,Methanofuran synthesis,0,0.0,1000,0
+MFRS4,Methanofuran intermediate 3 isomerization,mfrbi3[c] <==> mfrbi4[c],Unassigned,Methanofuran synthesis,0,0.0,1000,0
+MFRS5,Methanofuran intermediate 4 dehydration,mfrbi4[c] <==> 24sf[c] + h2o[c],Unassigned,Methanofuran synthesis,0,0.0,1000,0
+MFRS6,"2,4-substituted-furan reduction (nad)",24sf[c] + atp[c] + nadh[c] + h[c] <==> 2frald[c] + adp[c] + pi[c] + nad[c],Unassigned,Methanofuran synthesis,0,0.0,1000,0
+MFRS7,2-furaldehyde transaminase,2frald[c] + glu-L[c] <==> 2mafr[c] + akg[c],Unassigned,Methanofuran synthesis,0,0.0,1000,0
+MFRS8,p-(β-aminoethyl)phenoxy-methyl-2-(aminomethyl)furan biosynthesis,tym[c] + 2mafr[c] <==> aepmamfr[c] + pi[c],Unassigned,Methanofuran synthesis,0,0.0,1000,0
+MFRS9,p-(β-aminoethyl)phenoxy-methyl-2-(aminomethyl)furan glutamate extention,aepmamfr[c] + glu-L[c] <==> 4gaepmamfr[c] + h2o[c],Unassigned,Methanofuran synthesis,0,0.0,1000,0
+TYRCBOX,L-Tyrosine carboxy-lyase,h[c] + tyr-L[c] <==> co2[c] + tym[c],MA0006,Methanofuran synthesis,0,0.0,1000,0
+ACKr,acetate kinase,ac[c] + atp[c] <==> actp[c] + adp[c],MA3606,Methanogenesis,1,-1000.0,1000,0
+ATPS4r,ATP synthase (four protons for one ATP),(1) h[e] + (3) na1[e] + adp[c] + pi[c] <==> (0) h[c] + (3) na1[c] + atp[c] + h2o[c],(MA4152 and MA4153 and MA4154 and MA4155 and MA4156 and MA4157 and MA4158 and MA4159 and MA4160),Methanogenesis,0,0.0,1000,0
+CM5HBCMT,Coenzyme M-methylcobalamide methyltransferase,com[c] + m5hbc[c] <==> mcom[c] + 5hbc_red[c] + h[c],Unassigned,Methanogenesis,1,-1000.0,1000,0
+CODH2,carbon monoxide dehydrogenase / acetyl-CoA synthase 2,co[c] + (2) fdox[c] + h2o[c] <==> co2[c] + (2) fdred[c] + (2) h[c],((MA1016 or MA3860 or MA4399) and (MA1011 or MA3865)) or (MA3283 and (MA1309 or MA3282)),Methanogenesis,0,0.0,1000,0
+CODH2_SIDERXN,Formate formation (side reaction of CO-dehydrogenase),co[c] + h2o[c] <==> for[c] + h[c],(MA1011 or MA3865) and (MA1016 or MA3860 or MA4399),Methanogenesis,0,0.0,1000,0
+CODH3,carbon monoxide dehydrogenase / acetyl-CoA synthase 2,co[c] + coa[c] + mh4spt[c] <==> h4spt[c] + accoa[c],((MA1012 or MA3864) and (MA1014 or MA3862) and (MA1015 or MA3861)),Methanogenesis,0,0.0,1000,0
+CODHr,carbon monoxide dehydrogenase / acetyl-CoA synthase,accoa[c] + (2) fdox[c] + h2o[c] + h4spt[c] <==> co2[c] + coa[c] + (2) fdred[c] + (2) h[c] + mh4spt[c],(MA1016 or MA3860 or MA1309 or MA3282) and (MA1014 or MA3862) and (MA1012 or MA3864) and (MA1015 or MA3861) and (MA1011 or MA3865) and (MA1013 or MA3863) and MA4399,Methanogenesis,1,-1000.0,1000,0
+DMAMT,Dimethylamine methyltransferase,dma[c] + h[c] + 5hbc_red[c] <==> mma[c] + m5hbc[c],(MA0847 or MA0146) and (MA0532 or MA0933 or MA2425) and (MA0527 or MA0934 or MA2424),Methanogenesis,0,0.0,1000,0
+F4D,F420 Deydrogenase,f420-2h2[c] + mphen[c] <==> f420-2[c] + (1) h[e] + mphenh2[c],MA1494 and MA1495 and MA1496 and MA1497 and MA1498 and MA1499 and MA1500 and (MA1501 or MA1502) and MA1503 and MA1504 and MA1505 and MA1506 and (MA1507 or MA1509) and MA3732,Methanogenesis,0,0.0,1000,0
+F4MTSPD,coenzyme F420-dependent N(5) N(10)-methenyltetrahydrosarcinapterin dehydrogenase,f420-2h2[c] + menylh4spt[c] <==> f420-2[c] + (2) h[c] + mleneh4spt[c],MA4430,Methanogenesis,1,-1000.0,1000,0
+F4MTSPR,coenzyme F420-dependent N(5) N(10)-methenyltetrahydrosarcinapterin reductase,f420-2h2[c] + mleneh4spt[c] <==> f420-2[c] + mh4spt[c] + h[c],MA3733,Methanogenesis,1,-1000.0,1000,0
+FAE,formaldehyde-activating enzyme,fald[c] + h4spt[c] <==> mleneh4spt[c] + h2o[c],MA3006,Methanogenesis,0,0.0,1000,0
+FMFD_b_,formylmethylfuran dehydrogenase,co2[c] + (2) fdred[c] + (2) h[c] + mfr_b[c] <==> (2) fdox[c] + formmfr_b[c] + h2o[c],(MA0304 or MA0381 or MA4602) and (MA0305 or MA4174) and (MA0306 or MA0833 or MA4175) and (MA0307 or MA0832 or MA4176) and (MA0308 or MA0835 or MA2879 or MA4177) and (MA0309 or MA0834 or MA1241 or MA2878 or MA4178) and (MA0671 or MA2877),Methanogenesis,1,-1000.0,1000,0
+FMFTSPFT_b_,formylmethanofuran:H4SPT N-formyltransferase (b)  ,formmfr_b[c] + h4spt[c] <==> formh4spt[c] + mfr_b[c],MA0010,Methanogenesis,1,-1000.0,1000,0
+HDR,Heterodisulfide reductase,hsfd[c] + mphenh2[c] + (2) h[c] <==> cob[c] + com[c] + (2) h[e] + mphen[c],MA0526 or (MA0687 and MA0688),Methanogenesis,0,0.0,1000,0
+HDR-2,Heterodisulfide reductase II,(4) fdred[c] + f420-2[c] + hsfd[c] + (5) h[c] <==> (4) fdox[c] + com[c] + cob[c] + f420-2h2[c],((MA2867 and MA2868) or MA3128) and (MA3126 or MA4237) and (MA3127 or MA4236),Methanogenesis,0,0.0,1000,0
+MCMMT,Methanol: coenzyme M methyltransferase,meoh[c] + 5hbc_red[c] + h[c] <==> h2o[c] + m5hbc[c],(MA0455 or MA1616 or MA4392) and (MA0456 or MA1617 or MA4391) and MA4379,Methanogenesis,0,0.0,1000,0
+MCR,Methyl-coenzyme M reductase,cob[c] + mcom[c] <==> ch4[c] + hsfd[c],(MA4546 and MA4547 and MA4548 and MA4549 and MA4550),Methanogenesis,0,0.0,1000,0
+MMAMT,Monomethylamine methyltransferase,h[c] + mma[c] + 5hbc_red[c] <==> nh4[c] + m5hbc[c],((MA0144 or MA2972) and (MA0145 or MA2971) and MA0146 and (MA0150 or MA0849 or MA4360)),Methanogenesis,0,0.0,1000,0
+MSS,methylsulfide synthase (Mts?),h2s[c] + m5hbc[c] <==> ch4s[c] + 5hbc_red[c] + h[c],Unassigned,Methanogenesis,0,0.0,1000,0
+MTCMMT,Methylthiol: coenzyme M methyltransferase,dms[c] + h[c] + 5hbc_red[c] <==> ch4s[c] + m5hbc[c],(MA0859 and MA4384 and MA4558),Methanogenesis,1,-1000.0,1000,0
+MTR_BYPASS,mtr (sodium pump) bypass,h[c] + mh4spt[c] + 5hbc_red[c] <==> h4spt[c] + m5hbc[c],Unassigned,Methanogenesis,0,0.0,1000,0
+MTSPC,Methenyl-H4SPt cyclohydrolase,formh4spt[c] + h[c] <==> h2o[c] + menylh4spt[c],MA1710,Methanogenesis,1,-1000.0,1000,0
+MTSPCMMT,Methyl-H4SPT: coenzyme M methyltransferase,h[c] + mh4spt[c] + 5hbc_red[c] + (2) na1[c] <==> h4spt[c] + m5hbc[c] + (2) na1[e],(MA0269 or MA1804) and MA0270 and MA0271 and (MA0272 or MA1805) and MA0273 and MA0274 and MA0275 and MA0276 and (MA0150 or MA0849 or MA4360),Methanogenesis,1,-1000.0,1000,0
+PTAr,phosphotransacetylase,accoa[c] + pi[c] <==> actp[c] + coa[c],MA3607,Methanogenesis,1,-1000.0,1000,0
+RNF,methanophenazine reductase,(4) na1[c] + (2) fdred[c] + (2) h[c] + mphen[c] <==> (4) na1[e] + (2) fdox[c] + mphenh2[c],(MA0658 and MA0659 and MA0660 and MA0661 and MA0662 and MA0663 and MA0664 and MA0665),Methanogenesis,0,0.0,1000,0
+TMAMT,Trimethylamine methyltransferase,tma[c] + 5hbc_red[c] + h[c] <==> dma[c] + m5hbc[c],(MA0847 or MA0146 or MA0150 or MA0849) and (MA0528 or MA0932) and (MA0529 or MA0931) and (MA0779 or MA1615 or MA2163 or MA3613 or MA4379 or MA4559),Methanogenesis,0,0.0,1000,0
+FRNR,ferredoxin-dependent NADP reductase,(2) fdred[c] + h[c] + nadp[c] <==> (2) fdox[c] + nadph[c],Unassigned,Methanogenesis,0,0.0,1000,0
+F4NR,f420-dependent NADP reductase,(1) f420-2h2[c] + nadp[c] <==> (1) f420-2[c] + nadph[c] + (2) h[c],MA4235,Methanogenesis,1,-1000.0,1000,0
+AHC,adenosylhomocysteinase,ahcys[c] + h2o[c] <==> adn[c] + hcys-L[c],MA1275,Methionine Metabolism,0,0.0,1000,0
+AHSERL2,O-acetylhomoserine (thiol)-lyase,achms[c] + h2s[c] <==> ac[c] + h[c] + hcys-L[c],(MA2532 or MA2715),Methionine Metabolism,0,0.0,1000,0
+HSERTA,homoserine O-trans-acetylase,accoa[c] + hom-L[c] <==> achms[c] + coa[c],MA2714,Methionine Metabolism,0,0.0,1000,0
+METAT,methionine adenosyltransferase,atp[c] + h2o[c] + met-L[c] <==> amet[c] + pi[c] + ppi[c],(MA0216 or MA0962),Methionine Metabolism,0,0.0,1000,0
+METGL,methionine g-lyase,h2o[c] + met-L[c] <==> 2obut[c] + ch4s[c] + nh4[c],(MA2532 or MA2715),Methionine Metabolism,0,0.0,1000,0
+METS,methionine synthase,5mthf[c] + hcys-L[c] <==> met-L[c] + thf[c],(MA0053 or MA0054 or MA3549),Methionine Metabolism,0,0.0,1000,0
+METTRS,Methionyl-tRNA synthetase,atp[c] + met-L[c] + trnamet[c] <==> amp[c] + ppi[c] + mettrna[c],MA4046,Methionine Metabolism,0,0.0,1000,0
+HCARNHYD,alpha-Aminobutyryl histidine hydrolase,4abut[c] + his-L[c] + h[c] <==> h2o[c] + hcarn[c],MA2653,Nitrogen Metabolism,0,0.0,1000,0
+NTRIR2x,nitrite Reductase (NADH),(5) h[c] + (3) nadh[c] + no2[c] <==> (2) h2o[c] + (3) nad[c] + nh4[c],MA3165,Nitrogen Metabolism,0,0.0,1000,0
+NTRIR2y,nitrite Reductase (NADPH),(5) h[c] + (3) nadph[c] + no2[c] <==> (2) h2o[c] + (3) nadp[c] + nh4[c],MA3165,Nitrogen Metabolism,0,0.0,1000,0
+ADD,adenine deaminase,ade[c] + h[c] + h2o[c] <==> hxan[c] + nh4[c],MA2310,Nucleotide Metabolism,0,0.0,1000,0
+ADK1,adenylate kinase,amp[c] + atp[c] <==> (2) adp[c],MA1096,Nucleotide Metabolism,1,-1000.0,1000,0
+ADK2,adenylate kinase (Inorganic triphosphate),amp[c] + pppi[c] <==> adp[c] + ppi[c],MA1096,Nucleotide Metabolism,1,-1000.0,1000,0
+ADK3,adentylate kinase (GTP),amp[c] + gtp[c] <==> adp[c] + gdp[c],MA1096,Nucleotide Metabolism,1,-1000.0,1000,0
+ADK4,adentylate kinase (ITP),amp[c] + itp[c] <==> adp[c] + idp[c],MA1096,Nucleotide Metabolism,1,-1000.0,1000,0
+ADKd,adenylate kinase (d form),damp[c] + datp[c] <==> (2) dadp[c],MA1096,Nucleotide Metabolism,1,-1000.0,1000,0
+ADNCYC,adenylate cyclase,atp[c] <==> camp[c] + ppi[c],MA4044,Nucleotide Metabolism,0,0.0,1000,0
+ADNK1,adenosine kinase,adn[c] + atp[c] <==> adp[c] + amp[c] + h[c],Unassigned,Nucleotide Metabolism,0,0.0,1000,0
+ADPT,adenine phosphoribosyltransferase,amp[c] + ppi[c] <==> ade[c] + prpp[c],MA0717,Nucleotide Metabolism,1,-1000.0,1000,0
+ADSL2,adenylosuccinate lyase,25aics[c] <==> aicar[c] + fum[c],MA3971,Nucleotide Metabolism,1,-1000.0,1000,0
+AICART,phosphoribosylaminoimidazolecarboxamide formyltransferase,10fthf[c] + aicar[c] <==> fprica[c] + thf[c],MA4012,Nucleotide Metabolism,1,-1000.0,1000,0
+AIRC2,phosphoribosylaminoimidazole carboxylase,air[c] + atp[c] + hco3[c] <==> adp[c] + h[c] + pi[c] + 5caiz[c],(MA0428 or MA1376 or MA4063),Nucleotide Metabolism,0,0.0,1000,0
+AIRC3,phosphoribosylaminoimidazole carboxylase (mutase rxn),5aizc[c] <==> 5caiz[c],(MA0428 or MA1376 or MA4063),Nucleotide Metabolism,1,-1000.0,1000,0
+ATPFORTRX,5-formaminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl,aicar[c] + atp[c] + for[c] <==> adp[c] + fprica[c] + pi[c],(MA0206 or MA3689),Nucleotide Metabolism,0,0.0,1000,0
+ATPHs,ATP amine hydrolysis (spontaneous),atp[c] + h[c] + h2o[c] <==> itp[c] + nh4[c],Unassigned,Nucleotide Metabolism,0,0.0,1000,0
+CSND,Cytosine deaminase,csn[c] + h[c] + h2o[c] <==> nh4[c] + ura[c],(MA2559 or MA2341),Nucleotide Metabolism,0,0.0,1000,0
+CTPS1,CTP synthase (NH3),atp[c] + nh4[c] + utp[c] <==> adp[c] + ctp[c] + (2) h[c] + pi[c],MA3279,Nucleotide Metabolism,0,0.0,1000,0
+CTPS2,CTP synthase (glutamine),atp[c] + gln-L[c] + h2o[c] + utp[c] <==> adp[c] + ctp[c] + glu-L[c] + (2) h[c] + pi[c],MA3279,Nucleotide Metabolism,0,0.0,1000,0
+CYTDK1,cytidine kinase (ATP),atp[c] + cytd[c] <==> adp[c] + cmp[c] + h[c],MA1373,Nucleotide Metabolism,0,0.0,1000,0
+CYTDK3,cytidine kinase (ITP),itp[c] + cytd[c] <==> idp[c] + cmp[c] + h[c],MA1104,Nucleotide Metabolism,0,0.0,1000,0
+CYTK1,cytidylate kinase (CMP),atp[c] + cmp[c] <==> adp[c] + cdp[c],MA1104,Nucleotide Metabolism,1,-1000.0,1000,0
+CYTK2,cytidylate kinase (dCMP),atp[c] + dcmp[c] <==> adp[c] + dcdp[c],MA1104,Nucleotide Metabolism,1,-1000.0,1000,0
+CYTK5,cytidylate kinase (dCMP),ctp[c] + dcmp[c] <==> cdp[c] + dcdp[c],MA1104,Nucleotide Metabolism,1,-1000.0,1000,0
+DADK,deoxyadenylate kinase,atp[c] + damp[c] <==> adp[c] + dadp[c],MA1096,Nucleotide Metabolism,1,-1000.0,1000,0
+DATPHs,dATP amine hydrolysis (spontaneous),datp[c] + h[c] + h2o[c] <==> ditp[c] + nh4[c],Unassigned,Nucleotide Metabolism,0,0.0,1000,0
+DCMPDA,dCMP deaminase,dcmp[c] + h[c] + h2o[c] <==> dump[c] + nh4[c],(MA0136 or MA0137),Nucleotide Metabolism,1,-1000.0,1000,0
+DCTPD,dCTP deaminase,dctp[c] + h[c] + h2o[c] <==> dutp[c] + nh4[c],(MA4092 and MA0440),Nucleotide Metabolism,0,0.0,1000,0
+DHORD7,dihydroorotic acid dehydrogenase (f420),dhor-S[c] + f420-2[c] + h[c] <==> f420-2h2[c] + orot[c],(MA0583 and MA0584),Nucleotide Metabolism,1,-1000.0,1000,0
+DHORTS,dihydroorotase,dhor-S[c] + h2o[c] <==> cbasp[c] + h[c],MA0892,Nucleotide Metabolism,1,-1000.0,1000,0
+DNADDP,Deaminido NAD diphosphatase,dnad[c] + h2o[c] <==> amp[c] + (2) h[c] + nicrnt[c],MA1439,Nucleotide Metabolism,0,0.0,1000,0
+DTMPK,dTMP kinase,atp[c] + dtmp[c] <==> adp[c] + dtdp[c],MA4433,Nucleotide Metabolism,1,-1000.0,1000,0
+DURIPP,deoxyuridine phosphorylase,duri[c] + pi[c] <==> 2dr1p[c] + ura[c],MA3242,Nucleotide Metabolism,0,0.0,1000,0
+DUTPDP,dUTP diphosphatase,dutp[c] + h2o[c] <==> dump[c] + h[c] + ppi[c],MA0440,Nucleotide Metabolism,0,0.0,1000,0
+GARFT,phosphoribosylglycinamide formyltransferase,10fthf[c] + gar[c] <==> fgam[c] + h[c] + thf[c],(MA0316 or MA3522),Nucleotide Metabolism,0,0.0,1000,0
+GK1,guanylate kinase (GMP:ATP),atp[c] + gmp[c] <==> adp[c] + gdp[c],Unassigned,Nucleotide Metabolism,1,-1000.0,1000,0
+GMPS,GMP synthase,atp[c] + nh4[c] + xmp[c] <==> amp[c] + gmp[c] + (2) h[c] + ppi[c],(MA4511 or MA4590 or MA1151 or MA2696 or MA2966),Nucleotide Metabolism,0,0.0,1000,0
+GSNK,guanosine kinase,atp[c] + gsn[c] <==> adp[c] + gmp[c] + h[c],MA1373,Nucleotide Metabolism,0,0.0,1000,0
+GTPCHIII,GTP cyclohydrolase III,gtp[c] + (3) h2o[c] <==> fapy[c] + (2) pi[c] + (2) h[c],Unassigned,Nucleotide Metabolism,0,0.0,1000,0
+GTPCHIV,GTP cyclohydrolase IV,gtp[c] + h2o[c] <==> for[c] + ppi[c] + dhp23cp[c],MA4517,Nucleotide Metabolism,0,0.0,1000,0
+GTPHs,GTP amine hydrolysis (spontaneous),gtp[c] + h[c] + h2o[c] <==> nh4[c] + xtp[c],Unassigned,Nucleotide Metabolism,0,0.0,1000,0
+GUACYC,guanylate cyclase,gtp[c] <==> 35cgmp[c] + ppi[c],MA4044,Nucleotide Metabolism,0,0.0,1000,0
+GUAD,guanine deaminase,gua[c] + h[c] + h2o[c] <==> nh4[c] + xan[c],MA3407,Nucleotide Metabolism,0,0.0,1000,0
+GUAPRT,guanine phosphoribosyltransferase,gmp[c] + ppi[c] <==> gua[c] + prpp[c],(MA1687 or MA4581 or MA0717),Nucleotide Metabolism,1,-1000.0,1000,0
+HXPRT,hypoxanthine phosphoribosyltransferase (Hypoxanthine),hxan[c] + prpp[c] <==> imp[c] + ppi[c],(MA1687 or MA4581),Nucleotide Metabolism,0,0.0,1000,0
+IMPC,IMP cyclohydrolase,h2o[c] + imp[c] <==> fprica[c],MA4012,Nucleotide Metabolism,1,-1000.0,1000,0
+IMPD,IMP dehydrogenase,h2o[c] + imp[c] + nad[c] <==> h[c] + nadh[c] + xmp[c],(MA4647 or MA1815),Nucleotide Metabolism,0,0.0,1000,0
+INSK,insosine kinase,atp[c] + ins[c] <==> adp[c] + h[c] + imp[c],MA1373,Nucleotide Metabolism,0,0.0,1000,0
+MTAP,5'-methylthioadenosine phosphorylase,5mta[c] + pi[c] <==> 5mdr1p[c] + ade[c],MA1409,Nucleotide Metabolism,0,0.0,1000,0
+MTRI,5-methylthioribose-1-phosphate isomerase,5mdr1p[c] <==> 5mdru1p[c],MA0076,Nucleotide Metabolism,0,0.0,1000,0
+NDPK1,nucleoside-diphosphate kinase (ATP:GDP),atp[c] + gdp[c] <==> adp[c] + gtp[c],MA1524,Nucleotide Metabolism,1,-1000.0,1000,0
+NDPK10,nucleoside-diphosphate kinase (ATP:dIDP),atp[c] + didp[c] <==> adp[c] + ditp[c],MA1524,Nucleotide Metabolism,0,0.0,1000,0
+NDPK2,nucleoside-diphosphate kinase (ATP:UDP),atp[c] + udp[c] <==> adp[c] + utp[c],MA1524,Nucleotide Metabolism,1,-1000.0,1000,0
+NDPK3,nucleoside-diphosphate kinase (ATP:CDP),atp[c] + cdp[c] <==> adp[c] + ctp[c],MA1524,Nucleotide Metabolism,1,-1000.0,1000,0
+NDPK4,nucleoside-diphosphate kinase (ATP:dTDP),atp[c] + dtdp[c] <==> adp[c] + dttp[c],MA1524,Nucleotide Metabolism,1,-1000.0,1000,0
+NDPK5,nucleoside-diphosphate kinase (ATP:dGDP),atp[c] + dgdp[c] <==> adp[c] + dgtp[c],MA1524,Nucleotide Metabolism,1,-1000.0,1000,0
+NDPK6,nucleoside-diphosphate kinase (ATP:dUDP),atp[c] + dudp[c] <==> adp[c] + dutp[c],MA1524,Nucleotide Metabolism,1,-1000.0,1000,0
+NDPK7,nucleoside-diphosphate kinase (ATP:dCDP),atp[c] + dcdp[c] <==> adp[c] + dctp[c],MA1524,Nucleotide Metabolism,1,-1000.0,1000,0
+NDPK8,nucleoside-diphosphate kinase (ATP:dADP),atp[c] + dadp[c] <==> adp[c] + datp[c],MA1524,Nucleotide Metabolism,1,-1000.0,1000,0
+NDPK9,nucleoside-diphosphate kinase (ATP:IDP),atp[c] + idp[c] <==> adp[c] + itp[c],MA1524,Nucleotide Metabolism,1,-1000.0,1000,0
+NTD1,5'-nucleotidase (dUMP),dump[c] + h2o[c] <==> duri[c] + pi[c],MA0104,Nucleotide Metabolism,0,0.0,1000,0
+NTD10,5'-nucleotidase (XMP),h2o[c] + xmp[c] <==> pi[c] + xtsn[c],MA0104,Nucleotide Metabolism,0,0.0,1000,0
+NTD11,5'-nucleotidase (IMP),h2o[c] + imp[c] <==> ins[c] + pi[c],MA0104,Nucleotide Metabolism,0,0.0,1000,0
+NTD2,5'-nucleotidase (UMP),h2o[c] + ump[c] <==> pi[c] + uri[c],MA0104,Nucleotide Metabolism,0,0.0,1000,0
+NTD3,5'-nucleotidase (dCMP),dcmp[c] + h2o[c] <==> dcyt[c] + pi[c],MA0104,Nucleotide Metabolism,0,0.0,1000,0
+NTD4,5'-nucleotidase (CMP),cmp[c] + h2o[c] <==> cytd[c] + pi[c],MA0104,Nucleotide Metabolism,0,0.0,1000,0
+NTD5,5'-nucleotidase (dTMP),dtmp[c] + h2o[c] <==> pi[c] + thymd[c],MA0104,Nucleotide Metabolism,0,0.0,1000,0
+NTD6,5'-nucleotidase (dAMP),damp[c] + h2o[c] <==> dad-2[c] + pi[c],MA0104,Nucleotide Metabolism,0,0.0,1000,0
+NTD7,5'-nucleotidase (AMP),amp[c] + h2o[c] <==> adn[c] + pi[c],MA0104,Nucleotide Metabolism,0,0.0,1000,0
+NTD8,5'-nucleotidase (dGMP),dgmp[c] + h2o[c] <==> dgsn[c] + pi[c],MA0104,Nucleotide Metabolism,0,0.0,1000,0
+NTD9,5'-nucleotidase (GMP),gmp[c] + h2o[c] <==> gsn[c] + pi[c],MA0104,Nucleotide Metabolism,0,0.0,1000,0
+NTP1,nucleoside-triphosphatase (ATP),atp[c] + h2o[c] <==> adp[c] + h[c] + pi[c],MA3706,Nucleotide Metabolism,0,0.0,1000,0
+NTP2,nucleoside-triphosphatase (dATP),datp[c] + h2o[c] <==> dadp[c] + h[c] + pi[c],MA3706,Nucleotide Metabolism,0,0.0,1000,0
+NTP3,nucleoside-triphosphatase (GTP),gtp[c] + h2o[c] <==> gdp[c] + h[c] + pi[c],MA3706,Nucleotide Metabolism,0,0.0,1000,0
+NTP4,nucleoside-triphosphatase (dGTP),dgtp[c] + h2o[c] <==> dgdp[c] + h[c] + pi[c],MA3706,Nucleotide Metabolism,0,0.0,1000,0
+NTP5,nucleoside-triphosphatase (CTP),ctp[c] + h2o[c] <==> cdp[c] + h[c] + pi[c],MA3706,Nucleotide Metabolism,0,0.0,1000,0
+NTP6,nucleoside-triphosphatase (dCTP),dctp[c] + h2o[c] <==> dcdp[c] + h[c] + pi[c],MA3706,Nucleotide Metabolism,0,0.0,1000,0
+NTP7,nucleoside-triphosphatase (UTP),h2o[c] + utp[c] <==> h[c] + pi[c] + udp[c],MA3706,Nucleotide Metabolism,0,0.0,1000,0
+NTP8,nucleoside-triphosphatase (dUTP),dutp[c] + h2o[c] <==> dudp[c] + h[c] + pi[c],MA3706,Nucleotide Metabolism,0,0.0,1000,0
+NTP9,nucleoside-triphosphatase (dTTP),dttp[c] + h2o[c] <==> dtdp[c] + h[c] + pi[c],MA3706,Nucleotide Metabolism,0,0.0,1000,0
+NTPP11,Nucleoside triphosphate pyrophosphorylase (xtp),h2o[c] + xtp[c] <==> h[c] + ppi[c] + xmp[c],MA3706,Nucleotide Metabolism,0,0.0,1000,0
+NTPTP1,Nucleoside triphosphate tripolyhydrolase,dgtp[c] + h2o[c] <==> dgsn[c] + pppi[c],MA0713,Nucleotide Metabolism,0,0.0,1000,0
+OMPDC,orotidine-5'-phosphate decarboxylase,h[c] + orot5p[c] <==> co2[c] + ump[c],MA0969,Nucleotide Metabolism,0,0.0,1000,0
+ORPT,orotate phosphoribosyltransferase,orot5p[c] + ppi[c] <==> orot[c] + prpp[c],((MA0919 or MA2520) or MA3307),Nucleotide Metabolism,1,-1000.0,1000,0
+PPKr,polyphosphate kinase,atp[c] + pi[c] <==> ppi[c] + adp[c],MA0081,Nucleotide Metabolism,1,-1000.0,1000,0
+PRAGSr,phosphoribosylglycinamide synthase,atp[c] + gly[c] + pram[c] <==> adp[c] + gar[c] + h[c] + pi[c],MA3309,Nucleotide Metabolism,0,0.0,1000,0
+PRAIS,phosphoribosylaminoimidazole synthase,atp[c] + fpram[c] <==> adp[c] + air[c] + (2) h[c] + pi[c],MA0130,Nucleotide Metabolism,0,0.0,1000,0
+PRASCS,phosphoribosylaminoimidazolesuccinocarboxamide synthase,5aizc[c] + asp-L[c] + atp[c] <==> 25aics[c] + adp[c] + h[c] + pi[c],MA4063,Nucleotide Metabolism,1,-1000.0,1000,0
+PRFGS,phosphoribosylformylglycinamidine synthase,atp[c] + fgam[c] + gln-L[c] + h2o[c] <==> adp[c] + fpram[c] + glu-L[c] + h[c] + pi[c],(MA1963 or MA1964) and MA4055,Nucleotide Metabolism,0,0.0,1000,0
+RNDR1,ribonucleoside-diphosphate reductase (ADP),adp[c] + trdrd[c] <==> dadp[c] + h2o[c] + trdox[c],MA1665,Nucleotide Metabolism,0,0.0,1000,0
+RNDR2,ribonucleoside-diphosphate reductase (GDP),gdp[c] + trdrd[c] <==> dgdp[c] + h2o[c] + trdox[c],MA1665,Nucleotide Metabolism,0,0.0,1000,0
+RNDR3,ribonucleoside-diphosphate reductase (CDP),cdp[c] + trdrd[c] <==> dcdp[c] + h2o[c] + trdox[c],MA1665,Nucleotide Metabolism,0,0.0,1000,0
+RNDR4,ribonucleoside-diphosphate reductase (UDP),trdrd[c] + udp[c] <==> dudp[c] + h2o[c] + trdox[c],MA1665,Nucleotide Metabolism,0,0.0,1000,0
+RNTR1,ribonucleoside-triphosphate reductase (ATP),atp[c] + trdrd[c] <==> datp[c] + h2o[c] + trdox[c],MA0072,Nucleotide Metabolism,0,0.0,1000,0
+RNTR2,ribonucleoside-triphosphate reductase (GTP),gtp[c] + trdrd[c] <==> dgtp[c] + h2o[c] + trdox[c],MA0072,Nucleotide Metabolism,0,0.0,1000,0
+RNTR3,ribonucleoside-triphosphate reductase (CTP),ctp[c] + trdrd[c] <==> dctp[c] + h2o[c] + trdox[c],MA0072,Nucleotide Metabolism,0,0.0,1000,0
+RNTR4,ribonucleoside-triphosphate reductase (UTP),trdrd[c] + utp[c] <==> dutp[c] + h2o[c] + trdox[c],MA0072,Nucleotide Metabolism,0,0.0,1000,0
+TMDK1,thymidine kinase (ATP:thymidine),atp[c] + thymd[c] <==> adp[c] + dtmp[c] + h[c],MA4433,Nucleotide Metabolism,0,0.0,1000,0
+TMDPP,thymidine phosphorylase,pi[c] + thymd[c] <==> 2dr1p[c] + thym[c],MA3242,Nucleotide Metabolism,0,0.0,1000,0
+TMDS,thymidylate synthase,dump[c] + mlthf[c] <==> dhf[c] + dtmp[c],(MA1824 or MA4543),Nucleotide Metabolism,0,0.0,1000,0
+TRDR,thioredoxin reductase (NADPH),h[c] + nadph[c] + trdox[c] <==> nadp[c] + trdrd[c],(MA1368 or MA3212),Nucleotide Metabolism,0,0.0,1000,0
+UMPK,UMP kinase,atp[c] + ump[c] <==> adp[c] + udp[c],(MA0372 or MA1104),Nucleotide Metabolism,1,-1000.0,1000,0
+URIDK2r,uridylate kinase (dUMP),atp[c] + dump[c] <==> adp[c] + dudp[c],MA0372,Nucleotide Metabolism,1,-1000.0,1000,0
+XPPT,xanthine phosphoribosyltransferase,prpp[c] + xan[c] <==> ppi[c] + xmp[c],(MA1687 or MA4581),Nucleotide Metabolism,0,0.0,1000,0
+YUMPS,yUMP synthetase,r5p[c] + ura[c] <==> h2o[c] + psd5p[c],(MA1105 or MA0208),Nucleotide Metabolism,0,0.0,1000,0
+ACLDC,acetolactate decarboxylase,alac-S[c] + h[c] <==> actn-R[c] + co2[c],MA3744,Other,0,0.0,1000,0
+ADCPS1,adenosylcobinamide-phosphate synthase,adcobhex[c] + appl[c] + atp[c] <==> adocbi[c] + adp[c] + h[c] + pi[c],MA0941,Other,0,0.0,1000,0
+ALACCBX,2-Acetolactate pyruvate-lyase (carboxylating),he2thpp[c] + pyr[c] <==> alac-S[c] + thmpp[c],Unassigned,Other,0,0.0,1000,0
+ALDD31,aminoacetaldehyde oxidase,aacald[c] + h2o[c] + nad[c] <==> nadh[c] + gly[c] + (2) h[c],MA2860,Other,0,0.0,1000,0
+ASNTRS2-1,nondiscriminating aspartyl-tRNA synthetase,trnaasn[c] + atp[c] + asp-L[c] <==> amp[c] + ppi[c] + asntrna_asp[c],MA1684,Other,0,0.0,1000,0
+ASNTRS2-2,Asparaginyl-tRNA synthetase (from asntrna(asp)),asntrna_asp[c] + gln-L[c] + atp[c] + h2o[c] <==> adp[c] + pi[c] + h[c] + glu-L[c] + asntrna[c],(MA4522 and MA4523 and MA4524),Other,0,0.0,1000,0
+ASPO2y,L-aspartate:NAD+ oxidoreductase (deaminating),asp-L[c] + nadp[c] <==> h[c] + iasp[c] + nadph[c],MA0958,Other,0,0.0,1000,0
+ATPM,ATP maintenance requirement,atp[c] + h2o[c] <==> adp[c] + h[c] + pi[c],MA3706,Other,0,2.5,1000,0
+CAT,catalase,(2) h2o2[c] <==> (2) h2o[c] + o2[c],MA0972,Other,0,0.0,1000,0
+CMLDC,4-carboxymuconolactone decarboxylase,2c25dho[c] + h[c] <==> co2[c] + 5odhf2a[c],(MA0409 or MA2469 or MA3991),Other,0,0.0,1000,0
+CMPSAS,CMP sialic acid synthase,acnam[c] + ctp[c] <==> cmpacna[c] + ppi[c],MA3766,Other,0,0.0,1000,0
+F4H2O,F420H2 oxidase,(2) f420-2h2[c] + o2[c] <==> (2) f420-2[c] + (2) h2o[c] + (2) h[c],(MA3381 or MA3743),Other,0,0.0,1000,0
+GCC,dihydrolipoylprotein:NAD+ oxidoreductase,dhlpro[c] + nad[c] <==> h[c] + lpro[c] + nadh[c],MA1652,Other,0,0.0,1000,0
+GLYOX,(R)-S-Lactoylglutathione hydrolase,lgt-S[c] + h2o[c] <==> gthrd[c] + h[c] + lac-D[c],Unassigned,Other,0,0.0,1000,0
+HCO3E,HCO3 equilibration reaction,co2[c] + h2o[c] <==> h[c] + hco3[c],MA2536,Other,1,-1000.0,1000,0
+MHPGLUT,5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase,hcys-L[c] + mhpglu[c] <==> hpglu[c] + met-L[c],(MA0053 or MA0054 or MA3549),Other,0,0.0,1000,0
+MHPGLUT2,5-Methyltetrahydropteroyltri-L-glutamate:SAM methyltransferrase,ahcys[c] + h[c] + mhpglu[c] <==> amet[c] + hpglu[c],(MA0053 or MA0054 or MA3549),Other,0,0.0,1000,0
+MI3PS,1D-myo-inositol-3-phosphate lyase (isomerizing),g6p[c] <==> mi3p-D[c],(MA0075 or MA2253),Other,0,0.0,1000,0
+NIT_n1p4,nitrogenase,(16) atp[c] + (8) fdred[c] + (16) h2o[c] + n2[c] <==> (16) adp[c] + (8) fdox[c] + (6) h[c] + h2[c] + (2) nh4[c] + (16) pi[c],((MA1208 and MA1209 and MA1210) or ((MA1205 or MA1213 or MA1633 or MA2032 or MA3627 or MA3895) and (MA1212 or MA1214 or MA3896) and (MA1211 or MA1215 or MA3897) and MA3898 and MA3899 and MA4195 and MA3900 and MA3901 and (MA2717 or MA3265)) or (MA1217 and MA1216 and MA1218 and (MA1219 or MA1631) and (MA1220 or MA1632))),Other,0,0.0,1000,0
+NMNHYD,Nicotinamide ribonucleotide phosphohydrolase,h2o[c] + nmn[c] <==> pi[c] + rnam[c],MA0104,Other,0,0.0,1000,0
+OXADC,oxalate decarboxylase,h[c] + oxa[c] <==> co2[c] + for[c],MA2076,Other,0,0.0,1000,0
+PPK2,polyphosphate kinase,atp[c] + ppi[c] <==> adp[c] + pppi[c],MA0081,Other,0,0.0,1000,0
+PRPPP,phosphoribosylpyrophosphate phosphatase,h2o[c] + prpp[c] <==> h[c] + pi[c] + r15bp[c],MA2851,Other,0,0.0,1000,0
+PYRS-1,Pyrrolysine synthesis reaction (step 1),amet[c] + 1pyr5c[c] <==> 1pyr4m5c[c] + ahcys[c] + h[c],MA0154,Other,0,0.0,1000,0
+PYRS-2,Pyrrolysine synthesis reaction (step 2),1pyr4m5c[c] + lys-L[c] + atp[c] <==> pyr-L[c] + adp[c] + pi[c] + h[c],MA0153,Other,0,0.0,1000,0
+PYRTRS,pyrrolysyl-tRNA synthase,pyr-L[c] + atp[c] + trnaala[c] <==> amp[c] + ppi[c] + pyrtrna[c],MA0155,Other,0,0.0,1000,0
+R07405,5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole carboxymutase,5c5pdriaz[c] <==> 5aizc[c],MA1376,Other,0,0.0,1000,0
+RBPI,"ribose 1,5-bisphosphate isomerase",r15bp[c] <==> rb15bp[c],MA2851,Other,0,0.0,1000,0
+SDPTA,succinyldiaminopimelate transaminase,akg[c] + sl26da[c] <==> glu-L[c] + sl2a6o[c],MA0119,Other,0,0.0,1000,0
+SPODM,superoxide dismutase,(2) h[c] + (2) o2-[c] <==> h2o2[c] + o2[c],(MA1574 and MA2422),Other,0,0.0,1000,0
+SULR2,F420-dependent sulfite reductase,h2s[c] + (3) f420-2[c] + (3) h2o[c] + h[c] <==> (3) f420-2h2[c] + so3[c],(MA3439 or MA4520),Other,1,-1000.0,1000,0
+4ASD,4-aminoshikimate dehydratase,4as[c] <==> h2o[c] + 4das[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+4DHSD,4-aminoshikimate dehydrogenase,4adhs[c] + (2) h[c] + nadh[c] <==> nad[c] + 4as[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+4DHSS,4-aminodehydroshikimate synthase,4adhq[c] <==> 4adhs[c] + h2o[c] + h[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+BRFAPS,beta-ribofuranosylaminobenzene 5'-phosphate synthase,4abz[c] + h[c] + prpp[c] <==> Brfap[c] + co2[c] + ppi[c],(MA0339 or MA4006),Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+DHNPA2,dihydroneopterin aldolase,dhnpt[c] <==> 6hmhpt[c] + gcald[c] + h[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+DHPCPH,"7,8-dihydronepterin 2' :3'-cyclicphosphate hydrolase",dhp23cp[c] + h2o[c] <==> dhpmp[c] + h[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+DHPS3,"7,8 dihydropteroate synthase (methanopterin)",6hmhptpp[c] + Brfap[c] + h[c] <==> dhrfap[c] + ppi[c],(MA1946 or MA1962 or MA3419 or MA4405),Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+DHQAT,3-dehydroquinate aminotransferase,3dhq[c] + nh4[c] <==> 4adhq[c] + h2o[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+DNMPPA,Dihydroneopterin monophosphate dephosphorylase,dhpmp[c] + h2o[c] <==> dhnpt[c] + pi[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+H2MPTR,dihydromethanoterin reductase,f420-2h2[c] + h2mpt[c] <==> f420-2[c] + h4mpt[c] + h[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+H4MPTGL_atp_,tetrahydromethanopterin glutamate lyase (ATP),atp[c] + glu-L[c] + h4mpt[c] <==> adp[c] + h[c] + h4spt[c] + pi[c],MA3268,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+H4MPTGL_gtp_,tetrahydromethanopterin glutamate lyase (GTP),glu-L[c] + gtp[c] + h4mpt[c] <==> gdp[c] + h[c] + h4spt[c] + pi[c],MA3268,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+H4MPTS10,tetrahydromethanopterin synthesis reaction 10,dhadrp[c] + h2o[c] <==> dhadr[c] + pi[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+H4MPTS11,tetrahydromethanopterin synthesis reaction 11,dhadr[c] + prpp[c] <==> dhadrpr[c] + ppi[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+H4MPTS12,tetrahydromethanopterin synthesis reaction 12,atp[c] + dhadrpr[c] <==> adp[c] + dhadrdpr[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+H4MPTS13,tetrahydromethanopterin synthesis reaction 13,atp[c] + dhadrdpr[c] <==> adp[c] + dhadrtpr[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+H4MPTS14,tetrahydromethanopterin synthesis reaction 14,S2hglut[c] + dhadrtpr[c] <==> dmh2mpt[c] + ppi[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+H4MPTS15,tetrahydromethanopterin synthesis reaction 15,amet[c] + dmh2mpt[c] <==> ahcys[c] + h[c] + mmh2mpt[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+H4MPTS16,tetrahydromethanopterin synthesis reaction 16,amet[c] + mmh2mpt[c] <==> ahcys[c] + h[c] + h2mpt[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+H4MPTS9,tetrahydromethanopterin synthesis reaction 9,dhrfap[c] + f420-2h2[c] <==> dhadrp[c] + f420-2[c] + h[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+HPPK2,6-hydroxymethyl-dihydropterin pyrophosphokinase,6hmhpt[c] + atp[c] <==> 6hmhptpp[c] + amp[c] + h[c],Unassigned,Tetrahydramethanopterin Biosynthesis,0,0.0,1000,0
+BLAT,beta-lysine acetyltransferase,36dahx[c] + accoa[c] <==> coa[c] + h[c] + nabl[c],MA3978,Threonine and Lysine Metabolism,0,0.0,1000,0
+DAPDC,diaminopimelate decarboxylase,26dap-M[c] + h[c] <==> co2[c] + lys-L[c],MA0726,Threonine and Lysine Metabolism,0,0.0,1000,0
+DAPE,diaminopimelate epimerase,26dap-LL[c] <==> 26dap-M[c],Unassigned,Threonine and Lysine Metabolism,1,-1000.0,1000,0
+DAPNH4T,diaminopimelate synthase,glu-L[c] + thdp[c] + h2o[c] <==> akg[c] + 26dap-LL[c],MA1712,Threonine and Lysine Metabolism,0,0.0,1000,0
+DHDPRx,"2,3,4,5-Tetrahydrodipicolinate:NAD+ oxidoreductase",nad[c] + thdp[c] <==> 23dhdp[c] + h[c] + nadh[c],MA4474,Threonine and Lysine Metabolism,1,-1000.0,1000,0
+DHDPRy,dihydrodipicolinate reductase (NADPH),nadp[c] + thdp[c] <==> 23dhdp[c] + h[c] + nadph[c],MA4474,Threonine and Lysine Metabolism,1,-1000.0,1000,0
+DHDPS,dihydrodipicolinate synthase,aspsa[c] + pyr[c] <==> 23dhdp[c] + (2) h2o[c],MA4473,Threonine and Lysine Metabolism,0,0.0,1000,0
+HCITS,homocitrate synthase,accoa[c] + akg[c] + h2o[c] <==> coa[c] + h[c] + hcit[c],(MA1226 or MA1225 or MA3342),Threonine and Lysine Metabolism,0,0.0,1000,0
+HSK,homoserine kinase,atp[c] + hom-L[c] <==> adp[c] + h[c] + phom[c],Unassigned,Threonine and Lysine Metabolism,0,0.0,1000,0
+LYSAM,"lysine 2,3-aminomutase",lys-L[c] <==> 36dahx[c],MA3979,Threonine and Lysine Metabolism,0,0.0,1000,0
+LYSTRS,Lysyl-tRNA synthetase,atp[c] + lys-L[c] + trnalys[c] <==> amp[c] + ppi[c] + lystrna[c],((MA0760 or MA1684) or MA0534),Threonine and Lysine Metabolism,0,0.0,1000,0
+THRA2i,L-allo-Threonine Aldolase,athr-L[c] <==> acald[c] + gly[c],MA3520,Threonine and Lysine Metabolism,0,0.0,1000,0
+THRAr,Threonine Aldolase,thr-L[c] <==> acald[c] + gly[c],MA3520,Threonine and Lysine Metabolism,1,-1000.0,1000,0
+THRS,threonine synthase,h2o[c] + phom[c] <==> pi[c] + thr-L[c],(MA3297 or MA1610),Threonine and Lysine Metabolism,0,0.0,1000,0
+THRTRS,Threonyl-tRNA synthetase,atp[c] + thr-L[c] + trnathr[c] <==> amp[c] + ppi[c] + thrtrna[c],MA2896,Threonine and Lysine Metabolism,0,0.0,1000,0
+4ABZt2r,4-Aminobenzoate mitochondrial transport via symport,4abz[e] + h[e] <==> 4abz[c] + h[c],Unassigned,Transport,0,0.0,1000,0
+ACt3r,acetate reversible transport via proton symport,ac[e] <==> ac[c],MA4008,Transport,1,-1000.0,1000,0
+ACTNt2r,(R)-acetoin transport via proton symport,actn-R[c] + (0) h[c] <==> actn-R[e] + (0) h[e],Unassigned,Transport,0,0.0,1000,0
+ALACt2r,acetolactate reversible transport via proton symport,alac-S[e] + h[e] <==> alac-S[c] + h[c],Unassigned,Transport,0,0.0,1000,0
+ALAt4r,Alanine-Sodium symporter,ala-L[e] + na1[e] <==> ala-L[c] + na1[c],MA2837,Transport,0,0.0,1000,0
+ATPS1,H+-exporting ATPase,atp[c] + h[c] + h2o[c] <==> adp[c] + (2) h[e] + pi[c],((MA1678 or MA2833 or MA4082 or MA4378)),Transport,0,0.0,1000,0
+BTNabc,biotin transport (ABC),btn[e] + atp[c] + h2o[c] <==> btn[c] + adp[c] + pi[c] + h[c],(MA4340 and (MA4341 or MA4342) and MA4343),Transport,0,0.0,1000,0
+BTNt2i,Biotin uptake,btn[e] + h[e] <==> btn[c] + h[c],MA4340,Transport,0,0.0,1000,0
+CA2abc,calcium transport via ABC system,atp[c] + ca2[e] + h2o[c] <==> adp[c] + ca2[c] + h[c] + pi[c],(MA1678 or MA2501 or MA2833 or MA4082 or MA4378),Transport,0,0.0,1000,0
+CAt6,calcium / sodium antiporter,ca2[c] + na1[e] <==> ca2[e] + na1[c],(MA2008 or MA2817 or MA3021),Transport,1,-1000.0,1000,0
+CBIabc,Cobinamide transport via ABC system,atp[c] + cbi[e] + h2o[c] <==> adp[c] + cbi[c] + h[c] + pi[c],(MA4604 and MA4605 and MA4606),Transport,0,0.0,1000,0
+CBL1abc,Cob(1)alamin transport via ABC system,atp[c] + cbl1[e] + h2o[c] <==> adp[c] + cbl1[c] + h[c] + pi[c],(MA4604 and MA4605 and MA4606),Transport,0,0.0,1000,0
+CBL1HBIabc,Cob(1)alamin-HBI transport via ABC system,atp[c] + cbl1hbi[e] + h2o[c] <==> adp[c] + cbl1hbi[c] + h[c] + pi[c],(MA4604 and MA4605 and MA4606),Transport,0,0.0,1000,0
+CD2abc1,cadmium transport out via ABC system,atp[c] + cd2[c] + h2o[c] <==> adp[c] + cd2[e] + h[c] + pi[c],(MA0549 or MA3632 or MA3366),Transport,0,0.0,1000,0
+CD2t4,Cadmium transport out via antiport,cd2[c] + h[e] + k[e] <==> cd2[e] + h[c] + k[c],Unassigned,Transport,1,-1000.0,1000,0
+CH4St,Methanethiol Transport,ch4s[e] <==> ch4s[c],Unassigned,Transport,1,-1000.0,1000,0
+CH4t,Methane Transport,ch4[c] <==> ch4[e],Unassigned,Transport,1,-1000.0,1000,0
+Clt,chlorideion transport out via diffusion,cl[e] <==> cl[c],MA3609,Transport,1,-1000.0,1000,0
+CO2t,CO2 transporter via diffusion,co2[c] <==> co2[e],Unassigned,Transport,1,-1000.0,1000,0
+Coabc,Cobalt transport via ABC system,atp[c] + cobalt2[e] + h2o[c] <==> adp[c] + cobalt2[c] + h[c] + pi[c],(MA0393 or MA0869 or MA1748 or MA3552 or MA4019 or MA4022) and (MA0394 or MA3551 or MA4020 or MA4021 or MA4341) and MA3553 and (MA3554 or MA4023) or MA1418 or MA1419 or MA1747 or MA4343,Transport,0,0.0,1000,0
+COBALTt5,cobalt transport in/out via permease (no H+),cobalt2[c] <==> cobalt2[e],(MA1721 or (MA1436 or MA1437)),Transport,1,-1000.0,1000,0
+COt,CO transporter via diffusion,co[e] <==> co[c],Unassigned,Transport,0,0.0,1000,0
+Cuabc,Copper transport via ABC system,atp[c] + cu2[e] + h2o[c] <==> adp[c] + cu2[c] + h[c] + pi[c],(MA0166 or MA1342 or MA3999),Transport,0,0.0,1000,0
+Cut1,Copper export via ATPase,atp[c] + cu2[c] + h2o[c] <==> adp[c] + cu2[e] + h[c] + pi[c],(MA0166 or MA1342 or MA2833 or MA3632),Transport,0,0.0,1000,0
+CYSt2r,L-cysteine reversible transport via proton symport,cys-L[e] + h[e] <==> cys-L[c] + h[c],Unassigned,Transport,0,0.0,1000,0
+DMAt,Dimethylamine symport,h[e] + dma[e] <==> h[c] + dma[c],MA0143,Transport,0,0.0,1000,0
+DMSt,Dimethyl sulfide Transport,dms[e] <==> dms[c],Unassigned,Transport,0,0.0,1000,0
+ETHAt6,ethanolamine transport in/out via proton symport,etha[e] + h[e] <==> etha[c] + h[c],MA0143,Transport,0,0.0,1000,0
+FE2abc,iron (II) transport via ABC system,atp[c] + fe2[e] + h2o[c] <==> adp[c] + fe2[c] + h[c] + pi[c],(MA3477 or MA4337) and (MA3478 or MA3479),Transport,0,0.0,1000,0
+FE3abc,iron (III) transport via ABC system,atp[c] + fe3[e] + h2o[c] <==> adp[c] + fe3[c] + h[c] + pi[c],(MA0950 or MA1132 or MA1198 or MA1233 or MA2150 or MA2776 or MA3358 or MA3453 or MA3642 or MA3919 or MA4532) and (MA0951 or MA1131 or MA1199 or MA1234 or MA1847 or MA2149 or MA3359 or Ma3452 or MA3641 or MA3921 or MA4533 or MA4605) or (MA1128 or MA1230 or MA1231 or MA1232 or MA1850 or MA2772 or MA3557),Transport,0,0.0,1000,0
+FEDCabc,iron (III) dicitrate transport via ABC system,atp[c] + (2) cit[e] + fe3[e] + h2o[c] <==> adp[c] + (2) cit[c] + fe3[c] + h[c] + pi[c],((MA0952 or MA2156 or MA3357 or MA3640) and ((MA2148 or MA2153) or (MA0952 or MA2156 or MA3357 or MA3640)) and ((MA0951 or MA1131 or MA1199 or MA1234 or MA1847 or MA2149 or MA3359 or MA3452 or MA3641 or MA3921 or MA4605) or (MA0951 or MA1131 or MA1234 or MA1847 or MA2149 or MA3359 or MA3452 or MA3641 or MA3921 or MA4605)) and ((MA0950 or MA1198 or MA1233 or MA2150 or MA2776 or MA3358 or MA3453 or MA3642 or MA3919 or MA4532 or MA4606) or (MA0950 or MA1132 or MA1198 or MA1233 or MA2150 or MA2776 or MA3358 or MA3453 or MA3642 or MA3919 or MA4532 or MA4606))),Transport,0,0.0,1000,0
+FOLt,folate transport via proton simport,fol[e] + h[e] <==> fol[c] + h[c],Unassigned,Transport,1,-1000.0,1000,0
+FORt,formate transport via diffusion,for[c] + (0) h[c] <==> for[e] + (0) h[e],Unassigned,Transport,1,-1000.0,1000,0
+GCALDt,Glycoaldehydye reversible transport,gcald[e] <==> gcald[c],Unassigned,Transport,1,-1000.0,1000,0
+GLCNt2r,"D-gluconate transport via proton symport, reversible",glcn[e] + h[e] <==> glcn[c] + h[c],MA0021,Transport,0,0.0,1000,0
+GLUt2r,"L-glutamate transport via proton symport, reversible",glu-L[e] + h[e] <==> glu-L[c] + h[c],MA2961,Transport,0,0.0,1000,0
+GLUt4,Na+/glutamate symport,glu-L[e] + na1[e] <==> glu-L[c] + na1[c],MA2961,Transport,0,0.0,1000,0
+GLYBabc,Glycine betaine transport via ABC system,atp[c] + glyb[e] + h2o[c] <==> adp[c] + glyb[c] + h[c] + pi[c],((MA0063 or MA0282 or MA0323 or MA1120 or MA1235 or MA1747 or MA2110 or MA2145 or MA2275 or MA2282 or MA2478 or MA3171 or MA3582 or MA3903 or MA3957 or MA3960 or MA4253 or MA4321) and MA2146 and MA2147),Transport,0,0.0,1000,0
+GLYt4r,glycine reversible transport via sodium symport,gly[e] + na1[e] <==> gly[c] + na1[c],MA2837,Transport,1,-1000.0,1000,0
+H2Ot,H2O transport via diffusion,h2o[e] <==> h2o[c],Unassigned,Transport,1,-1000.0,1000,0
+H2St,h2s transport (diffusion),h2s[e] <==> h2s[c],Unassigned,Transport,1,-1000.0,1000,0
+H2td,hydrogen transport,h2[c] <==> h2[e],Unassigned,Transport,1,-1000.0,1000,0
+HKt,H+/K+ gastric/non-gastric P-ATPase and ABC ATPase,atp[c] + h2o[c] + k[e] <==> adp[c] + h[e] + k[c] + pi[c],MA3999,Transport,0,0.0,1000,0
+HPACt2r,ydroxyphenylacetate transport in via proton symporter,4hphac[e] + h[e] <==> 4hphac[c] + h[c],Unassigned,Transport,0,0.0,1000,0
+ILEt2r,L-isoleucine reversible transport via proton symport,h[e] + ile-L[e] <==> h[c] + ile-L[c],(MA3437 and MA3438),Transport,0,0.0,1000,0
+IND3ACt2r,indole-3-acetate transport via proton symport,h[c] + ind3ac[c] <==> h[e] + ind3ac[e],Unassigned,Transport,0,0.0,1000,0
+KCCt,K+-Cl- cotransport,cl[c] + k[c] <==> cl[e] + k[e],MA4506,Transport,0,0.0,1000,0
+Kt2r,potassium reversible transport  via proton symport,h[e] + k[e] <==> h[c] + k[c],(MA3108 or MA3981) and (MA1481 or MA1483 or MA2209) and (MA2034 or MA2448),Transport,1,-1000.0,1000,0
+LEUt2r,L-leucine reversible transport via proton symport,h[e] + leu-L[e] <==> h[c] + leu-L[c],(MA3437 and MA3438),Transport,0,0.0,1000,0
+LYSt3r,L-lysine transport out via proton antiport reversible,h[e] + lys-L[c] <==> h[c] + lys-L[e],(MA2108 or MA1855),Transport,0,0.0,1000,0
+MEOHt2,Methanol diffusion,meoh[e] <==> meoh[c],Unassigned,Transport,1,1000.0,1000,0
+MG2abc,magnesium transport via ABC system,atp[c] + h2o[c] + mg2[e] <==> adp[c] + h[c] + mg2[c] + pi[c],MA1721 or (MA1678 or MA2833 or MA2501 or MA4082 or MA4378),Transport,0,0.0,1000,0
+MGt5,magnesium transport in/out via permease (no H+),mg2[c] <==> mg2[e],(MA1721 or (MA1436 or MA1437)),Transport,1,-1000.0,1000,0
+MMAt,Monomethylamine symport,h[e] + mma[e] <==> h[c] + mma[c],MA0143,Transport,0,0.0,1000,0
+MNabc,manganese transport via ABC system,atp[c] + h2o[c] + mn2[e] <==> adp[c] + h[c] + mn2[c] + pi[c],(MA0023 and MA0024 and MA0025),Transport,0,0.0,1000,0
+MOBDabc,molybdate transport via ABC system,atp[c] + h2o[c] + mobd[e] <==> adp[c] + h[c] + mobd[c] + pi[c],(MA0280 and MA0281 and MA0282) or (MA0323 and MA0324 and MA0325) or (MA1235 and MA1236 and MA1237) or (MA2280 and MA2281 and MA2282),Transport,0,0.0,1000,0
+N2tr,"Nitrogen exchange, diffusion",n2[e] <==> n2[c],Unassigned,Transport,1,-1000.0,1000,0
+Naabc,Na-exporting ATPase,atp[c] + h2o[c] + na1[c] <==> adp[c] + h[c] + pi[c] + na1[e],(MA2433 and MA2434 and MA2435 and MA2436 and MA2437 and MA2438 and MA2439 and MA2440 and MA2441),Transport,0,0.0,1000,0
+NACUP,Nicotinic acid uptake,nac[e] <==> nac[c],Unassigned,Transport,0,0.0,1000,0
+NaKt_1,Na+/K+ exchanging ATPase _ 1,atp[c] + h2o[c] + k[e] + na1[c] <==> adp[c] + h[c] + k[c] + na1[e] + pi[c],MA4378,Transport,0,0.0,1000,0
+NAt3_1,sodium proton antiporter (H:NA is 1:1),(1) h[e] + (2) na1[c] <==> (1) h[c] + (2) na1[e],(MA4566 and MA4567 and MA4568 and MA4569 and MA4570 and MA4572),Transport,1,-1000.0,1000,0
+NCCt,Na+-Cl- cotransport,na1[e] + cl[c] <==> na1[c] + cl[e],MA4506,Transport,0,0.0,1000,0
+NH4t,ammonia reversible transport,nh4[e] <==> nh4[c],(MA3917 or MA3918) and MA4207,Transport,0,-1000.0,1000,0
+NIabc,nickel transport via ABC system,atp[c] + h2o[c] + ni2[e] <==> adp[c] + h[c] + ni2[c] + pi[c],((MA0302 or MA0883 or MA1249 or MA1250 or MA3048 or MA3455 or MA3461 or MA3905 or MA4247) and (MA0301 or MA0881 or MA1247 or MA3049 or MA3462 or MA3906 or MA4250) and (MA0300 or MA0880 or MA1246 or MA3050 or MA3458 or MA3463 or MA3907 or MA4251) and (MA0299 or MA0698 or MA0844 or MA0878 or MA0879 or MA1245 or MA2478 or MA2479 or MA3046 or MA3047 or MA3457 or MA3464 or MA3908 or MA3909 or MA4252 or MA4253 or MA4597 or MA4598) and (MA0298 or MA0299 or MA0697 or MA0698 or MA0844 or MA0878 or MA0879 or MA1244 or MA2474 or MA2478 or MA3047 or MA3456 or MA3464 or MA3908 or MA3909 or MA4252 or MA4253 or MA4597 or MA4598)),Transport,0,0.0,1000,0
+PACt2r,phenylacetate transport in via proton symporter,h[e] + pac[e] <==> h[c] + pac[c],Unassigned,Transport,0,0.0,1000,0
+PIabc,phosphate transport via ABC system,atp[c] + h2o[c] + pi[e] <==> adp[c] + h[c] + (2) pi[c],(MA0887 and MA0888 and MA0889 and MA0890) or (MA3093 and MA3094 and MA3095),Transport,0,0.0,1000,0
+PIt,"Inorganic phosphate exchange, diffusion",pi[e] + h[e] <==> pi[c] + h[c],(MA2935 or MA3014),Transport,0,0.0,1000,0
+PNTOt2,Pantothenate reversible transport via proton symport,h[e] + pnto-R[e] <==> h[c] + pnto-R[c],Unassigned,Transport,0,0.0,1000,0
+PPA_1,inorganic diphosphatase (one proton translocation),h2o[c] + ppi[c] <==> h[e] + (2) pi[c],((MA3879 or MA3880),Transport,0,0.0,1000,0
+PPA_3,inorganic diphosphatase (sodium translocation),h2o[c] + ppi[c] + na1[c] <==> na1[e] + (2) pi[c] + h[c],MA3879,Transport,0,0.0,1000,0
+PROabc,L-proline transport via ABC system,atp[c] + h2o[c] + pro-L[e] <==> adp[c] + h[c] + pi[c] + pro-L[c],((MA0063 or MA0282 or MA0323 or MA1120 or MA1235 or MA1747 or MA2110 or MA2145 or MA2275 or MA2282 or MA2478 or MA3171 or MA3582 or MA3903 or MA3957 or MA3960 or MA4253 or MA4321) and MA2146 and MA2147),Transport,0,0.0,1000,0
+PROt4,Na+/Proline-L symporter,na1[e] + pro-L[e] <==> na1[c] + pro-L[c],(MA0279 or MA1316),Transport,0,0.0,1000,0
+PYRt2,pyruvate transport in via proton symport,h[e] + pyr[e] <==> h[c] + pyr[c],Unassigned,Transport,1,-1000.0,1000,0
+RIBFLVt2,riboflavin transport in via proton symport,h[e] + ribflv[e] <==> h[c] + ribflv[c],Unassigned,Transport,0,0.0,1000,0
+SO4t2,sulfate transport in via proton symport,so4[e] + h[e] <==> so4[c] + h[c],MA1999,Transport,0,0.0,1000,0
+SULabc,sulfate transport via ABC system,atp[c] + h2o[c] + so4[e] <==> adp[c] + h[c] + pi[c] + so4[c],(((MA1237 or MA2280) or MA0325 or (MA1237 or MA2280)) and ((MA1236 or MA2281 or MA3902) or MA0324) and ((MA0063 or MA0282 or MA0323 or MA1235 or MA2145 or MA2282 or MA3903)),Transport,0,0.0,1000,0
+THMabc,thiamine transport via ABC system,atp[c] + h2o[c] + thm[e] <==> adp[c] + h[c] + pi[c] + thm[c],Unassigned,Transport,0,0.0,1000,0
+TMAt2,Trimethylamine symport,h[e] + tma[e] <==> h[c] + tma[c],(MA0530 or MA0929),Transport,0,0.0,1000,0
+TRPt2r,L-tryptophan reversible transport via proton symport,trp-L[c] + h[c] <==> trp-L[e] + h[e],MA1417,Transport,0,0.0,1000,0
+UNK_CBL1DEGt,unknown cobalamin degradation product diffusion,unknown_cbl1deg[e] <==> unknown_cbl1deg[c],Unassigned,Transport,1,-1000.0,1000,0
+UNK_RBFDEGt,unknown riboflavin degradation product diffusion,unknown_rbfdeg[e] <==> unknown_rbfdeg[c],Unassigned,Transport,1,-1000.0,1000,0
+VALt2r,L-valine reversible transport via proton symport,h[e] + val-L[e] <==> h[c] + val-L[c],(MA3437 and MA3438),Transport,0,0.0,1000,0
+WO4abc,Tungstenate export by ABC transport,wo4[e] + atp[c] + h2o[c] <==> adp[c] + h[c] + pi[c] + wo4[c],(MA0280 and MA0281 and MA0282),Transport,0,0.0,1000,0
+ZN2t4,zinc transport out via antiport,zn2[c] + h[e] + k[e] <==> zn2[e] + h[c] + k[c],MA1117,Transport,1,-1000.0,1000,0
+ZNabc,zinc transport via ABC system,atp[c] + h2o[c] + zn2[e] <==> adp[c] + h[c] + pi[c] + zn2[c],(MA0023 and MA0024 and MA0025),Transport,0,0.0,1000,0
+Znabc2,Zinc export by ABC transport,atp[c] + zn2[c] + h2o[c] <==> adp[c] + h[c] + pi[c] + zn2[e],(MA0549 or MA3366 or MA3632),Transport,0,0.0,1000,0
+ALDD20x,"aldehyde dehydrogenase (indole-3-acetaldehyde, NAD)",h2o[c] + id3acald[c] + nad[c] <==> (2) h[c] + ind3ac[c] + nadh[c],MA2860,Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+ANPRT,anthranilate phosphoribosyltransferase,ppi[c] + pran[c] <==> anth[c] + prpp[c],MA2989,Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+ANS,anthranilate synthase,chor[c] + gln-L[c] <==> anth[c] + glu-L[c] + h[c] + pyr[c],(MA2986 and MA2987),Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+ANS2,anthranilate synthase 2,chor[c] + nh4[c] <==> anth[c] + h[c] + h2o[c] + pyr[c],(MA2986 and MA2987),Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+CHORS,chorismate synthase,3psme[c] <==> chor[c] + pi[c],MA0550,Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+CHRPL,Chorismate pyruvate lyase,chor[c] <==> 4hbz[c] + pyr[c],(MA2986 and MA2987),Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+DHQD,3-dehydroquinate dehydratase,3dhq[c] <==> 3dhsk[c] + h2o[c],MA4593,Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+DHQS2,3-dehydroquinate synthase,dohdu[c] <==> 3dhq[c],MA4592,Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+DKFPASPL,6-deoxy-5-ketomannitol 1-phosphate:L-aspartate semialdehyde ligase,aspsa[c] + dkfp[c]  + nadh[c] + h[c] <==> dohau[c] + g3p[c] + nad[c],MA4591,Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+DKFPR,6-deoxy-5-ketofructose 1-phosphate reductase,dkfp[c] + h[c] + nadh[c] <==> dkmp[c] + nad[c],Unassigned,Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+DOHDUS,"3,7-dideoxy-D-threo-hepto-2,6-diulosonate synthase",dohau[c] + h2o[c] + nad[c] <==> dohdu[c] + h[c] + nadh[c] + nh4[c],MA4592,Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+HPYRRx,Hydroxypyruvate reductase (NADH),h[c] + hpyr[c] + nadh[c] <==> glyc-R[c] + nad[c],MA1334,Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+HPYRRy,Hydroxypyruvate reductase (NADPH),h[c] + hpyr[c] + nadph[c] <==> glyc-R[c] + nadp[c],MA1334,Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+IGPS,indole-3-glycerol-phosphate synthase,2cpr5p[c] + h[c] <==> 3ig3p[c] + co2[c] + h2o[c],MA2992,Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+INDPYRD,Indole-3-pyruvate decarboxylase,h[c] + indpyr[c] <==> co2[c] + id3acald[c],MA0594,Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+IOR,indolepyruvate ferredoxin oxidoreductase,coa[c] + (2) fdox[c] + indpyr[c] <==> co2[c] + (2) fdred[c] + h[c] + indaccoa[c],(((MA1022 or MA1727 or MA1982) and (MA1023 or MA1726))),Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+IOR2,indolepyruvate ferredoxin oxidoreductase (phenylpyvurate),coa[c] + (2) fdox[c] + phpyr[c] <==> co2[c] + (2) fdred[c] + h[c] + phaccoa[c],((MA2909 and MA2910 and MA2911) or ((MA1022 or MA1727) and MA1726) or MA1982 and (MA1023 or MA1726))),Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+IOR3,indolepyruvate ferredoxin oxidoreductase (hydroxyphenylpyvurate),34hpp[c] + coa[c] + (2) fdox[c] <==> co2[c] + (2) fdred[c] + h[c] + hphaccoa[c],(((MA1022 or MA1727 or MA1982) and (MA1023 or MA1726))),Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+PACCOAL,phenylacetate-CoA ligase,atp[c] + coa[c] + pac[c] <==> amp[c] + phaccoa[c] + ppi[c],(MA1725 or MA2244 or MA3853),Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+PACCOAL2,phenylacetate-CoA ligase (hydroxyphenylacetate),4hphac[c] + atp[c] + coa[c] <==> amp[c] + ppi[c] + hphaccoa[c],(MA1725 or MA2244 or MA3853),Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+PACCOAL3,phenylacetate-CoA ligase (indoleacetate),atp[c] + coa[c] + ind3ac[c] <==> amp[c] + indaccoa[c] + ppi[c],(MA1725 or MA2244 or MA3853),Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+PHETA1,phenylalanine transaminase,akg[c] + phe-L[c] <==> glu-L[c] + phpyr[c],(MA0636 or MA0925 or MA1385 or MA1712 or MA1819),Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+PHETRS,Phenylalanyl-tRNA synthetase,atp[c] + phe-L[c] + trnaphe[c] <==> amp[c] + ppi[c] + phetrna[c],((MA0171 and MA1956) or (MA0090 and MA1956)),Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+PPNDH,prephenate dehydratase,h[c] + pphn[c] <==> co2[c] + h2o[c] + phpyr[c],MA3150,Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+PRAIi,phosphoribosylanthranilate isomerase (irreversible),pran[c] <==> 2cpr5p[c],MA2988,Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+PSCVT,3-phosphoshikimate 1-carboxyvinyltransferase,pep[c] + skm5p[c] <==> 3psme[c] + pi[c],MA4544,Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+SHK3Dr,shikimate dehydrogenase,nadp[c] + skm[c] <==> 3dhsk[c] + h[c] + nadph[c],MA4594,Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+SHKK,shikimate kinase,atp[c] + skm[c] <==> adp[c] + h[c] + skm5p[c],(MA1378 or MA3237),Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+TRPS1,tryptophan synthase (indoleglycerol phosphate),3ig3p[c] + ser-L[c] <==> g3p[c] + h2o[c] + trp-L[c],(MA2990 and (MA2991 or MA3198)),Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+TRPS2,tryptophan synthase (indole),indole[c] + ser-L[c] <==> h2o[c] + trp-L[c],(MA2991 or MA3198),Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+TRPS3,tryptophan synthase (indoleglycerol phosphate),3ig3p[c] <==> g3p[c] + indole[c],MA2990,Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+TRPTA,tryptophan transaminase,akg[c] + trp-L[c] <==> glu-L[c] + indpyr[c],(MA0636 or MA0925 or MA1385 or MA1712 or MA1819),Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+TRPTRS,Tryptophanyl-tRNA synthetase,atp[c] + trp-L[c] + trnatrp[c] <==> amp[c] + ppi[c] + trptrna[c],MA0172,Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+TYRTA,tyrosine transaminase,akg[c] + tyr-L[c] <==> 34hpp[c] + glu-L[c],(MA0636 or MA0925 or MA1385 or MA1712 or MA1819),Tyrosine Tryptophan and Phenylalanine Metabolism,1,-1000.0,1000,0
+TYRTRS,tyrosyl-tRNA synthetase,atp[c] + tyr-L[c] + trnatyr[c] <==> amp[c] + ppi[c] + tyrtrna[c],MA0815,Tyrosine Tryptophan and Phenylalanine Metabolism,0,0.0,1000,0
+2H3MOAOX,"(R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase",23dhmb[c] + nadp[c] <==> h[c] + nadph[c] + 2h3moa[c],MA3790,Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+2MOPRED,(S)-Methylmalonate semialdehyde:NAD+ oxidoreductase,2mop[c] + h2o[c] + nad[c] <==> (2) h[c] + mmal[c] + nadh[c],MA2860,Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+2OBUTHE2THPPTRX,(S)-2-Aceto-2-hydroxybutanoate pyruvate-lyase (carboxylating),2obut[c] + he2thpp[c] <==> 2ahbut[c] + thmpp[c],(MA1354 and MA1958),Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+ACLS,acetolactate synthase,h[c] + (2) pyr[c] <==> alac-S[c] + co2[c],((MA3791 or MA3854) and ((MA1958 or MA3792) or (MA1354 or MA1958 or MA3792))),Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+DHAD1,"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)",23dhmb[c] <==> 3mob[c] + h2o[c],(MA1802 or MA3373),Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+DHAD2,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)",23dhmp[c] <==> 3mop[c] + h2o[c],(MA1802 or MA3373),Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+HIBD,3-Hydroxy-2-methylpropanoate:NAD+ oxidoreductase,3hmp[c] + nad[c] <==> 2mop[c] + h[c] + nadh[c],MA0614,Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+ILETA,isoleucine transaminase,akg[c] + ile-L[c] <==> 3mop[c] + glu-L[c],MA4349,Valine Leucine and Isoleucine Metabolism,1,-1000.0,1000,0
+ILETRS,Isoleucyl-tRNA synthetase,atp[c] + ile-L[c] + trnaile[c] <==> amp[c] + ppi[c] + iletrna[c],((MA2431 or MA3052) or MA3621),Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+IPMD,3-isopropylmalate dehydrogenase,3c2hmp[c] + nad[c] <==> 3c4mop[c] + h[c] + nadh[c],(MA0201 or MA3748 or MA4265),Valine Leucine and Isoleucine Metabolism,1,-1000.0,1000,0
+IPPMIa,3-isopropylmalate dehydratase,3c2hmp[c] <==> 2ippm[c] + h2o[c],(MA0202 or MA1223) and (MA1393 or MA0642 or MA4415),Valine Leucine and Isoleucine Metabolism,1,-1000.0,1000,0
+IPPMIb,2-isopropylmalate hydratase,2ippm[c] + h2o[c] <==> 3c3hmp[c],((MA1393 or MA3085) and (MA0202 or MA1223 or MA3751)) or MA0642,Valine Leucine and Isoleucine Metabolism,1,-1000.0,1000,0
+IPPS,2-isopropylmalate synthase,3mob[c] + accoa[c] + h2o[c] <==> 3c3hmp[c] + coa[c] + h[c],(MA4264 or MA4615),Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+KARA1,"ketol-acid reductoisomerase (2,3-dihydroxy-3-methylbutanoate)",23dhmb[c] + nadp[c] <==> alac-S[c] + h[c] + nadph[c],MA3790,Valine Leucine and Isoleucine Metabolism,1,-1000.0,1000,0
+KARA2,ketol-acid reductoisomerase (2-Acetolactate),2ahbut[c] + h[c] + nadph[c] <==> 23dhmp[c] + nadp[c],MA3790,Valine Leucine and Isoleucine Metabolism,1,-1000.0,1000,0
+LEUTA,leucine transaminase,akg[c] + leu-L[c] <==> 4mop[c] + glu-L[c],MA4349,Valine Leucine and Isoleucine Metabolism,1,-1000.0,1000,0
+LEUTRS,Leucyl-tRNA synthetase,atp[c] + leu-L[c] + trnaleu[c] <==> amp[c] + ppi[c] + leutrna[c],MA1611,Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+OMCDC,2-Oxo-4-methyl-3-carboxypentanoate decarboxylation,3c4mop[c] + h[c] <==> 4mop[c] + co2[c],Unassigned,Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+PYRTHMPPTRX,pyruvate:thiamin diphosphate acetaldehydetransferase,pyr[c] + thmpp[c] + h[c] <==> he2thpp[c] + co2[c],(MA1354 or MA1958 or MA3792) and MA3791,Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+R03896,(R)-2-Methylmalate hydro-lyase,r2mmal[c] <==> citrac[c] + h2o[c],(MA0202 or MA1223) and MA1393) or MA0642,Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+R2MMALSYN,(R)-citramalate synthase,accoa[c] + h2o[c] + pyr[c] <==> coa[c] + r2mmal[c] + h[c],MA3793,Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+VALTA,valine transaminase,akg[c] + val-L[c] <==> 3mob[c] + glu-L[c],MA4349,Valine Leucine and Isoleucine Metabolism,1,-1000.0,1000,0
+VALTRS,Valyl-tRNA synthetase,atp[c] + val-L[c] + trnaval[c] <==> amp[c] + ppi[c] + valtrna[c],(MA2431 or MA3052),Valine Leucine and Isoleucine Metabolism,0,0.0,1000,0
+2PLS,2-phospho-L-lactate synthase,gtp[c] + lac-L[c] <==> 2plac-L[c] + gdp[c] + h[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+5HBCOX,Spontaneous oxidation of 5hbc,(2) h[c] + (2) 5hbc_red[c] <==> (2) 5hbc[c] + h2[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,0,0
+5HBCR,Activation of 5hbc,atp[c] + fdred[c] + h2o[c] + 5hbc[c] <==> adp[c] + fdox[c] + h[c] + pi[c] + 5hbc_red[c],(MA0150 or MA0849 or MA4360),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+5HBZIDS,5-hydroxybenzimidazole synthase,ribflv[c] <==> unknown_rbfdeg[c] + 5hbzid[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+ACBIPGT,Adenosyl cobinamide phosphate guanyltransferase,adocbip[c] + gtp[c] + h[c] <==> agdpcbi[c] + ppi[c],MA0938,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+ACP1_FMN_,acid phosphatase (FMN),fmn[c] + h2o[c] <==> pi[c] + ribflv[c],MA2649,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+ADCBHBIR,5hbc synthase,adocblhbi[c] + h2o[c] <==> adn[c] + h[c] + 5hbc_red[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+ADCL2,4-aminobenzoic acid synthase,4das[c] <==> h2o[c] + 4abz[c] + h[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+ADCPS2,adenosylcobinamide-phosphate synthase,adcobhex[c] + applp[c] + atp[c] <==> adocbip[c] + adp[c] + h[c] + pi[c],MA0941,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+ADCYRS,adenosylcobyric acid synthase (glutamine-hydrolysing),adcobdam[c] + (4) atp[c] + (4) gln-L[c] + (4) h2o[c] <==> adcobhex[c] + (4) adp[c] + (4) glu-L[c] + (4) h[c] + (4) pi[c],MA3250,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+ADOCBIAH,Adenosyl cobinamide amidohydrolase,adocbi[c] + h2o[c] <==> adcobhex[c] + appl[c],MA1623,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+ADOCBLS2,Adenosylcobalamin 5'-phosphate synthase,agdpcbi[c] + r5hbzi[c] <==> adocblhbi[c] + gmp[c] + h[c],MA0939,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+AHGDx,(S)-alpha-hydroxyglutarate dehydrogenase,S2hglut[c] + nad[c] <==> akg[c] + h[c] + nadh[c],MA3665,Vitamins Cofactor Biosynthesis,1,-1000.0,1000,0
+AHMMPS,4-amino-5-hydroxymethyl-2-methylpyrimidine synthetase,air[c] + nadh[c] + (2) h[c] <==> 4ahmmp[c] + gcald[c] + pi[c] + nad[c],(MA0261 or MA1790 or MA4329),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+AKP1,alkaline phosphatase (Dihydroneopterin),ahdt[c] + (3) h2o[c] <==> dhnpt[c] + (2) h[c] + (3) pi[c],MA4354,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+ALKP,alkaline phosphatase,dhap[c] + h2o[c] <==> dha[c] + pi[c],MA4354,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+AMAOTr,adenosylmethionine-8-amino-7-oxononanoate transaminase,amet[c] + 8aonn[c] <==> amob[c] + dann[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+AMPMS2,4-amino-2-methyl-5-phosphomethylpyrimidine synthetase,air[c] + h2o[c] + nad[c] <==> 4ampm[c] + (2) for[c] + (3) h[c] + nadh[c],MA1790,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+AOXSr,8-amino-7-oxononanoate synthase,ala-L[c] + h[c] + pmcoa[c] <==> co2[c] + coa[c] + 8aonn[c],Unassigned,Vitamins Cofactor Biosynthesis,1,-1000.0,1000,0
+APPLP,aminopropanol phosphorylase,appl[c] + atp[c] <==> adp[c] + applp[c] + h[c],MA0940,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+ASPO2x,L-aspartate:NAD+ oxidoreductase (deaminating),asp-L[c] + nad[c] <==> h[c] + iasp[c] + nadh[c],MA0958,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+BACCL,biotin-[acetyl-CoA-carboxylase] ligase,atp[c] + btn[c] + h[c] <==> btamp[c] + ppi[c],MA0676,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+BSPRR,Biotin synthase protein regeneration reaction,(2) h2s[c] + (2) fe2[c] + (2) fdox[c] + btnp[c] <==> (2) fdred[c] + (4) h[c] + btnp-s2[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+BTS5,Biotin synthase,dtbt[c] + btnp-s2[c] + (2) fdox[c] <==> btn[c] + (2) fe2[c] + h2s[c] + btnp[c] + (2) fdred[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CBIAT,Cobinamide adenyltransferase,atp[c] + cbi[c] + h[c] <==> adocbi[c] + pppi[c],MA2084,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CBLAT2,cob(I)alamin-HBI adenosyltransferase,atp[c] + cbl1hbi[c] + h[c] <==> adocblhbi[c] + pppi[c],MA2084,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CBLD,cob(I)alamin degradation,cbl1[c] <==> cbi[c] + unknown_cbl1deg[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CF3Ha,coenzyme F390 hydrolase (ATP),f390a[c] + h2o[c] <==> amp[c] + f420-2[c] + (2) h[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CF3Hg,coenzyme F390 hydrolase (GTP),f390g[c] + h2o[c] <==> f420-2[c] + gmp[c] + h[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CF3Sa,coenzyme F390 synthetase (ATP),atp[c] + f420-2[c] + h[c] <==> f390a[c] + ppi[c],(MA1725 or MA2244 or MA3853 or MA4074),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CF3Sg,coenzyme F390 synthetase (GTP),f420-2[c] + gtp[c] <==> f390g[c] + ppi[c],(MA1725 or MA2244 or MA3853 or MA4074),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+COCHL,cobaltochelatase,atp[c] + cobalt2[c] + h2o[c] + hgbam[c] <==> adp[c] + co2dam[c] + (4) h[c] + pi[c],(MA0346 or MA0348 or MA0383 or MA0384 or MA0385 or MA0386 or MA0872 or MA0882 or MA4295 or MA4424 or MA4643),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CPC2MT,precorrin-2 C20-methyltransferase,amet[c] + copre2[c] <==> ahcys[c] + copre3[c] + h[c],MA4262,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CPC3MT,precorrin-3B C17-methyltransferase,amet[c] + copre3[c] <==> ahcys[c] + copre4[c],MA4259,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CPC4MT,precorrin-4 C11-methyltransferase,amet[c] + copre4[c] <==> ahcys[c] + copre5[c] + h[c],MA4261,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CPC5MT,precorrin-5 C1-methyltransferase,amet[c] + copre5[c] + h2o[c] <==> acald[c] + ahcys[c] + copre6[c] + (2) h[c],MA0521,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CPC6MT,"precorrin-6Y C5,15-methyltransferase (decarboxylating)",(2) amet[c] + codhpre6[c] <==> (2) ahcys[c] + co2[c] + copre8[c] + (2) h[c],(MA0520 and MA4263),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CPC6R,precorrin-6A reductase,copre6[c] + nadph[c] + (2) h[c] <==> codhpre6[c] + nadp[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CPC8MM,precorrin-8X methylmutase,copre8[c]  + h[c] <==> cobya[c],MA4258,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CYRDAAT,"cob(I)yrinic acid a,c-diamide adenosyltransferase",atp[c] + co1dam[c] + h[c] <==> adcobdam[c] + pppi[c],MA2084,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CYRDAR,"cob(II)yrinic acid a,c-diamide reductase",(2) co2dam[c] + nadh[c] <==> (2) co1dam[c] + h[c] + nad[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+CYRDAS,"Cob(II)yrinate a,c-diamide synthase (glutamine-hydrolysing)",(2) atp[c] + cobya[c] + (2) gln-L[c] + h2o[c] <==> (2) adp[c] + co2dam[c] + (2) glu-L[c] + h[c] + ppi[c],(MA0106 or MA3626),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+DB4PS,"3,4-Dihydroxy-2-butanone-4-phosphate synthase",ru5p-D[c] <==> db4p[c] + for[c] + h[c],MA0548,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+DBTSr,dethiobiotin synthase,atp[c] + co2[c] + dann[c] <==> adp[c] + dtbt[c] + (3) h[c] + pi[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+DHFR,dihydrofolate reductase,dhf[c] + h[c] + nadph[c] <==> nadp[c] + thf[c],Unassigned,Vitamins Cofactor Biosynthesis,1,-1000.0,1000,0
+DHFS,dihydrofolate synthase,atp[c] + dhpt[c] + glu-L[c] <==> adp[c] + dhf[c] + h[c] + pi[c],(MA1824 or MA4543),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+DHPS2,dihydropteroate synthase,4abz[c] + 6hmhptpp[c] + h[c] <==> dhpt[c] + ppi[c],(MA1946 or MA3516),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+DMHDRFS,"7,8-didemethyl-8-hydroxy-5-deazariboflavin synthetase",34hpp[c] + 4r5au[c] + h2o[c] + (2) nadp[c] <==> ddhrb[c] + (3) h[c] + (2) nadph[c] + nh4[c] + oxa[c],(MA1491 and (MA1489 or MA1490)),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+DROPPRx,"2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate reductase",25dhpp[c] + h[c] + nadh[c] <==> 25dthpp[c] + nad[c],(MA4092 and MA0440),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+DROPPRy,"2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate reductase (nadph)",25dhpp[c] + h[c] + nadph[c] <==> 25dthpp[c] + nadp[c],(MA4092 and MA0440),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+DRTPPD,"2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase",25dthpp[c] + h[c] + h2o[c] <==> 5aprbu[c] + nh4[c],(MA4092 and MA0440),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+F430S1,coenzyme F430 precursor synthase 1 (aminase),(2) atp[c] + dscl[c] + (2) gln-L[c] + (2) h2o[c] + ni2[c] <==> (2) adp[c] + f430p1[c] + (2) glu-L[c] + (4) h[c] + (2) pi[c],MA0882,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+F430S2,coenzyme F430 precursor synthase 2 (reduction),f430p1[c] + h[c] + nadh[c] <==> f430p2[c] + nad[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+F430S3,coenzyme F430 precursor synthase 3 (reduction),f430p2[c] + h[c] + nadh[c] <==> f430p3[c] + nad[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+F430S4,coenzyme F430 precursor synthase 4 (cyclization),f430p3[c] <==> sf430a[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+F430S5,coenzyme F430 precursor synthase 5 (cyclization),h[c] + sf430a[c] <==> f430[c] + h2o[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+FAPH,FAPy hydrolase,fapy[c] + h2o[c] <==> for[c] + 25dhpp[c] + h[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+FMNAT,FMN adenylyltransferase,atp[c] + fmn[c] + h[c] <==> fad[c] + ppi[c],MA1820,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+FMNAT_CTP_,FCD synthase,ctp[c] + fmn[c] + h[c] <==> fcd[c] + ppi[c],MA1820,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+FMNAT_GTP_,FGD synthase,gtp[c] + fmn[c] + h[c] <==> fgd[c] + ppi[c],MA1820,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+FOLR2,folate reductase,fol[c] + nadph[c] + (2) h[c] <==> dhf[c] + nadp[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+G1SATi,glutamate-1-semialdehyde aminotransferase,glu1sa[c] <==> 5aop[c] + h[c],(MA0119 or MA0581),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+GF4GL_0,gamma-F420-0:gamma-L-glutamate ligase,f420-0[c] + glu-L[c] + gtp[c] <==> f420-1[c] + gdp[c] + h[c] + pi[c],(MA0135 or MA3512),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+GF4GL_1,gamma-F420-1:gamma-L-glutamate ligase,f420-1[c] + glu-L[c] + gtp[c] <==> f420-2[c] + gdp[c] + h[c] + pi[c],(MA0135 or MA3512),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+GF4GL_2,gamma-F420-2:gamma-L-glutamate ligase,f420-2[c] + glu-L[c] + gtp[c] <==> f420-3[c] + gdp[c] + h[c] + pi[c],(MA0135 or MA3512),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+GF4GL_3,gamma-F420-3:gamma-L-glutamate ligase,f420-3[c] + glu-L[c] + gtp[c] <==> f420-4[c] + gdp[c] + h[c] + pi[c],(MA0135 or MA3512),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+GF4GL_4,gamma-F420-4:gamma-L-glutamate ligase,f420-4[c] + glu-L[c] + gtp[c] <==> f420-5[c] + gdp[c] + h[c] + pi[c],(MA0135 or MA3512),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+GF4GL_5,gamma-F420-5:gamma-L-glutamate ligase,f420-5[c] + glu-L[c] + gtp[c] <==> f420-6[c] + gdp[c] + h[c] + pi[c],(MA0135 or MA3512),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+GF4GL_6,gamma-F420-6:gamma-L-glutamate ligase,f420-6[c] + glu-L[c] + gtp[c] <==> f420-7[c] + gdp[c] + h[c] + pi[c],(MA0135 or MA3512),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+GLUTRR,glutamyl-tRNA reductase,glutrna[c] + (2) h[c] + nadph[c] <==> glu1sa[c] + nadp[c] + trnaglu[c],MA0577,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+HETZK,hydroxyethylthiazole kinase,4mhetz[c] + atp[c] <==> 4mpetz[c] + adp[c] + h[c],MA2723,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+HMBS,hydroxymethylbilane synthase,h2o[c] + (4) ppbng[c] <==> hmbil[c] + (4) nh4[c],MA0582,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+HMPK1,hydroxymethylpyrimidine kinase (ATP),4ahmmp[c] + atp[c] <==> 4ampm[c] + adp[c] + (2) h[c],MA3197,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+IPDDI3x,isopentenyl diphosphate isomerase (type3),f420-2[c] + (2) h[c] + ipdp[c] + nadh[c] <==> dmpp[c] + f420-2h2[c] + nad[c],MA0604,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+IPDDI3y,isopentenyl diphosphate isomerase (type3),f420-2[c] + (2) h[c] + ipdp[c] + nadph[c] <==> dmpp[c] + f420-2h2[c] + nadp[c],MA0604,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+LCAD,lactaldehyde dehydrogenase,h2o[c] + lald-L[c] + nad[c] <==> (2) h[c] + lac-L[c] + nadh[c],(MA2860 or MA4086),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+LPFPLT,LPPG:Fo 2-phospho-L-lactate transferase,ddhrb[c] + lppg[c] <==> f420-0[c] + gmp[c] + h[c],MA0714,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+LPPGS,LPPG synthetase,2plac-L[c] + gtp[c] + h[c] <==> lppg[c] + ppi[c],(MA0938 or MA1488),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+MDHy,malate dehydrogenase (NADP+),mal-L[c] + nadp[c] <==> h[c] + nadph[c] + oaa[c],MA0819,Vitamins Cofactor Biosynthesis,1,-1000.0,1000,0
+MTHFC,methenyltetrahydrofolate cyclohydrolase,h2o[c] + methf[c] <==> 10fthf[c],MA3519,Vitamins Cofactor Biosynthesis,1,-1000.0,1000,0
+MTHFD2i,methylenetetrahydrofolate dehydrogenase (NAD),mlthf[c] + nad[c] <==> methf[c] + nadh[c] + h[c],MA3519,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+MTHFR2,"5,10-methylenetetrahydrofolate reductase (NADH)",h[c] + mlthf[c] + nadh[c] <==> 5mthf[c] + nad[c],MA3514,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+MTHFR3,"5,10-methylenetetrahydrofolatereductase (NADPH)",h[c] + mlthf[c] + nadph[c] <==> 5mthf[c] + nadp[c],MA3514,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+NADDP,NAD diphosphatase,h2o[c] + nad[c] <==> amp[c] + (2) h[c] + nmn[c],MA1439,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+NADK,NAD kinase,atp[c] + nad[c] <==> adp[c] + h[c] + nadp[c],MA3343,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+NAPRTr,NAPRTase (rev),nicrnt[c] + ppi[c] <==> h[c] + nac[c] + prpp[c],MA2533,Vitamins Cofactor Biosynthesis,1,-1000.0,1000,0
+NMNAT,nicotinamide-nucleotide adenylyltransferase,atp[c] + h[c] + nmn[c] <==> nad[c] + ppi[c],MA3731,Vitamins Cofactor Biosynthesis,1,-1000.0,1000,0
+NN5HBPRT,Nicotinate-nucleotide 5-hydroxybenzimidazole phosphoribosyltransferase,nicrnt[c] + 5hbzid[c] <==> h[c] + nac[c] + 5pr5hbz[c],MA3887,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+NNAT,nicotinate-nucleotide adenylyltransferase,atp[c] + h[c] + nicrnt[c] <==> dnad[c] + ppi[c],MA3731,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+NNDPR,nicotinate-nucleotide diphosphorylase (carboxylating),(2) h[c] + prpp[c] + quln[c] <==> co2[c] + nicrnt[c] + ppi[c],(MA0322 or MA0955),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+NT5C,5'-nucleotidase,h2o[c] + nicrnt[c] <==> nicrns[c] + pi[c],MA0104,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+PHEMES,protoheme synthesis (lumped reaction),ddcdscl[c] + fe2[c] + (3) nad[c] <==> (2) ac[c] + (2) co2[c] + (3) nadh[c] + (4) h[c] + pheme[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+PMDPHT,pyrimidine phosphatase,5aprbu[c] + h2o[c] <==> 4r5au[c] + pi[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+PMPK,phosphomethylpyrimidine kinase,4ampm[c] + atp[c] <==> 2mahmp[c] + adp[c],MA3197,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+PPBNGS,porphobilinogen synthase,(2) 5aop[c] <==> h[c] + (2) h2o[c] + ppbng[c],MA0578,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+PRE2DC,Precorrin-2 decarboxylase,dscl[c] + (2) h[c] <==> (2) co2[c] + ddcdscl[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+PTHPS,6-pyruvoyltetrahydropterin synthase,ahdt[c] <==> 6pthp[c] + pppi[c],(MA0956 or MA4196),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+QULNS,quinolinate synthase,dhap[c] + iasp[c] <==> (2) h2o[c] + pi[c] + quln[c]  + h[c],(MA0959 or MA2716),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+RBFSa,riboflavin synthase,4r5au[c] + db4p[c] <==> dmlz[c] + (2) h2o[c] + pi[c],(MA1817 and MA1818),Vitamins Cofactor Biosynthesis,1,-1000.0,1000,0
+RBFSb,riboflavin synthase,(2) dmlz[c] <==> 4r5au[c] + ribflv[c],(MA1817 and MA1818),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+RZ5PP2,alpha-ribazole 5-phosphate phosphatase,h2o[c] + 5pr5hbz[c] <==> pi[c] + r5hbzi[c],MA0940,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+SHCHCC,sirohydrochlorin cobaltochelatase,cobalt2[c] + dscl[c] <==> copre2[c] + (3) h[c],(MA3631 or MA3631),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+SHCHD2,sirohydrochlorin dehydrogenase (NAD),dscl[c] + nad[c] <==> nadh[c] + scl[c],(MA3033 and MA0576),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+SHCHF,sirohydrochlorin ferrochetalase,fe2[c] + scl[c] <==> (4) h[c] + sheme[c],(MA3033 and MA0576),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+TDP,thiamin pyrophosphatase,h2o[c] + thmpp[c] <==> h[c] + pi[c] + thmmp[c],MA3706,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+THRPD,threonine-phosphate decarboxylase,h[c] + thrp[c] <==> applp[c] + co2[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+THRPS,threonine-phosphate synthase,atp[c] + thr-L[c] <==> adp[c] + h[c] + thrp[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+THZPSN,thiazole phosphate synthesis,atp[c] + cys-L[c] + tyr-L[c] + dxyl5p[c] <==> 4mpetz[c] + ala-L[c] + amp[c] + co2[c] + h[c] + h2o[c] + ppi[c] + 4hba[c],(MA0236 or MA2718 or MA3264) and MA0255 and MA1466,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+TMKr,thiamine kinase,atp[c] + thm[c] <==> adp[c] + h[c] + thmmp[c],Unassigned,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+TMPKr,thiamine-phosphate kinase,atp[c] + thmmp[c] <==> adp[c] + thmpp[c],(MA0069 or MA4193),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+TMPPP,thiamine-phosphate diphosphorylase,2mahmp[c] + 4mpetz[c] + h[c] <==> ppi[c] + thmmp[c],MA2722,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+UPP3MT,uroporphyrinogen methyltransferase,(2) amet[c] + uppg3[c] <==> (2) ahcys[c] + dscl[c] + h[c],(MA3033 and MA0576),Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+UPP3S,uroporphyrinogen-III synthase,hmbil[c] <==> h2o[c] + uppg3[c],MA3034,Vitamins Cofactor Biosynthesis,0,0.0,1000,0
+carb_met,Carbohydrate synthesis ,(1.27) glycogen[c] + (0.06) galactan[c] + (2.49) polyacgal[c] + (1.6) polyglcur[c] <==> carb_met[c],Unassigned,Biomass,0,0.0,1000,0
+dna_met,Biomass rxn – DNA component,(0.58) datp[c] + (0.44) dctp[c] + (0.44) dgtp[c] + (0.59) dttp[c] <==> (2.05) ppi[c] + dna_met[c],Unassigned,Biomass,0,0.0,1000,0
+lipid_met,Biomass rxn – lipid component,(0.005) dpgpg[c] + (0.214) 3hdpgpg[c] + (0.027) dpgpi[c] + (0.287) 3hdpgpi[c] + (0.005) dpgpe[c] + (0.057) 3hdpgpe[c] + (0.011) dpgps[c] + (0.244) 3hdpgps[c] + (0.148) gdpgpi[c] <==> lipid_met[c],Unassigned,Biomass,0,0.0,1000,0
+overall,Biomass rxn – overall component (assumed GAM same as Barkeri model for now),(0.63) protein_met[c] + (0.24) rna_met[c] + (0.04) dna_met[c] + (0.05) lipid_met[c] + (0.04) trace_met[c] + (0.01) carb_met[c] + (65) h2o[c] + (65) atp[c] <==> biomass[c] + (65) h[c] + (65) adp[c] + (65) pi[c],Unassigned,Biomass,0,0.0,1000,1
+protein_met,Biomass rxn – protein component,(0.4) arg-L[c] + (0.85) leu-L[c] + (0.62) ser-L[c] + (0.62) ala-L[c] + (0.65) gly[c] + (0.36) pro-L[c] + (0.49) thr-L[c] + (0.62) val-L[c] + (0.66) ile-L[c] + (0.4) asn-L[c] + (0.48) asp-L[c] + (0.11) cys-L[c] + (0.23) gln-L[c] + (0.71) glu-L[c] + (0.15) his-L[c] + (0.59) lys-L[c] + (0.4) phe-L[c] + (0.33) tyr-L[c] + (0.21) met-L[c] + (0.09) trp-L[c] <==> protein_met[c],Unassigned,Biomass,0,0.0,1000,0
+rna_met,Biomass rxn – RNA component,(0.48) atp[c] + (0.42) ctp[c] + (0.5) gtp[c] + (0.6) utp[c] <==> (2) ppi[c] + rna_met[c],Unassigned,Biomass,0,0.0,1000,0
+trace_met,Biomass rxn – trace component,(0.243) ptrc[c] + (0.044) hspmd[c] + (0.0009) accoa[c] + (0.00006) coa[c] + (0.0204) nad[c] + (0.00093) nadh[c] + (0.00093) nadp[c] + (0.00371) nadph[c] + (0.00003) succoa[c] + (0.00929) amp[c] + (0.191) com[c] + (0.00037) f420-2[c] + (0.00028) f420-3[c] + (0.00371) f420-4[c] + (0.00279) f420-5[c] + (0.00009) f420-6[c] + (0.00001) f420-7[c] + (0.219) h4spt[c] + (0.044) adocblhbi[c] + (0.019) f430[c] + (0.00464) cob[c] + (0.00093) thf[c] + (0.00005) f390a[c] + (0.00005) f390g[c] + (0.191) mfr_b[c] <==> trace_met[c],Unassigned,Biomass,0,0.0,1000,0
+EX_4abz[e],4-Aminobenzoate exchange,4abz[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_4hphac[e],4-Hydroxyphenylacetate exchange,4hphac[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_ac[e],Acetate exchange,ac[e] <==> ,,Exchange Reaction,1,-10.0,-10,0
+EX_actn-R[e],(R)-Acetoin exchange,actn-R[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_alac-S[e],(S)-2-Acetolactate exchange,alac-S[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_ala-L[e],L-Alanine exchange,ala-L[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_biomass,biomass exchange,biomass[c] <==> ,,Reverse Pathway,0,0.0,1000,0
+EX_btn,btn exchange,btn[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_calcium,calcium exchange,ca2[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_cbi[e],Cobinamide exchange,cbi[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_cbl1[e],Cob(I)alamin exchange,cbl1[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_cbl1hbi[e],Cob(I)alamin-HBI exchange,cbl1hbi[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_cd2,cadmium exchange,cd2[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_ch4s[e],Methanethiol exchange,ch4s[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_ch4[e],methane exchange,ch4[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_cit[e],Citrate exchange,cit[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_chloride,chloride exchange,cl[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_co2[e],CO2 exchange,co2[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_co[e],Carbon monoxide exchange,co[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_cobalt,cobalt exchange,cobalt2[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_copper,copper exchange,cu2[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_cys-L[e],L-Cysteine exchange,cys-L[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_dma[e],dimethylamine exchange,dma[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_dms[e],Dimethyl sulfide exchange,dms[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_etha[e],Ethanolamine exchange,etha[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_fe2[e],Fe2+ exchange,fe2[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_fe3[e],Fe3+ exchange,fe3[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_fol[e],Folate exchange,fol[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_for[e],Formate exchange,for[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_gcald[e],Glycolaldehyde exchange,gcald[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_glcn[e],D-Gluconate exchange,glcn[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_glu-L[e],glutamate exchange,glu-L[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_gly[e],Glycine exchange,gly[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_glyb[e],Glycine betaine exchange,glyb[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_h,proton exchange,h[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_h2[e],H2 exchange,h2[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_h2o[e],H2O exchange,h2o[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_h2s[e],Hydrogen sulfide exchange,h2s[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_ile-L[e],L-Isoleucine exchange,ile-L[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_ind3ac[e],Indole-3-acetate exchange,ind3ac[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_k,potassium exchange,k[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_leu-L[e],L-Leucine exchange,leu-L[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_lys-L[e],L-Lysine exchange,lys-L[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_meoh[e],Methanol exchange,meoh[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_mg,magnesium exchange,mg2[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_mma[e],Methylamine exchange,mma[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_mn2[e],Mn2+ exchange,mn2[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_mobd[e],Molybdate exchange,mobd[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_n2[e],nitrogen exchange,n2[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_na,sodium exchange,na1[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_nac[e],Nicotinate exchange,nac[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_nh4[e],Ammonium exchange,nh4[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_ni2[e],nickel exchange,ni2[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_pac[e],Phenylacetic acid exchange,pac[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_pi,phosphate exchange,pi[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_pnto-R[e],(R)-Pantothenate exchange,pnto-R[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_proline,proline exchange,pro-L[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_pyr[e],Pyruvate exchange,pyr[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_ribflv[e],Riboflavin exchange,ribflv[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_so4,sulfate exchange,so4[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_thm[e],Thiamin exchange,thm[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_tma[e],trimethylamine exchange,tma[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_trp-L[e],L-Tryptophan exchange,trp-L[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_unknown_cbl1deg[e],unknown degradation product of cbl1 for adocbl-HBI synthesis exchange,unknown_cbl1deg[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_unknown_rbfdeg[e],unknown riboflavin degradation product exchange,unknown_rbfdeg[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_val-L[e],L-Valine exchange,val-L[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+EX_wo4[e],Tungstenate exchange,wo4[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_Zn,zinc exchange,zn2[e] <==> ,,Exchange Reaction,1,-1000.0,1000,0
+EX_hco3,Carbonate exchange,hco3[e] <==> ,,Exchange Reaction,0,0.0,1000,0
+DM_btoh,butanol demand,btoh[c] <==> ,,Reverse Pathway,0,0.0,0,0
+DM_ibtol,isobutanol demand,ibtol[c] <==> ,,Reverse Pathway,0,0.0,0,0
+DM_etoh,ethanol demand,etoh[c] <==> ,,Reverse Pathway,0,0.0,0,0
+EX_ppa,propanoate exchange,ppa[c] <==> ,,Reverse Pathway,0,0.0,0,0
+EX_ibtyr,isobutyrate exchange,ibtyr[c] <==> ,,Reverse Pathway,0,0.0,0,0
+EX_btyr,butyrate exchange,btyr[c] <==> ,,Reverse Pathway,0,0.0,0,0
+EX_EAE,electron acceptor equivalent exchange,eae[c] <==> ,,Reverse Pathway,0,0.0,0,0
+HCO3T,carbonate transport,hco3[c] <==> hco3[e],,Exchange Reaction,1,-1000.0,1000,0
+CMTA,soluble Methyl-H4SPT:coenzyme-M methyltransferase,h4spt[c] + mcom[c] <==> com[c] + mh4spt[c],,Methanogenesis,0,0.0,0,0
+ANMEMCR,Mcr from ANMEs,ch4[c] + hsfd[c] <==> mcom[c] + cob[c],,Reverse Pathway,0,0.0,0,0
+HDRS,soluble ferredoxin-dependent heterodisulfide reductase,(2) cob[c] + (2) com[c] + (2) fdox[c] + mphen[c] <==> (2) hsfd[c] + (2) fdred[c] + mphenh2[c] + (2) h[c],(MA2867 and MA2868),Reverse Pathway,0,0.0,0,0
+SP_BTOH,butanol synthesis,(2) accoa[c] + (4) h[c] + (4) nadph[c] <==> btoh[c] + h2o[c] + (2) coa[c] + (4) nadp[c],,Reverse Pathway,0,0.0,0,0
+SP_IBTOH1,isobutanol synthesis_1,3mob[c] + h[c] <==> ibtal[c] + co2[c],,Reverse Pathway,0,0.0,0,0
+SP_IBTOH2,isobutanol synthesis_2,ibtal[c] + nadph[c] + h[c] <==> ibtol[c] + nadp[c],,Reverse Pathway,0,0.0,0,0
+SP_ETOH,ethanol biosynthesis,accoa[c] + (2) h[c] + (2) nadh <==> etoh[c] + coa[c] + (2) nad[c],,Reverse Pathway,0,0.0,0,0
+IBCOAL,Isobutyryl-CoA ligase,ibcoa[c] + adp[c] + pi[c] <==> ibtyr[c] + atp[c] + coa[c],,Reverse Pathway,0,0.0,0,0
+BTYR,butyrate synthesis,(2) accoa[c] + (2) nadph[c] + (2) h[c] + adp[c] + pi[c] <==> btyr[c] + h2o[c] + (2) coa[c] + (2) nadp[c] + atp[c],,Reverse Pathway,0,0.0,0,0
+HDRDE_rev,membrane-bound Hdr functioning in reverse,(1) cob[c] + (1) com[c] + (1) mphen[c] <==> (1) hsfd[c] + (1) mphenh2[c],,Reverse Pathway,0,0.0,0,0
+RNF_rev,Rnf functioning in reverse,(2) mphenh2[c] + (2) fdox[c] + (0) h[c] <==> (2) mphen[c] + (2) fdred[c] + eae[c] + (2) h[e],,Reverse Pathway,0,0.0,0,0
+ETR_MPR,hypothetical electron transport through methanophenazine,mphenh2[c] + (0) h[c] <==> mphen[c] + eae[c] + (2) h[e],,Reverse Pathway,0,0.0,0,0
+HYP_HYD1,hypothetical hydrogenase,com[c] + cob[c] <==> hsfd[c] + h2[c],,Reverse Pathway,0,0.0,0,0
+HYP_HYD2,hypothetical hydrogenase 2,f420-2h2[c] <==> f420-2[c] + h2[c] + h[c],,Reverse Pathway,0,0.0,0,0
+ETR_H2,hypothetical electron transport through hydrogen,h2[c] + (0) h[c] <==> eae[c] + (0) h[c],,Reverse Pathway,0,0.0,0,0
