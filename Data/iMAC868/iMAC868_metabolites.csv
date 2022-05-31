@@ -505,7 +505,7 @@ mcom[c],methylcoenzyme m,C3O3S2H7,-1,C03920
 menylh4spt[c],methenyl-tetrahydrosarcinapterin,C36H48N7O19P1,-2,Unassigned
 meoh[c],Methanol,CH4O1,0,C00132
 meoh[e],Methanol,CH4O1,0,C00132
-mercppyr[c],Mercaptopyruvate ,C3H3O3S ,-1,C00957
+mercppyr[c],Mercaptopyruvate ,C3H3O3S,-1,C00957
 met-L[c],L-Methionine,C5H11NO2S,0,C00073
 methf[c],"5,10-Methenyltetrahydrofolate",C20H20N7O6,-1,C00445
 metsox-R-L[c],L-methionine-R-sulfoxide,C5H11NO3S,0,C15998
